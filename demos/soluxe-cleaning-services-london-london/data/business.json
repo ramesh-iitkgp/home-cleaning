@@ -1,0 +1,35 @@
+{
+    "name": "Soluxe Cleaning Services London",
+    "tagline": "Professional home-cleaning in london",
+    "category": "home-cleaning",
+    "phone": "442078460024",
+    "email": "info@soluxecleaning.co.uk",
+    "address": "\n124 City Rd, London EC1V 2NX, United Kingdom",
+    "city": "london",
+    "state": "",
+    "country": "uk",
+    "rating": "3",
+    "reviewCount": "",
+    "googleMapsUrl": "https://www.google.com/maps/place/Soluxe+Cleaning+Services+London/data=!4m7!3m6!1s0x48761d38b98e5f21:0x67d9a2e4312f67e!8m2!3d51.5273851!4d-0.0891169!16s%2Fg%2F11xmzd6rfc!19sChIJIV-OuTgddkgRfvYSQy6afQY?authuser=0&hl=en&rclk=1",
+    "instagramUrl": "https://www.instagram.com/soluxecleaning/",
+    "facebookUrl": "",
+    "heroImage": "",
+    "galleryImages": [],
+    "services": [
+        {
+            "name": "Professional Cleaning Services",
+            "description": "Professional home-cleaning services.",
+            "image": ""
+        },
+        {
+            "name": "Residential Cleaning",
+            "description": "Reliable cleaning services for homes.",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "Detailed cleaning designed to leave spaces fresh and spotless.",
+            "image": ""
+        }
+    ]
+}
