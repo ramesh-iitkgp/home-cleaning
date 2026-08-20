@@ -1,0 +1,59 @@
+{
+    "business_name": "Maidthis Cleaning Downtown La",
+    "tagline": "Professional Cleaning Services in los angeles",
+    "category": "Home Cleaning",
+    "phone": "14243697269",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n460 S Spring St Suite 803, Los Angeles, CA 90013, United States",
+    "city": "los angeles",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/MaidThis+Cleaning+Downtown+LA/data=!4m7!3m6!1s0x80c2c71da6676a63:0xa91c50054d046581!8m2!3d34.0474645!4d-118.2489783!16s%2Fg%2F11j0njt273!19sChIJY2pnph3HwoARgWUETQVQHKk?authuser=0&hl=en&rclk=1",
+    "logo_url": "",
+    "hero_image": "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2025/02/logo-la.svg",
+    "service_areas": [
+        "los angeles"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/maidthiscalifornia/",
+        "facebook": "https://www.facebook.com/maidthis/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2025/02/logo-la.svg",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/crown.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/09/phone-call.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/Arrow-green.svg",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/v904-nunny-017-g-copy-7.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/Bitmap-Copy.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/09/la-badge.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/5-stars.svg",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/mt-thumbtack-pro-badge-1.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/unnamed-3.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/coe-badge-2021-256x200-1.webp",
+        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/CFR_Lavender-Tagline_side_11-2_tm.webp"
+    ],
+    "reviews": []
+}
