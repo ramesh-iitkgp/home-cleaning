@@ -1,0 +1,59 @@
+{
+    "business_name": "Sparkle & Shine Cleaning La - La House Cleaners",
+    "tagline": "Professional Cleaning Services in los angeles",
+    "category": "Home Cleaning",
+    "phone": "12136932073",
+    "whatsapp": "",
+    "email": "support@sparkleshinela.com",
+    "address": "\n10745 La Grange Ave, Los Angeles, CA 90025, United States",
+    "city": "los angeles",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Sparkle+%26+Shine+Cleaning+LA+-+LA+House+Cleaners/data=!4m7!3m6!1s0x80c2bb11d442cddb:0x2310fefc2ee213e!8m2!3d34.0485592!4d-118.4313265!16s%2Fg%2F11vz3mqlzs!19sChIJ281C1BG7woARPiHuwu8PMQI?authuser=0&hl=en&rclk=1",
+    "logo_url": "https://sparkleshinela.com/wp-content/uploads/2024/12/sparkle-shine-logo-transparent.png",
+    "hero_image": "https://www.facebook.com/tr?id=865453791614413&ev=PageView&noscript=1",
+    "service_areas": [
+        "los angeles"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/sparkleshinela/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [
+        "https://www.facebook.com/tr?id=865453791614413&ev=PageView&noscript=1",
+        "https://sparkleshinela.com/wp-content/uploads/2024/12/sparkle-shine-logo-transparent.png",
+        "https://sparkleshinela.com/wp-content/uploads/elementor/thumbs/image-50-rhf556k72x8csew0mzp2yy977p2xsptgtfopnx4xiw.webp",
+        "https://sparkleshinela.com/wp-content/uploads/elementor/thumbs/MAR02595-rp3veaji2nvieenzg31tjm709ap3hb6124dvtudy2g.webp",
+        "https://sparkleshinela.com/wp-content/uploads/2024/11/cleaning.png",
+        "https://sparkleshinela.com/wp-content/uploads/2026/06/MAR02293-1024x683.webp",
+        "https://sparkleshinela.com/wp-content/uploads/2024/11/tools.png",
+        "https://sparkleshinela.com/wp-content/uploads/2026/06/MAR02751-1024x683.webp",
+        "https://sparkleshinela.com/wp-content/uploads/2024/11/clean-house.png",
+        "https://sparkleshinela.com/wp-content/uploads/2026/06/MAR02846-1024x683.webp",
+        "https://sparkleshinela.com/wp-content/uploads/2024/11/plunger-1.png",
+        "https://sparkleshinela.com/wp-content/uploads/2026/06/MAR02853-1024x683.webp"
+    ],
+    "reviews": []
+}
