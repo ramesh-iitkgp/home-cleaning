@@ -535,7 +535,7 @@
 
   /**
    * 5. Before & After Cleaning Section
-   * Requirement: All 4 sections have fixed, specific meaningful pictures (dirty before vs perfect after).
+   * Render only genuine customer-provided before/after pairs; never fabricate work.
    */
   function renderBeforeAfterSection(data) {
     const baSection = document.getElementById('before-after-section');
