@@ -1,0 +1,46 @@
+{
+    "business_name": "Val'S Services Cleaning",
+    "tagline": "Professional Cleaning Services in chicago",
+    "category": "Home Cleaning",
+    "phone": "13127419691",
+    "whatsapp": "",
+    "email": "clean@valsservices.com",
+    "address": "\n420 W Huron St L119, Chicago, IL 60654, United States",
+    "city": "chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "4",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Val%27s+Services+Cleaning/data=!4m7!3m6!1s0x880e2cad61ecd683:0xd50aa6d2e89f4700!8m2!3d41.8949311!4d-87.6386596!16s%2Fg%2F11f2y06hd3!19sChIJg9bsYa0sDogRAEef6NKmCtU?authuser=0&hl=en&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/valsservicescleaning/",
+        "facebook": "https://www.facebook.com/Valsservicescleaning/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
