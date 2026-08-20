@@ -1,0 +1,13 @@
+{
+  "name": "cleaning-company-website-template",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "mkdir -p dist && cp -r index.html style.css script.js data README.md dist/"
+  },
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}

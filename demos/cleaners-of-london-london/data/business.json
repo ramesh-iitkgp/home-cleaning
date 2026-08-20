@@ -1,0 +1,35 @@
+{
+    "name": "Cleaners Of London",
+    "tagline": "Professional home-cleaning in london",
+    "category": "home-cleaning",
+    "phone": "442030260203",
+    "email": "hello@cleanersoflondon.co.uk",
+    "address": "",
+    "city": "london",
+    "state": "",
+    "country": "uk",
+    "rating": "3",
+    "reviewCount": "",
+    "googleMapsUrl": "https://www.google.com/maps/place/Cleaners+of+London/data=!4m7!3m6!1s0x48760345da47f485:0x5ed1e4da78009c47!8m2!3d51.4893323!4d-0.0881552!16s%2Fg%2F11c75_rch4!19sChIJhfRH2kUDdkgRR5wAeNrk0V4?authuser=0&hl=en&rclk=1",
+    "instagramUrl": "https://www.instagram.com/cleanersoflondon/",
+    "facebookUrl": "https://www.facebook.com/cleanersoflondon/",
+    "heroImage": "",
+    "galleryImages": [],
+    "services": [
+        {
+            "name": "Professional Cleaning Services",
+            "description": "Professional home-cleaning services.",
+            "image": ""
+        },
+        {
+            "name": "Residential Cleaning",
+            "description": "Reliable cleaning services for homes.",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "Detailed cleaning designed to leave spaces fresh and spotless.",
+            "image": ""
+        }
+    ]
+}
