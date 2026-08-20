@@ -8,7 +8,7 @@
     "address": "",
     "city": "chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
     "opening_hours": "",
     "rating": "3",
     "review_count": "",
@@ -42,5 +42,27 @@
         }
     ],
     "business_images": [],
-    "reviews": []
+    "reviews": [],
+    "image_display": {
+        "hero": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "gallery": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        },
+        "services": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "before_after": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "logo": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        }
+    }
 }
