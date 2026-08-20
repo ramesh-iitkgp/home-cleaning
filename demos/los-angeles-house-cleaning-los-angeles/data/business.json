@@ -1,0 +1,55 @@
+{
+    "business_name": "Los Angeles House Cleaning",
+    "tagline": "Professional Cleaning Services in los angeles",
+    "category": "Home Cleaning",
+    "phone": "12132797901",
+    "whatsapp": "",
+    "email": "info@housecleaninglosangeles.com",
+    "address": "\n1851 Westmoreland Ave Ste 325, Los Angeles, CA 90006, United States",
+    "city": "los angeles",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Los+Angeles+House+Cleaning/data=!4m7!3m6!1s0x80c2c75d22543b39:0x9f1e26b2f492c863!8m2!3d34.04054!4d-118.28979!16s%2Fg%2F11vlz4v2sp!19sChIJOTtUIl3HwoARY8iS9LImHp8?authuser=0&hl=en&rclk=1",
+    "logo_url": "",
+    "hero_image": "https://housecleaninglosangeles.com/wp-content/uploads/2022/04/castle-cleaners-logo-svg.svg",
+    "service_areas": [
+        "los angeles"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [
+        "https://housecleaninglosangeles.com/wp-content/uploads/2022/04/castle-cleaners-logo-svg.svg",
+        "https://housecleaninglosangeles.com/wp-content/uploads/2022/06/House-Cleaning-Los-Angeles.png",
+        "https://housecleaninglosangeles.com/wp-content/uploads/2022/03/Group-19.png",
+        "https://housecleaninglosangeles.com/wp-content/uploads/2020/11/green-cleaning-products.jpg",
+        "https://housecleaninglosangeles.com/wp-content/uploads/2021/12/Los-Angeles-House-Cleaners.png",
+        "https://housecleaninglosangeles.com/wp-content/uploads/2021/12/Housekeeping-Los-Angeles.png",
+        "https://housecleaninglosangeles.com/wp-content/uploads/2022/03/brian-c.png",
+        "https://housecleaninglosangeles.com/wp-content/uploads/2022/03/victo-h.png"
+    ],
+    "reviews": []
+}
