@@ -1,0 +1,59 @@
+{
+    "business_name": "Houseclean Los Angeles - Maid & House Cleaning Service",
+    "tagline": "Professional Cleaning Services in los angeles",
+    "category": "Home Cleaning",
+    "phone": "12132905208",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n2523 Lyric Ave, Los Angeles, CA 90027, United States",
+    "city": "los angeles",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/HouseClean+Los+Angeles+-+Maid+%26+House+Cleaning+Service/data=!4m7!3m6!1s0x80c2c15ee7848887:0x21ddfb8922666353!8m2!3d34.107126!4d-118.2784144!16s%2Fg%2F11q4hrq8t6!19sChIJh4iE517BwoARU2NmIon73SE?authuser=0&hl=en&rclk=1",
+    "logo_url": "",
+    "hero_image": "https://housecleanlosangeles.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+    "service_areas": [
+        "los angeles"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/housecleanla/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [
+        "https://housecleanlosangeles.com/wp-content/plugins/revslider/sr6/assets/assets/dummy.png",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/Woman-2.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/Woman-1.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/windows.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/paintings.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/carpet.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/Illustration-Home-horizontal-Sofa.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/plant.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/lamp.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/Water.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/background.svg",
+        "https://HouseCleanLosAngeles.com/wp-content/uploads/2018/07/Illustration-Home.svg"
+    ],
+    "reviews": []
+}
