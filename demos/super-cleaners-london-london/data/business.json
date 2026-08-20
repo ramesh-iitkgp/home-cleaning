@@ -1,0 +1,35 @@
+{
+    "name": "Super Cleaners London",
+    "tagline": "Professional home-cleaning in london",
+    "category": "home-cleaning",
+    "phone": "442036649304",
+    "email": "",
+    "address": "\n136, New King’s House, 144 New Kings Rd, London SW6 4LZ, United Kingdom",
+    "city": "london",
+    "state": "",
+    "country": "uk",
+    "rating": "0",
+    "reviewCount": "",
+    "googleMapsUrl": "https://www.google.com/maps/place/SUPER+CLEANERS+LONDON/data=!4m7!3m6!1s0x48760f75c2f6d9ad:0x87c465339ca5d8ed!8m2!3d51.4712674!4d-0.206872!16s%2Fg%2F1hf2t1kps!19sChIJrdn2wnUPdkgR7dilnDNlxIc?authuser=0&hl=en&rclk=1",
+    "instagramUrl": "https://www.instagram.com/super.cleaners.london/",
+    "facebookUrl": "https://www.facebook.com/London2007/",
+    "heroImage": "",
+    "galleryImages": [],
+    "services": [
+        {
+            "name": "Professional Cleaning Services",
+            "description": "Professional home-cleaning services.",
+            "image": ""
+        },
+        {
+            "name": "Residential Cleaning",
+            "description": "Reliable cleaning services for homes.",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "Detailed cleaning designed to leave spaces fresh and spotless.",
+            "image": ""
+        }
+    ]
+}
