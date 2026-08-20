@@ -1,35 +1,81 @@
 {
-    "name": "Glimmr House And Office Cleaning",
-    "tagline": "Professional home-cleaning in london",
-    "category": "home-cleaning",
+    "business_name": "Glimmr House And Office Cleaning",
+    "tagline": "Professional Cleaning Services in london",
+    "category": "Home Cleaning",
     "phone": "442081588505",
+    "whatsapp": "",
     "email": "support@glimmr.co.uk",
     "address": "\n108 Westbourne Terrace, London W2 6QJ, United Kingdom",
     "city": "london",
     "state": "",
-    "country": "uk",
-    "rating": "4.7",
-    "reviewCount": "",
-    "googleMapsUrl": "https://www.google.com/maps/place/Glimmr+House+and+Office+Cleaning/data=!4m7!3m6!1s0x48761aac907e1ed5:0x8b528011df3ade0d!8m2!3d51.516676!4d-0.181417!16s%2Fg%2F11f5hv06w5!19sChIJ1R5-kKwadkgRDd463xGAUos?authuser=0&hl=en&rclk=1",
-    "instagramUrl": "https://www.instagram.com/glimmrcleaning/",
-    "facebookUrl": "https://www.facebook.com/GlimmrCleanUK/",
-    "heroImage": "",
-    "galleryImages": [],
+    "country": "UK",
+    "opening_hours": "",
+    "rating": "4.8",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Glimmr+House+and+Office+Cleaning/data=!4m7!3m6!1s0x48761aac907e1ed5:0x8b528011df3ade0d!8m2!3d51.516676!4d-0.181417!16s%2Fg%2F11f5hv06w5!19sChIJ1R5-kKwadkgRDd463xGAUos?authuser=0&hl=en&rclk=1",
+    "logo_url": "https://glimmr.co.uk/wp-content/uploads/2019/11/glimmr-logo.png",
+    "hero_image": "https://glimmr.co.uk/wp-content/uploads/2019/11/glimmr-logo.png",
+    "service_areas": [
+        "london"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/glimmrcleaning/",
+        "facebook": "https://www.facebook.com/GlimmrCleanUK/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
     "services": [
         {
-            "name": "Professional Cleaning Services",
-            "description": "Professional home-cleaning services.",
-            "image": ""
-        },
-        {
-            "name": "Residential Cleaning",
-            "description": "Reliable cleaning services for homes.",
+            "name": "Regular Home Cleaning",
+            "description": "",
             "image": ""
         },
         {
             "name": "Deep Cleaning",
-            "description": "Detailed cleaning designed to leave spaces fresh and spotless.",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
             "image": ""
         }
-    ]
+    ],
+    "business_images": [
+        "https://glimmr.co.uk/wp-content/uploads/2019/11/glimmr-logo.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/bookmark-64px.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/spray-64px.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/cup-64px.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/shield.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/iron.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/washing-machine.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/window.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/fridge.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/01/microwave.png",
+        "https://glimmr.co.uk/wp-content/uploads/2021/02/cleaners-crouch-end-1.jpg",
+        "https://glimmr.co.uk/wp-content/uploads/2021/02/cleaners-crouch-end-2.jpg"
+    ],
+    "reviews": [],
+    "image_display": {
+        "hero": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "gallery": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        },
+        "services": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "before_after": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "logo": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        }
+    }
 }

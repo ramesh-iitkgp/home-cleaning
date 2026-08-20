@@ -1,19 +1,17 @@
-# Reusable Cleaning Company Website Template
+# Agency-Grade Home Cleaning Website Template
 
-A production-ready, high-converting, modern website template engineered specifically for residential and commercial cleaning businesses.
+A modern, high-converting, personalized website template engineered specifically for automated lead generation and white-label client deployment in the residential and commercial cleaning industry.
 
-This template is built with pure **HTML5, CSS3, and Vanilla JavaScript** and is designed to be **100% data-driven**. It allows programmatic personalization (e.g., via Python lead-generation automation, Google Maps scraping pipelines, CRM exports, or manual edits) simply by updating a single file: `/data/business.json`.
+Built with **HTML5, CSS3, and Vanilla JavaScript**, this template is **100% data-driven** and strictly adheres to subdirectory deployment rules (e.g., `https://yourdomain.com/demos/super-cleaners-london/`).
 
 ---
 
 ## Core Template Files
 
-The entire website is contained within these static files:
-
 ```text
 ├── index.html                  # Accessible, semantic HTML markup with dynamic [data-bind] hooks
-├── style.css                   # Modern CSS design system (Slate Navy & Sparkling Teal)
-├── script.js                   # Authoritative data loading engine, dynamic DOM renderer & lightbox
+├── style.css                   # Modern CSS design system (Deep Slate Navy & Sparkling Ocean Blue)
+├── script.js                   # Universal data engine, before/after slider, gallery lightbox, SEO
 ├── data/
 │   └── business.json           # SOLE authoritative source of customer-specific business information
 └── README.md                   # Automation documentation and integration guide
@@ -21,80 +19,97 @@ The entire website is contained within these static files:
 
 ---
 
-## Architectural Highlights & Guarantees
+## Key Features & Conversion Architecture
 
-1. **100% Data-Driven Architecture**:
-   - `/data/business.json` is the **only source of business data**.
-   - No business data is duplicated in HTML or JavaScript.
-   - Changing `/data/business.json` completely updates the business name, tagline, city/state, phone, email, address, maps link, socials, ratings/reviews, hero image, services, and photo gallery.
+1. **Hyper-Personalized Brand Exposure**:
+   - The business name is positioned prominently throughout the navigation, hero section, "Services from [Business]", "Why Choose [Business]", "Our Work Gallery", and the final CTA.
+   - Supports custom `logo_url` or generates a bespoke vector brand mark automatically.
 
-2. **Zero Fabricated Claims**:
-   - No hardcoded years of experience, fake customer counts, invented awards, or unverified claims.
-   - All marketing copy is safe, generic, and professional.
+2. **Interactive "Before & After" Comparison Slider**:
+   - Touch/mouse drag-enabled split-image comparison slider to showcase cleaning transformations.
+   - Dynamic tab switching between multiple project pairs (Kitchens, Bathrooms, Living Spaces, Floors).
 
-3. **Strict Graceful Degradation & Zero Broken Elements**:
-   - If `instagramUrl` or `facebookUrl` is empty (`""`), the social icons/buttons and container hide completely.
-   - If `email` is empty (`""`), all email buttons and containers hide completely.
-   - If `googleMapsUrl` is empty (`""`), map links and direction buttons hide completely.
-   - If `rating` or `reviewCount` is empty (`""`), the star rating badge is hidden with zero layout shift.
-   - If `heroImage` or any `galleryImages` URL is missing or fails to load, it is hidden smoothly with no broken image icons.
+3. **Dynamic Services Grid & Instant Quote Calculator**:
+   - Renders service cards dynamically from `services` array in `business.json`.
+   - Clicking "Request this service" auto-selects the service in the estimate calculator below.
 
-4. **Literal International Phone Number Support**:
-   - Phone numbers are preserved and formatted as provided in `business.json` without assuming any default country code.
+4. **Interactive Work Gallery with Lightbox**:
+   - Grid masonry layout with fullscreen lightbox modal, keyboard navigation (`ESC`, arrow keys), and backdrop dismiss.
 
-5. **No Build Step Required**:
-   - Works immediately by opening `index.html` in any modern web browser or deploying to GitHub Pages, Netlify, Cloudflare Pages, Vercel, AWS S3, or traditional cPanel hosts.
+5. **Verified Reviews & Star Rating Social Proof**:
+   - Dynamically renders real Google/Trustpilot reviews with star ratings and author badges.
+   - Gracefully hides rating containers if rating data is omitted without leaving empty gaps or broken layouts.
+
+6. **Subdirectory & Static Hosting Ready**:
+   - All assets (`./style.css`, `./script.js`, `./data/business.json`) use relative paths to guarantee flawless execution in GitHub Pages, S3, Netlify, Cloudflare Pages, or custom subfolders.
+
+7. **Zero-Defect Graceful Degradation**:
+   - If optional fields (logo, Instagram, TikTok, Facebook, email, maps link, reviews, before/after pairs) are omitted, their corresponding UI elements hide automatically without visual glitches.
 
 ---
 
-## The Business Data Schema (`/data/business.json`)
+## Universal Data Schema (`/data/business.json`)
 
-To personalize the website for any cleaning company, update `/data/business.json` with this structure:
+The template accepts both `snake_case` and `camelCase` keys:
 
 ```json
 {
-  "_comment": "SAMPLE BUSINESS DATA: This file is the single source of truth for the website.",
-  "name": "Sparkle Home Cleaning",
-  "tagline": "Professional Cleaning Services You Can Trust",
+  "_comment": "SOLE authoritative source of truth for the website.",
+  "business_name": "Super Cleaners London",
+  "tagline": "Premium Residential & Commercial Cleaning Services in London",
   "category": "Residential & Commercial Cleaning",
-  "phone": "+15551234567",
-  "email": "hello@sparklecleaning.example",
-  "address": "123 Main Street",
-  "city": "Dallas",
-  "state": "Texas",
-  "country": "USA",
-  "rating": "4.8",
-  "reviewCount": "127",
-  "googleMapsUrl": "https://maps.google.com/?q=Dallas+TX",
-  "instagramUrl": "",
-  "facebookUrl": "",
-  "heroImage": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80",
-  "galleryImages": [
-    "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
-    "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80",
-    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
-    "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=800&q=80"
+  "phone": "+44 20 7946 0912",
+  "email": "contact@supercleanerslondon.co.uk",
+  "address": "45 Baker Street, Marylebone, London W1U 8ED",
+  "city": "London",
+  "state": "Greater London",
+  "country": "United Kingdom",
+  "opening_hours": "Mon - Sat: 8:00 AM - 7:00 PM | Sun: 9:00 AM - 4:00 PM",
+  "rating": "4.9",
+  "review_count": "148",
+  "google_maps_url": "https://maps.google.com/?q=London+UK",
+  "logo_url": "",
+  "hero_image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80",
+  "service_areas": [
+    "Marylebone",
+    "Westminster",
+    "Kensington & Chelsea",
+    "Camden",
+    "Islington",
+    "Mayfair",
+    "Battersea",
+    "Fulham"
+  ],
+  "social": {
+    "instagram": "https://instagram.com/supercleanerslondon",
+    "facebook": "https://facebook.com/supercleanerslondon",
+    "tiktok": ""
+  },
+  "before_after_pairs": [
+    {
+      "title": "Kitchen Deep Clean & Degreasing",
+      "description": "Thorough extraction of grease, range hood polishing, and tile descaling.",
+      "before": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=80",
+      "after": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1000&q=80"
+    }
   ],
   "services": [
     {
-      "name": "Residential Cleaning",
-      "description": "Professional cleaning services for homes, apartments, and living spaces.",
+      "name": "Regular Home Cleaning",
+      "description": "Tailored routine housekeeping on a weekly or bi-weekly schedule for a consistently spotless home.",
       "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
-    },
+    }
+  ],
+  "business_images": [
+    "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
+  ],
+  "reviews": [
     {
-      "name": "Deep Cleaning",
-      "description": "Detailed cleaning for a fresh and spotless space covering hard-to-reach areas.",
-      "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "name": "Move-In / Move-Out Cleaning",
-      "description": "Comprehensive turnover cleaning ensuring spaces are pristine for new occupants.",
-      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "name": "Commercial Cleaning",
-      "description": "Customized cleaning solutions for offices, workspaces, and commercial facilities.",
-      "image": "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=800&q=80"
+      "author": "Victoria Sterling",
+      "rating": 5,
+      "text": "Super Cleaners London did an exceptional job on our 4-bedroom flat in Marylebone.",
+      "source": "Google Review"
     }
   ]
 }
@@ -102,71 +117,28 @@ To personalize the website for any cleaning company, update `/data/business.json
 
 ---
 
-## Python Lead-Generation Automation Workflow
-
-The workflow to generate and deploy personalized customer websites automatically:
-
-```text
-Google Maps / Lead Scraper
-            ↓
-   Business information
-            ↓
-     Business photos
-            ↓
-  /data/business.json
-            ↓
-  Website Template (HTML/CSS/JS)
-            ↓
-  Personalized Live Website
-```
-
-### Python Script Example
+## Automated Python Deployment Example
 
 ```python
 import json
 import shutil
 import os
 
-def generate_personalized_cleaning_site(lead_data: dict, template_dir: str, output_dir: str):
+def deploy_cleaning_lead_website(lead_data: dict, template_root: str, target_dir: str):
     """
-    Copies the base template and writes the personalized business.json.
-    NO HTML, CSS, or JS changes are required!
+    Deploys a fully personalized cleaning site demo by copying template files
+    and generating the data/business.json file.
     """
-    os.makedirs(output_dir, exist_ok=True)
+    os.makedirs(os.path.join(target_dir, 'data'), exist_ok=True)
     
-    # Copy static template files
-    for item in ['index.html', 'style.css', 'script.js']:
-        src_file = os.path.join(template_dir, item)
-        dst_file = os.path.join(output_dir, item)
-        shutil.copy2(src_file, dst_file)
+    # 1. Copy core template assets
+    for static_file in ['index.html', 'style.css', 'script.js']:
+        shutil.copy2(os.path.join(template_root, static_file), os.path.join(target_dir, static_file))
         
-    os.makedirs(os.path.join(output_dir, 'data'), exist_ok=True)
-    
-    # Format business payload
-    business_payload = {
-        "name": lead_data.get("name", "Professional Cleaning Services"),
-        "tagline": lead_data.get("tagline", "High Standard Residential & Commercial Cleaning"),
-        "category": lead_data.get("category", "Cleaning Services"),
-        "phone": lead_data.get("phone", ""),
-        "email": lead_data.get("email", ""),
-        "address": lead_data.get("address", ""),
-        "city": lead_data.get("city", ""),
-        "state": lead_data.get("state", ""),
-        "country": lead_data.get("country", ""),
-        "rating": str(lead_data.get("rating", "")),
-        "reviewCount": str(lead_data.get("review_count", "")),
-        "googleMapsUrl": lead_data.get("google_maps_url", ""),
-        "instagramUrl": lead_data.get("instagram_url", ""),
-        "facebookUrl": lead_data.get("facebook_url", ""),
-        "heroImage": lead_data.get("hero_image", ""),
-        "galleryImages": lead_data.get("photos", []),
-        "services": lead_data.get("services", [])
-    }
-    
-    # Write data/business.json
-    target_json_path = os.path.join(output_dir, 'data', 'business.json')
-    with open(target_json_path, 'w', encoding='utf-8') as f:
-        json.dump(business_payload, f, indent=2, ensure_ascii=False)
+    # 2. Write personalized business.json
+    json_path = os.path.join(target_dir, 'data', 'business.json')
+    with open(json_path, 'w', encoding='utf-8') as f:
+        json.dump(lead_data, f, indent=2, ensure_ascii=False)
         
-    print(f"[✓] Website successfully generated for: {business_payload['name']}")
+    print(f"Personalized demo created at: {target_dir}")
 ```
