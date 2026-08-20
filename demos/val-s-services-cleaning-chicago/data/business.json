@@ -8,7 +8,7 @@
     "address": "\n420 W Huron St L119, Chicago, IL 60654, United States",
     "city": "chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
     "opening_hours": "",
     "rating": "4",
     "review_count": "",
@@ -55,5 +55,27 @@
         "https://valsservices.com/wp-content/uploads/2026/06/62cd81b6be48db5f1d727f2a07040c83f00442e7.jpg",
         "https://valsservices.com/wp-content/uploads/2026/06/f09a7fbff146be280cb44bafb4c780e77d710d3c.jpg"
     ],
-    "reviews": []
+    "reviews": [],
+    "image_display": {
+        "hero": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "gallery": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        },
+        "services": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "before_after": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "logo": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        }
+    }
 }
