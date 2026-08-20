@@ -1,0 +1,46 @@
+{
+  "_comment": "SAMPLE BUSINESS DATA: This file is the single source of truth for the website. Replace this data to personalize the template.",
+  "name": "Sparkle Home Cleaning",
+  "tagline": "Professional Cleaning Services You Can Trust",
+  "category": "Residential & Commercial Cleaning",
+  "phone": "+15551234567",
+  "email": "hello@sparklecleaning.example",
+  "address": "123 Main Street",
+  "city": "Dallas",
+  "state": "Texas",
+  "country": "USA",
+  "rating": "4.8",
+  "reviewCount": "127",
+  "googleMapsUrl": "https://maps.google.com/?q=Dallas+TX",
+  "instagramUrl": "",
+  "facebookUrl": "",
+  "heroImage": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80",
+  "galleryImages": [
+    "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80",
+    "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=800&q=80"
+  ],
+  "services": [
+    {
+      "name": "Residential Cleaning",
+      "description": "Professional cleaning services for homes, apartments, and living spaces.",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "name": "Deep Cleaning",
+      "description": "Detailed cleaning for a fresh and spotless space covering hard-to-reach areas.",
+      "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "name": "Move-In / Move-Out Cleaning",
+      "description": "Comprehensive turnover cleaning ensuring spaces are pristine for new occupants.",
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "name": "Commercial Cleaning",
+      "description": "Customized cleaning solutions for offices, workspaces, and commercial facilities.",
+      "image": "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=800&q=80"
+    }
+  ]
+}
