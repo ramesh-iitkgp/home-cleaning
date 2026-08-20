@@ -1,0 +1,76 @@
+{
+    "business_name": "Better Call Moe",
+    "tagline": "Professional Cleaning Services in london",
+    "category": "Home Cleaning",
+    "phone": "442033552963",
+    "whatsapp": "",
+    "email": "hello@bettercallmoe.com",
+    "address": "\n54 Brook's Mews, London W1K 4EF, United Kingdom",
+    "city": "london",
+    "state": "",
+    "country": "UK",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Better+Call+Moe/data=!4m7!3m6!1s0x4876057214f5dd23:0x695c2525b35f3b2e!8m2!3d51.5126376!4d-0.1462626!16s%2Fg%2F11fvqzbf3k!19sChIJI931FHIFdkgRLjtfsyUlXGk?authuser=0&hl=en&rclk=1",
+    "logo_url": "https://www.bettercallmoe.com/wp/wp-content/uploads/2025/07/bcm-logo.png",
+    "hero_image": "https://www.bettercallmoe.com/wp/wp-content/uploads/2025/07/bcm-logo.png",
+    "service_areas": [
+        "london"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/bettercallmoeuk/",
+        "facebook": "https://www.facebook.com/bettercallmoeuk/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [
+        "https://www.bettercallmoe.com/wp/wp-content/uploads/2025/07/bcm-logo.png",
+        "https://www.bettercallmoe.com/wp/wp-content/uploads/2025/07/bcm-logo-2.png",
+        "https://www.bettercallmoe.com/wp/wp-content/uploads/2020/02/jam-factory-5.jpg",
+        "https://www.bettercallmoe.com/wp/wp-content/uploads/2020/02/jam-factory-1.jpg",
+        "https://www.bettercallmoe.com/wp/wp-content/uploads/2020/02/jam-factory-4.jpg",
+        "https://www.bettercallmoe.com/wp/wp-content/uploads/2018/02/gatti-008.jpg",
+        "https://www.bettercallmoe.com/wp/wp-content/uploads/2025/07/bcm-logo-3.png"
+    ],
+    "reviews": [],
+    "image_display": {
+        "hero": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "gallery": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        },
+        "services": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "before_after": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "logo": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        }
+    }
+}
