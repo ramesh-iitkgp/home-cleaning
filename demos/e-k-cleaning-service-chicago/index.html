@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<base href="/home-cleaning/demos/e-k-cleaning-service-chicago/">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Dynamic SEO & Metadata (Updated automatically by script.js) -->
+    <title>Professional Home & Commercial Cleaning Services</title>
+    <meta name="description" content="Professional residential and commercial cleaning services tailored to local homes and businesses. Request a free quote today." />
+    <meta property="og:title" content="Professional Cleaning Services" />
+    <meta property="og:description" content="Impeccable residential and commercial cleaning services you can trust." />
+    <meta property="og:type" content="website" />
+    
+    <!-- Modern Typography Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet (Relative path for subdirectory deployment) -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+
+    <!-- =====================================================================
+         1. NAVIGATION BAR
+         ===================================================================== -->
+    <header class="navbar" id="main-navbar">
+      <div class="container navbar-inner">
+        
+        <!-- Brand Identity (Supports Logo URL or Elegant Custom Wordmark) -->
+        <a href="#" class="brand-identity" id="nav-brand-link" aria-label="Home">
+          <div id="nav-logo-container"></div>
+          <div class="brand-fallback-badge" id="nav-brand-fallback">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+              <path d="M5 3v4"/>
+              <path d="M19 17v4"/>
+              <path d="M3 5h4"/>
+              <path d="M17 19h4"/>
+            </svg>
+          </div>
+          <div class="brand-name-group" id="nav-brand-text-group">
+            <span class="brand-name-text" data-bind="name">Cleaning Services</span>
+            <span class="brand-subtext" id="nav-brand-subtext">Professional Cleaning</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav aria-label="Primary Navigation">
+          <ul class="nav-links">
+            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#before-after" class="nav-link">Before &amp; After</a></li>
+            <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+            <li><a href="#gallery" class="nav-link">Our Work</a></li>
+            <li><a href="#reviews" class="nav-link">Reviews</a></li>
+            <li><a href="#quote" class="nav-link">Contact &amp; Quote</a></li>
+          </ul>
+        </nav>
+
+        <!-- Header Actions (Call Now, WhatsApp & Free Quote) -->
+        <div class="nav-actions">
+          <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm nav-whatsapp-btn data-hidden" id="nav-whatsapp-btn" aria-label="Chat on WhatsApp">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.17-.48-.29"/>
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+
+          <a href="tel:" class="btn btn-secondary btn-sm nav-phone-btn data-hidden" id="nav-phone-btn" aria-label="Call business">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+            <span id="nav-phone-text">Call Now</span>
+          </a>
+
+          <a href="#quote" class="btn btn-primary btn-sm nav-quote-btn" id="nav-quote-btn">
+            <span>Get a Free Quote</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="hamburger-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
+        </div>
+
+      </div>
+    </header>
+
+    <!-- Mobile Nav Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation Menu">
+      <ul class="mobile-nav-links">
+        <li><a href="#services" class="mobile-nav-link">Our Services</a></li>
+        <li><a href="#before-after" class="mobile-nav-link">Before &amp; After Results</a></li>
+        <li><a href="#why-us" class="mobile-nav-link">Why Choose Us</a></li>
+        <li><a href="#gallery" class="mobile-nav-link">Recent Work Gallery</a></li>
+        <li><a href="#reviews" class="mobile-nav-link">Customer Reviews</a></li>
+        <li><a href="#quote" class="mobile-nav-link">Request Free Quote</a></li>
+      </ul>
+      <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 8px;">
+        <a href="#quote" class="btn btn-primary" style="width: 100%;">Get a Free Quote</a>
+      </div>
+    </div>
+
+    <main>
+      <!-- =====================================================================
+           2. HERO SECTION
+           ===================================================================== -->
+      <section class="hero" id="hero">
+        <div class="container hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            
+            <div class="hero-pill-row">
+              <!-- Location Pill -->
+              <div class="hero-location-pill data-hidden" id="hero-location-pill">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+                <span id="hero-location-text">Local Cleaning Service</span>
+              </div>
+
+              <!-- Rating Badge Pill -->
+              <div class="hero-rating-pill data-hidden" id="hero-rating-pill">
+                <span id="hero-rating-score">5.0 ★ Top Rated</span>
+              </div>
+            </div>
+
+            <!-- Highly Prominent Business Name & Headline -->
+            <h1 class="hero-title">
+              Sparkling Clean Spaces with <span class="hero-brand-name" id="hero-brand-name" data-bind="name">Cleaning Services</span>
+            </h1>
+
+            <!-- Tagline & Subheading -->
+            <p class="hero-tagline" id="hero-tagline" data-bind="tagline">
+              Professional residential and commercial cleaning solutions tailored to your schedule, property, and standards.
+            </p>
+
+            <!-- Conversion Action Buttons -->
+            <div class="hero-ctas">
+              <a href="#quote" class="btn btn-primary btn-lg" id="hero-quote-btn">
+                <span>Get a Free Quote</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </a>
+
+              <a href="tel:" class="btn btn-secondary btn-lg hero-call-btn data-hidden" id="hero-call-btn" aria-label="Call business">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+                <span id="hero-call-text">Call Now</span>
+              </a>
+            </div>
+
+            <!-- Trust Feature Tickers -->
+            <div class="hero-trust-bullets">
+              <div class="hero-bullet-item">
+                <div class="hero-bullet-icon">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span>Homes &amp; Offices</span>
+              </div>
+              <div class="hero-bullet-item">
+                <div class="hero-bullet-icon">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span>Flexible Schedules</span>
+              </div>
+              <div class="hero-bullet-item">
+                <div class="hero-bullet-icon">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span>Spotless Guarantee</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Hero Image & Floating Trust Card -->
+          <div class="hero-visual-box">
+            <div class="hero-image-card">
+              <img id="hero-main-img" src="" alt="Professional Cleaning Service" loading="eager" />
+            </div>
+
+            <!-- Floating High-Standard Card -->
+            <div class="hero-floating-badge">
+              <div class="floating-badge-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="m9 12 2 2 4-4"/>
+                </svg>
+              </div>
+              <div>
+                <div class="floating-badge-title">Thorough &amp; Reliable</div>
+                <div class="floating-badge-desc">Trained staff &amp; detailed room checklists</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           3. SOCIAL PROOF & TRUST BAR
+           ===================================================================== -->
+      <section class="trust-bar" id="trust-bar">
+        <div class="container trust-bar-inner">
+          
+          <!-- Rating Stats -->
+          <div class="trust-rating-card" id="trust-rating-box">
+            <div class="trust-rating-score" id="trust-rating-score">4.9</div>
+            <div>
+              <div class="trust-stars-row" aria-label="5 Star Rating">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              </div>
+              <div class="trust-review-count" id="trust-review-count">Based on verified customer reviews</div>
+            </div>
+          </div>
+
+          <!-- Serving Statement -->
+          <div class="trust-serving-text">
+            <svg class="trust-serving-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <span>Proudly serving homes and commercial clients across <strong id="trust-serving-city" data-bind="city">your area</strong></span>
+          </div>
+
+          <!-- Google Maps Button -->
+          <div>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm trust-maps-btn data-hidden" id="trust-maps-btn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="m4.93 4.93 4.24 4.24"/>
+                <path d="m14.83 9.17 4.24-4.24"/>
+                <path d="m14.83 14.83 4.24 4.24"/>
+                <path d="m9.17 14.83-4.24 4.24"/>
+                <circle cx="12" cy="12" r="4"/>
+              </svg>
+              <span>View on Google</span>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           4. BEFORE & AFTER SECTION ("THE DIFFERENCE IS CLEAR")
+           ===================================================================== -->
+      <section class="section before-after-section" id="before-after">
+        <div class="container">
+          
+          <div class="section-header">
+            <span class="section-badge">Proven Transformations</span>
+            <h2 class="section-title">The Difference is Clear</h2>
+            <p class="section-description">
+              Drag the interactive slider to see how our meticulous deep cleaning revitalizes surfaces, removes stubborn grime, and restores spaces.
+            </p>
+          </div>
+
+          <div class="ba-container">
+            <!-- Dynamic Multiple Pairs Switcher Tabs -->
+            <div class="ba-tabs-row" id="ba-tabs-container"></div>
+
+            <!-- Interactive Slider Card -->
+            <div class="ba-slider-card">
+              <div class="ba-viewport" id="ba-viewport">
+                <!-- After Image (Background - Clean & Perfect) -->
+                <img id="ba-after-img" class="ba-img ba-img-after" src="" alt="After Professional Cleaning" />
+                <span class="ba-label ba-label-after">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+                  </svg>
+                  AFTER
+                </span>
+
+                <!-- Before Image (Clipped Left Layer - Dirty & Messy) -->
+                <div class="ba-img-before-wrapper" id="ba-before-wrapper">
+                  <img id="ba-before-img" class="ba-img" src="" alt="Before Cleaning Dirty Condition" />
+                  <span class="ba-label ba-label-before">
+                    <span style="display:inline-block; width:8px; height:8px; border-radius:50%; background:#fff; margin-right:2px;"></span>
+                    BEFORE
+                  </span>
+                </div>
+
+                <!-- Draggable Divider Line & Handle -->
+                <div class="ba-handle" id="ba-handle">
+                  <div class="ba-handle-button" aria-hidden="true">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <polyline points="15 18 9 12 15 6"></polyline>
+                      <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                  </div>
+                </div>
+
+                <!-- Range Control for Accessibility & Touch Dragging -->
+                <input type="range" min="0" max="100" value="50" class="ba-slider-input" id="ba-slider-input" aria-label="Before and after comparison slider" />
+              </div>
+
+              <!-- Pair Description Footer & Live Transformation Highlights -->
+              <div class="ba-card-body">
+                <div class="ba-card-info">
+                  <h3 id="ba-item-title">Deep Cleaning Transformation</h3>
+                  <p id="ba-item-desc">Detailed degreasing, grout restoration, and surface sanitization.</p>
+                  
+                  <div class="ba-stats-comparison">
+                    <span class="ba-stat-pill ba-stat-before">
+                      <strong>Before:</strong> <span id="ba-before-stats">Heavy grease, dust, clutter &amp; stubborn stains</span>
+                    </span>
+                    <span class="ba-stat-pill ba-stat-after">
+                      <strong>After:</strong> <span id="ba-after-stats">100% Spotless, disinfected &amp; showroom shine</span>
+                    </span>
+                  </div>
+                </div>
+                <a href="#quote" class="btn btn-primary btn-sm">Get Similar Results</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           5. SERVICES SECTION
+           ===================================================================== -->
+      <section class="section section-alt" id="services">
+        <div class="container">
+          
+          <div class="section-header">
+            <span class="section-badge">Tailored Solutions</span>
+            <h2 class="section-title">Cleaning Services from <span id="services-brand-heading" class="brand-highlight" data-bind="name">Cleaning Company</span></h2>
+            <p class="section-description">
+              Flexible, high-standard residential and commercial cleaning packages customized to your lifestyle and property needs.
+            </p>
+          </div>
+
+          <!-- Dynamically Generated Services Grid -->
+          <div class="services-grid" id="services-grid-container">
+            <!-- Injected by script.js from data/business.json services array -->
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           6. WHY CHOOSE [BUSINESS NAME]
+           ===================================================================== -->
+      <section class="section" id="why-us">
+        <div class="container">
+          
+          <div class="section-header">
+            <span class="section-badge">Our Commitment</span>
+            <h2 class="section-title">Why Choose <span id="why-brand-heading" class="brand-highlight" data-bind="name">Cleaning Services</span>?</h2>
+            <p class="section-description">
+              We focus on dependable quality, transparent communication, and meticulous attention to detail on every single appointment.
+            </p>
+          </div>
+
+          <div class="why-grid">
+            
+            <div class="why-card">
+              <div class="why-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <path d="m9 12 2 2 4-4"/>
+                </svg>
+              </div>
+              <h3 class="why-card-title">Trained &amp; Reliable Cleaners</h3>
+              <p class="why-card-text">Every cleaner is thoroughly vetted, professionally trained, and committed to treating your home and workspace with complete respect.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <h3 class="why-card-title">Flexible Scheduling</h3>
+              <p class="why-card-text">Weekly, bi-weekly, monthly, or on-demand deep cleanings structured seamlessly around your personal or commercial schedule.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
+              <h3 class="why-card-title">Transparent Quotes</h3>
+              <p class="why-card-text">Clear, upfront pricing tailored to property size and requested scope without hidden fees or surprise upcharges.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                  <line x1="16" y1="13" x2="8" y2="13"/>
+                  <line x1="16" y1="17" x2="8" y2="17"/>
+                  <polyline points="10 9 9 9 8 9"/>
+                </svg>
+              </div>
+              <h3 class="why-card-title">Detailed Room Checklists</h3>
+              <p class="why-card-text">Systematic inspection routines for kitchens, bathrooms, living areas, and workspaces ensure zero missed corners.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                </svg>
+              </div>
+              <h3 class="why-card-title">Direct Local Communication</h3>
+              <p class="why-card-text">Responsive client support for fast booking changes, custom cleaning instructions, and prompt answers.</p>
+            </div>
+
+            <div class="why-card">
+              <div class="why-icon-box">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <h3 class="why-card-title">Dedicated to <span data-bind="city">Your Area</span></h3>
+              <p class="why-card-text">Proudly serving local neighborhoods with dependable punctuality and community-trusted care.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           7. PHOTO GALLERY ("OUR WORK / SEE THE DIFFERENCE")
+           ===================================================================== -->
+      <section class="section section-alt" id="gallery">
+        <div class="container">
+          
+          <div class="section-header">
+            <span class="section-badge">Portfolio</span>
+            <h2 class="section-title">Recent Work from <span id="gallery-brand-name" class="brand-highlight" data-bind="name">Cleaning Company</span></h2>
+            <p class="section-description">
+              A gallery of immaculate results across living spaces, kitchens, luxury bathrooms, and commercial turnover properties.
+            </p>
+          </div>
+
+          <!-- Dynamically Generated Gallery Grid -->
+          <div class="gallery-grid" id="gallery-grid-container">
+            <!-- Injected by script.js -->
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           8. REVIEWS & TESTIMONIALS SECTION
+           ===================================================================== -->
+      <section class="section" id="reviews-section">
+        <div class="container">
+          
+          <div class="section-header">
+            <span class="section-badge">Client Feedback</span>
+            <h2 class="section-title">What Clients Say About <span id="reviews-brand-heading" class="brand-highlight" data-bind="name">Cleaning Company</span></h2>
+            <p class="section-description">
+              Real feedback from homeowners, tenants, and business managers who trust our cleaning standards.
+            </p>
+          </div>
+
+          <!-- Dynamically Generated Reviews Grid -->
+          <div class="reviews-grid" id="reviews-grid-container">
+            <!-- Injected by script.js -->
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           9. LOCAL SERVICE AREAS BAR
+           ===================================================================== -->
+      <section class="service-areas-bar data-hidden" id="service-areas-bar">
+        <div class="container service-areas-inner">
+          <h3 class="service-areas-title" id="service-areas-heading">Areas We Serve</h3>
+          <div class="service-areas-tags" id="service-areas-pills"></div>
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           10. FREE QUOTE & CONTACT SECTION
+           ===================================================================== -->
+      <section class="section section-alt" id="quote">
+        <div class="container">
+          
+          <div class="section-header">
+            <span class="section-badge">Get Started</span>
+            <h2 class="section-title">Request a Free Cleaning Quote</h2>
+            <p class="section-description">
+              Tell us about your property and cleaning requirements. We will provide prompt, transparent pricing.
+            </p>
+          </div>
+
+          <div class="quote-grid">
+            
+            <!-- Left Column: Business Contact Card -->
+            <div class="quote-info-card">
+              <div class="quote-info-header">
+                <h3 data-bind="name">Cleaning Services</h3>
+                <p>Serving homeowners, landlords, and commercial clients throughout <span data-bind="city">your area</span>.</p>
+              </div>
+
+              <!-- Contact Items List -->
+              <div class="contact-info-list">
+                
+                <!-- Direct Phone -->
+                <div class="contact-item data-hidden" id="contact-phone-container">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Direct Phone</div>
+                    <div class="contact-item-val"><a href="tel:" id="contact-phone-link"><span id="contact-phone-val">Call Now</span></a></div>
+                  </div>
+                </div>
+
+                <!-- WhatsApp Quick Connect -->
+                <div class="contact-item data-hidden" id="contact-whatsapp-container">
+                  <div class="contact-icon-box" style="background-color: rgba(37, 211, 102, 0.12); color: #25D366;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                      <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.17-.48-.29"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">WhatsApp Business</div>
+                    <div class="contact-item-val"><a href="https://wa.me/" target="_blank" rel="noopener noreferrer" id="contact-whatsapp-link" style="color: #128C7E; font-weight: 700;"><span>Chat on WhatsApp</span> &rarr;</a></div>
+                  </div>
+                </div>
+
+                <!-- Email -->
+                <div class="contact-item data-hidden" id="contact-email-container">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Email Address</div>
+                    <div class="contact-item-val"><a href="mailto:" id="contact-email-link"><span id="contact-email-val">Email Us</span></a></div>
+                  </div>
+                </div>
+
+                <!-- Address -->
+                <div class="contact-item data-hidden" id="contact-address-container">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/>
+                      <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Location / Service Base</div>
+                    <div class="contact-item-val"><span id="contact-address-val">Address</span></div>
+                  </div>
+                </div>
+
+                <!-- Hours -->
+                <div class="contact-item data-hidden" id="contact-hours-container">
+                  <div class="contact-icon-box">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <circle cx="12" cy="12" r="10"/>
+                      <polyline points="12 6 12 12 16 14"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <div class="contact-item-label">Operating Hours</div>
+                    <div class="contact-item-val"><span id="contact-hours-val">Hours</span></div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Social Links -->
+              <div class="quote-social-row">
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn data-hidden" id="contact-social-instagram" aria-label="Instagram">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                  </svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn data-hidden" id="contact-social-facebook" aria-label="Facebook">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                  </svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn data-hidden" id="contact-social-tiktok" aria-label="TikTok">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                  </svg>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer" class="social-icon-btn data-hidden" id="contact-social-maps" aria-label="Google Maps Location">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon>
+                    <line x1="9" y1="3" x2="9" y2="18"></line>
+                    <line x1="15" y1="6" x2="15" y2="21"></line>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Column: Interactive Quick Quote Form -->
+            <div class="quote-form-card">
+              <h3 style="font-size: 1.45rem; font-weight: 800; color: var(--color-primary); margin-bottom: 6px;">Request Your Cleaning Estimate</h3>
+              <p style="font-size: 0.925rem; color: var(--color-text-muted); margin-bottom: 24px;">Fill out the details below and we will contact you with a customized estimate.</p>
+
+              <form id="quote-booking-form">
+                <div class="form-grid">
+                  
+                  <!-- Service Type -->
+                  <div class="form-group form-full">
+                    <label class="form-label" for="quote-service-select">Service Type *</label>
+                    <select class="form-select" id="quote-service-select" required>
+                      <option value="">Select a service type...</option>
+                    </select>
+                  </div>
+
+                  <!-- Frequency -->
+                  <div class="form-group">
+                    <label class="form-label" for="quote-frequency">Frequency</label>
+                    <select class="form-select" id="quote-frequency">
+                      <option value="One-Time Deep Clean">One-Time Deep Clean</option>
+                      <option value="Weekly Clean">Weekly Maid Service</option>
+                      <option value="Bi-Weekly Clean" selected>Bi-Weekly Maintenance</option>
+                      <option value="Monthly Clean">Monthly Service</option>
+                      <option value="Move-In / Move-Out">Move-In / Move-Out Turnover</option>
+                    </select>
+                  </div>
+
+                  <!-- Property Size -->
+                  <div class="form-group">
+                    <label class="form-label" for="quote-size">Property Size</label>
+                    <select class="form-select" id="quote-size">
+                      <option value="1 Bedroom / 1 Bath">1 Bedroom / 1 Bath</option>
+                      <option value="2 Bedroom / 1-2 Bath" selected>2 Bedroom / 1-2 Bath</option>
+                      <option value="3 Bedroom / 2 Bath">3 Bedroom / 2 Bath</option>
+                      <option value="4+ Bedroom Estate">4+ Bedroom Estate</option>
+                      <option value="Commercial / Office">Commercial / Office Space</option>
+                    </select>
+                  </div>
+
+                  <!-- Name -->
+                  <div class="form-group">
+                    <label class="form-label" for="quote-name">Full Name *</label>
+                    <input type="text" class="form-input" id="quote-name" placeholder="Your name" required />
+                  </div>
+
+                  <!-- Phone -->
+                  <div class="form-group">
+                    <label class="form-label" for="quote-phone">Phone Number *</label>
+                    <input type="tel" class="form-input" id="quote-phone" placeholder="Your phone number" required />
+                  </div>
+
+                  <!-- Email -->
+                  <div class="form-group form-full">
+                    <label class="form-label" for="quote-email">Email Address</label>
+                    <input type="email" class="form-input" id="quote-email" placeholder="your.email@example.com" />
+                  </div>
+
+                  <!-- Notes -->
+                  <div class="form-group form-full">
+                    <label class="form-label" for="quote-notes">Property Address &amp; Special Instructions</label>
+                    <textarea class="form-textarea" id="quote-notes" placeholder="Tell us about special requirements (e.g., pets, preferred appointment day, key access instructions)..."></textarea>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="form-full" style="margin-top: 8px;">
+                    <button type="submit" class="btn btn-primary" id="quote-submit-btn" style="width: 100%; font-size: 1.05rem;">
+                      <span>Submit Quote Request</span>
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="22" y1="2" x2="11" y2="13"></line>
+                        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                      </svg>
+                    </button>
+                  </div>
+
+                </div>
+
+                <!-- Instant Confirmation Feedback Box -->
+                <div class="form-feedback-box" id="quote-form-feedback"></div>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- =====================================================================
+           11. FINAL HIGH-CONVERSION CTA SECTION
+           ===================================================================== -->
+      <section class="final-cta">
+        <div class="container final-cta-content">
+          <span class="final-cta-badge">Ready for a Cleaner Space?</span>
+          <h2 class="final-cta-title">
+            Let <span id="final-cta-brand-name" class="brand-highlight" data-bind="name">Cleaning Company</span> Take Care of the Cleaning
+          </h2>
+          <p class="final-cta-desc">
+            Enjoy more free time in a spotless, fresh, and hygienic environment. Contact us today for your tailored quote.
+          </p>
+
+          <div class="final-cta-buttons">
+            <a href="#quote" class="btn btn-primary btn-lg">
+              <span>Get a Free Quote</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+
+            <a href="tel:" class="btn btn-secondary btn-lg data-hidden" id="final-cta-call-btn" aria-label="Call business">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span id="final-cta-call-text">Call Now</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =====================================================================
+         12. FOOTER
+         ===================================================================== -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        
+        <div class="footer-grid">
+          
+          <!-- Column 1: Brand & Tagline -->
+          <div class="footer-brand-col">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+              <div id="footer-logo-container" style="display: none;"></div>
+              <div class="brand-fallback-badge" id="footer-brand-fallback" style="background: rgba(255,255,255,0.12); color: #fff;">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+                  <path d="M5 3v4"/>
+                  <path d="M19 17v4"/>
+                  <path d="M3 5h4"/>
+                  <path d="M17 19h4"/>
+                </svg>
+              </div>
+              <h3 id="footer-brand-name" data-bind="name" style="margin-bottom: 0;">Cleaning Company</h3>
+            </div>
+            <p id="footer-tagline" data-bind="tagline">
+              Professional residential and commercial cleaning solutions designed for spotless homes and peace of mind.
+            </p>
+            <div style="font-size: 0.9rem;">
+              Serving: <strong style="color: white;" id="footer-city-text" data-bind="city">your local area</strong>
+            </div>
+          </div>
+
+          <!-- Column 2: Navigation -->
+          <div>
+            <h4 class="footer-heading">Navigation</h4>
+            <ul class="footer-links-list">
+              <li><a href="#services" class="footer-link">Cleaning Services</a></li>
+              <li><a href="#before-after" class="footer-link">Before &amp; After</a></li>
+              <li><a href="#why-us" class="footer-link">Why Choose Us</a></li>
+              <li><a href="#gallery" class="footer-link">Our Work Gallery</a></li>
+              <li><a href="#quote" class="footer-link">Request a Quote</a></li>
+            </ul>
+          </div>
+
+          <!-- Column 3: Contact Info -->
+          <div>
+            <h4 class="footer-heading">Contact Details</h4>
+            <div class="footer-links-list">
+              <div class="data-hidden" id="footer-phone-container">
+                <a href="tel:" class="footer-link" id="footer-phone-link">Phone</a>
+              </div>
+              <div class="data-hidden" id="footer-whatsapp-container">
+                <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="footer-link" id="footer-whatsapp-link" style="color: #25D366; display: inline-flex; align-items: center; gap: 6px;">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.17-.48-.29"/>
+                  </svg>
+                  <span>Chat on WhatsApp</span>
+                </a>
+              </div>
+              <div class="data-hidden" id="footer-email-container">
+                <a href="mailto:" class="footer-link" id="footer-email-link">Email</a>
+              </div>
+              <div class="data-hidden" id="footer-address-container">
+                <span class="footer-link" id="footer-address-val">Address</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 4: Trust & Guarantee -->
+          <div>
+            <h4 class="footer-heading">Our Standard</h4>
+            <p style="font-size: 0.875rem; line-height: 1.6; color: #94a3b8;">
+              Dedicated to high hygiene standards, reliable scheduling, and complete customer satisfaction.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Bottom Copyright -->
+        <div class="footer-bottom-row">
+          <p>&copy; <span id="footer-year">2026</span> <span data-bind="name">Cleaning Company</span>. All rights reserved.</p>
+          <p style="color: #64748b; font-size: 0.8rem;">Professional Cleaning Services</p>
+        </div>
+
+      </div>
+    </footer>
+
+    <!-- =====================================================================
+         13. MOBILE STICKY ACTION BAR (320px - 768px conversion)
+         ===================================================================== -->
+    <div class="mobile-sticky-bar" id="mobile-sticky-bar">
+      <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="btn btn-whatsapp btn-sm data-hidden" id="mobile-sticky-whatsapp-btn" aria-label="WhatsApp Business">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.17-.48-.29"/>
+        </svg>
+        <span>WhatsApp</span>
+      </a>
+      <a href="tel:" class="btn btn-secondary btn-sm data-hidden" id="mobile-sticky-call-btn" aria-label="Call Business">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+        </svg>
+        <span>Call</span>
+      </a>
+      <a href="#quote" class="btn btn-primary btn-sm" id="mobile-sticky-quote-btn">
+        <span>Get Free Quote</span>
+      </a>
+    </div>
+
+    <!-- =====================================================================
+         14. LIGHTBOX MODAL (PHOTO GALLERY EXPANSION)
+         ===================================================================== -->
+    <div class="lightbox-modal" id="lightbox-modal" onclick="closeLightbox()">
+      <button class="lightbox-close-btn" onclick="closeLightbox()" aria-label="Close Lightbox">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <button class="lightbox-nav-btn lightbox-prev" onclick="event.stopPropagation(); navigateLightbox(-1)" aria-label="Previous image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="15 18 9 12 15 6"></polyline>
+        </svg>
+      </button>
+
+      <div class="lightbox-img-wrapper" onclick="event.stopPropagation()">
+        <img id="lightbox-img" src="" alt="Enlarged cleaning project" />
+      </div>
+
+      <button class="lightbox-nav-btn lightbox-next" onclick="event.stopPropagation(); navigateLightbox(1)" aria-label="Next image">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="9 18 15 12 9 6"></polyline>
+        </svg>
+      </button>
+    </div>
+
+    <!-- =====================================================================
+         15. DEMO PROFILE SWITCHER (EVALUATION & PREVIEW TESTER)
+         ===================================================================== -->
+    <div class="demo-switcher-fab">
+      <button class="demo-fab-btn" id="demo-switcher-btn" title="Switch Demo Business Profile">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+          <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+          <line x1="12" y1="22.08" x2="12" y2="12"></line>
+        </svg>
+        <span>Preview Businesses</span>
+      </button>
+    </div>
+
+    <div class="demo-switcher-modal" id="demo-switcher-modal">
+      <div class="demo-modal-card">
+        <div class="demo-modal-header">
+          <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--color-primary);">Personalized Business Profile Tester</h3>
+          <button id="demo-modal-close" style="font-size: 1.5rem; color: var(--color-text-muted); line-height: 1;">&times;</button>
+        </div>
+        <div class="demo-modal-body">
+          <p style="font-size: 0.85rem; color: var(--color-text-muted);">
+            Test how this single template automatically personalizes its branding, city, phone, services, before/after slider, reviews, and gallery for different cleaning businesses:
+          </p>
+
+          <button class="demo-preset-card active" data-preset="live">
+            <span class="demo-preset-title">1. Authoritative Data (data/business.json)</span>
+            <span class="demo-preset-desc">Loads live JSON file directly (Super Cleaners London).</span>
+          </button>
+
+          <button class="demo-preset-card" data-preset="manchester">
+            <span class="demo-preset-title">2. Manchester House Cleaning Services</span>
+            <span class="demo-preset-desc">Manchester UK, +44 161..., domestic maid service &amp; renovation cleaning.</span>
+          </button>
+
+          <button class="demo-preset-card" data-preset="chicago">
+            <span class="demo-preset-title">3. Chicago Clean Home</span>
+            <span class="demo-preset-desc">Chicago USA, +1 (312)..., eco-friendly house cleaning &amp; condo turnovers.</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- =====================================================================
+         16. FLOATING WHATSAPP BUTTON (INSTANT DIRECT CHAT)
+         ===================================================================== -->
+    <a href="https://wa.me/" target="_blank" rel="noopener noreferrer" class="floating-whatsapp-fab data-hidden" id="floating-whatsapp-btn" aria-label="Chat with business on WhatsApp">
+      <span class="whatsapp-tooltip">Chat with us</span>
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.225 8.225 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.196 8.196 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.26-1.5-1.41-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1 0 1.24.9 2.44 1.03 2.61.13.17 1.77 2.7 4.29 3.79.6.26 1.07.41 1.44.53.6.19 1.15.16 1.59.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.07-.1-.23-.17-.48-.29"/>
+      </svg>
+    </a>
+
+    <!-- Core Dynamic Data Script (Relative for subdirectories) -->
+    <script src="./script.js"></script>
+  </body>
+</html>
