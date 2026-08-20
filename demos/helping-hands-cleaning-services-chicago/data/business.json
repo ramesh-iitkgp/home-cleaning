@@ -1,0 +1,81 @@
+{
+    "business_name": "Helping Hands Cleaning Services",
+    "tagline": "Professional Cleaning Services in chicago",
+    "category": "Home Cleaning",
+    "phone": "16305301324",
+    "whatsapp": "",
+    "email": "info@helpinghandsmaidservices.com",
+    "address": "\n675 St Charles Rd, Elmhurst, IL 60126, United States",
+    "city": "chicago",
+    "state": "",
+    "country": "USA",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Helping+Hands+Cleaning+Services/data=!4m7!3m6!1s0x880e4ccb8c9b30f3:0xa92e54363777ed37!8m2!3d41.890369!4d-87.966927!16s%2Fg%2F12642ty0p!19sChIJ8zCbjMtMDogRN-13NzZULqk?authuser=0&hl=en&rclk=1",
+    "logo_url": "https://helpinghandscleaningservices.com/wp-content/uploads/2026/08/logo-celeste-horizontal-hhr-1-2.png",
+    "hero_image": "https://www.facebook.com/tr?id=2089950084672235&amp;ev=PageView&amp;noscript=1",
+    "service_areas": [
+        "chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/helpinghandscleans/",
+        "facebook": "https://www.facebook.com/HelpingHandsCleaningServicesChicagoland/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [
+        "https://www.facebook.com/tr?id=2089950084672235&amp;ev=PageView&amp;noscript=1",
+        "https://www.facebook.com/tr?id=1447064879922623&amp;ev=PageView&amp;noscript=1",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2026/08/logo-celeste-horizontal-hhr-1-2.png",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2024/02/home-top-7.webp",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2025/11/recurring-house-cleaning-services.webp",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2025/09/deep-cleaning-services.webp",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2025/09/one-time-house-cleaning-services.webp",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2024/03/5-stars.jpg",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2024/02/200-guarantee-12.webp",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2025/09/cleaning-services-company.webp",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2022/05/cleaning-for-a-reason.png",
+        "https://helpinghandscleaningservices.com/wp-content/uploads/2024/02/home-7.webp"
+    ],
+    "reviews": [],
+    "image_display": {
+        "hero": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "gallery": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        },
+        "services": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "before_after": {
+            "object_fit": "cover",
+            "object_position": "center center"
+        },
+        "logo": {
+            "object_fit": "contain",
+            "object_position": "center center"
+        }
+    }
+}
