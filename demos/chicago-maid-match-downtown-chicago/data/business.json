@@ -1,0 +1,47 @@
+{
+    "business_name": "Chicago Maid Match",
+    "source_business_name": "Chicago Maid Match",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13125479813",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Chicago+Maid+Match/data=!4m7!3m6!1s0x872ade059ca38cb5:0x581944df6717aa52!8m2!3d41.7032936!4d-87.9357745!16s%2Fg%2F11rwmsbt1c!19sChIJtYyjnAXeKocRUqoXZ99EGVg?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
