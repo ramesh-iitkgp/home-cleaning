@@ -1,0 +1,47 @@
+{
+    "business_name": "Radas Cleaning Service",
+    "source_business_name": "Radas Cleaning Service",
+    "tagline": "Professional Cleaning Services in Rogers Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13122102459",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n1405 W Sherwin Ave, Chicago, IL 60626, United States",
+    "city": "Rogers Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Rada%E2%80%99s+Cleaning+Service/data=!4m7!3m6!1s0x880fd123d016b089:0x6a69d468258e3621!8m2!3d42.0147181!4d-87.6663297!16s%2Fg%2F11p00w9p08!19sChIJibAW0CPRD4gRITaOJWjUaWo?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Rogers Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
