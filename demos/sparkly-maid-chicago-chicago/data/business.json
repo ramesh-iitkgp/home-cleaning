@@ -1,5 +1,6 @@
 {
-    "business_name": "Sparkly Maid Chicago",
+    "business_name": "Sparkly Maid",
+    "source_business_name": "Sparkly Maid",
     "tagline": "Professional Cleaning Services in chicago",
     "category": "Home Cleaning",
     "phone": "12242140145",
@@ -8,13 +9,13 @@
     "address": "",
     "city": "chicago",
     "state": "",
-    "country": "USA",
+    "country": "usa",
     "opening_hours": "",
     "rating": "3",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/Sparkly+Maid+Chicago/data=!4m7!3m6!1s0x880e2d0b652c5cfb:0xf03e22432ce346ce!8m2!3d41.954124!4d-87.7416854!16s%2Fg%2F11h7clgdyr!19sChIJ-1wsZQstDogRzkbjLEMiPvA?authuser=0&hl=en&rclk=1",
+    "google_maps_url": "https://www.google.com/maps/place/Sparkly+Maid+Chicago/data=!4m7!3m6!1s0x880e2d0b652c5cfb:0xf03e22432ce346ce!8m2!3d41.954124!4d-87.7416854!16s%2Fg%2F11h7clgdyr!19sChIJ-1wsZQstDogRzkbjLEMiPvA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
     "logo_url": "",
-    "hero_image": "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/1727600749699-MD2XU22EZSR6SGWHWNOE/Sparkly+Maid+Chicago+Cleaning+Services.jpg?format=1500w",
+    "hero_image": "",
     "service_areas": [
         "chicago"
     ],
@@ -41,41 +42,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/1727600749699-MD2XU22EZSR6SGWHWNOE/Sparkly+Maid+Chicago+Cleaning+Services.jpg?format=1500w",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/1727600749699-MD2XU22EZSR6SGWHWNOE/Sparkly+Maid+Chicago+Cleaning+Services.jpg",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/e7729c90-6d03-4a93-8fc0-29527f59ea25/extreme+home+cleaning.jpg",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/3d7224d9-0ec6-4291-837a-d05b8c420219/deep+cleaning+a+chicago+bathroom+with+Sparkly+Maid.jpg",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/c8de5730-e685-4b34-b1f7-9c63963dfb12/extreme+kitchen+cleaning+services+by+Sparkly+Maid.jpg",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/c604da81-551c-4cd1-8256-f287f22297fa/Sparkly+Maid+Chicagos+Favorite+Maid+Service.png",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/c526dfb9-530e-4a76-a304-9db5fb2e64f7/Sparkly+Maid+Cleaning+Services.png",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/3c188288-7ff9-4b84-bb65-1aae1a1596d7/Professional+Chicago+Maids.jpg",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/dfbb1c3f-4043-442c-912f-27fc6a4ac362/Chicago+Maids+Chicago+Maids.jpeg",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/1541582432595-B2WYJ16RNS3D5BJHBPNF/Sparkly+Maid+offers+reliable+and+affordable+cleaning+services.png",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/1541582209861-4PE8TJKHY3V1H9LZQENR/Chicago+Sparkly+Maid.png",
-        "https://images.squarespace-cdn.com/content/v1/5585b51ce4b0f2164efaa2b1/1546458027840-KGPEZ7YEJ6PWQ46CP46H/Well+Experienced+House+Maids+in+Chicago"
-    ],
-    "reviews": [],
-    "image_display": {
-        "hero": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "gallery": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        },
-        "services": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "before_after": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "logo": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        }
-    }
+    "business_images": [],
+    "reviews": []
 }
