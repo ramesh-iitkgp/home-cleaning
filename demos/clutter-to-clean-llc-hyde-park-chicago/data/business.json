@@ -1,0 +1,47 @@
+{
+    "business_name": "Clutter To Clean Llc",
+    "source_business_name": "Clutter To Clean Llc",
+    "tagline": "Professional Cleaning Services in Hyde Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17086287429",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n6127 S University Ave Unit 1269, Chicago, IL 60637, United States",
+    "city": "Hyde Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Clutter+to+Clean+LLC/data=!4m7!3m6!1s0x880e29ea533247d1:0xedd9b53eb67d63a6!8m2!3d41.7833265!4d-87.5974757!16s%2Fg%2F11lcqr8_ml!19sChIJ0UcyU-opDogRpmN9tj612e0?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Hyde Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
