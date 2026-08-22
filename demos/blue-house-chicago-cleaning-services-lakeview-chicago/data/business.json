@@ -1,0 +1,47 @@
+{
+    "business_name": "Blue House Chicago - Cleaning Services",
+    "source_business_name": "Blue House Chicago - Cleaning Services",
+    "tagline": "Professional Cleaning Services in Lakeview Chicago",
+    "category": "Home Cleaning",
+    "phone": "17738375144",
+    "whatsapp": "",
+    "email": "info@bluehousecleaning.com",
+    "address": "\n6011 W Irving Park Rd, Chicago, IL 60634, United States",
+    "city": "Lakeview Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Blue+House+Chicago+-+Cleaning+Services/data=!4m7!3m6!1s0x67388b7f3bf78699:0x410334099c8aff78!8m2!3d41.9528208!4d-87.7772392!16s%2Fg%2F11vzv9plvv!19sChIJmYb3O3-LOGcReP-KnAk0A0E?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lakeview Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
