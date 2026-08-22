@@ -1,10 +1,11 @@
 {
     "business_name": "E&K Cleaning Service",
+    "source_business_name": "E&K Cleaning Service",
     "tagline": "Professional Cleaning Services in chicago",
     "category": "Home Cleaning",
     "phone": "13124898222",
     "whatsapp": "",
-    "email": "contact@maidschicago.com",
+    "email": "",
     "address": "",
     "city": "chicago",
     "state": "",
@@ -12,9 +13,9 @@
     "opening_hours": "",
     "rating": "3",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/E%26K+Cleaning+Service/data=!4m7!3m6!1s0x880e2cac11572ac5:0x2f319e78a9058fec!8m2!3d41.832605!4d-87.6647645!16s%2Fg%2F124t2lsgs!19sChIJxSpXEawsDogR7I8FqXieMS8?authuser=0&hl=en&rclk=1",
+    "google_maps_url": "https://www.google.com/maps/place/E%26K+Cleaning+Service/data=!4m7!3m6!1s0x880e2cac11572ac5:0x2f319e78a9058fec!8m2!3d41.832605!4d-87.6647645!16s%2Fg%2F124t2lsgs!19sChIJxSpXEawsDogR7I8FqXieMS8?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
     "logo_url": "",
-    "hero_image": "https://www.maidschicago.com/wp-content/uploads/2024/11/eklogo24500.jpg",
+    "hero_image": "",
     "service_areas": [
         "chicago"
     ],
@@ -41,19 +42,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://www.maidschicago.com/wp-content/uploads/2024/11/eklogo24500.jpg",
-        "https://www.maidschicago.com/wp-content/uploads/2024/11/eklogo24mobile500T.png",
-        "https://inter-dir.com/wp-content/uploads/2024/12/slider2.png",
-        "https://www.maidschicago.com/wp-content/uploads/2020/11/intro-video-slider-282x200.jpg",
-        "https://inter-dir.com/wp-content/uploads/2024/12/slider4.png",
-        "https://inter-dir.com/wp-content/uploads/2024/12/slider5.png",
-        "https://www.maidschicago.com/wp-content/uploads/2024/11/IMG_6043.jpg",
-        "https://www.maidschicago.com/wp-content/uploads/2026/08/3716cc94-d76b-4857-b58d-4650f8254d99-570x270.jpg",
-        "https://www.maidschicago.com/wp-content/uploads/2026/06/2505711c-acfd-496f-95ba-2de3ef773f18-570x270.jpg",
-        "https://www.maidschicago.com/wp-content/uploads/2026/06/fa6b31b9-0baa-43a3-a0e4-0d7965b11565-570x270.jpg",
-        "https://www.maidschicago.com/wp-content/uploads/2024/11/IMG_5995.png",
-        "https://www.maidschicago.com/wp-content/uploads/2020/08/eklogo24mobile5002.jpg"
-    ],
+    "business_images": [],
     "reviews": []
 }
