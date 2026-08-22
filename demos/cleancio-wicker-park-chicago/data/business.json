@@ -1,0 +1,47 @@
+{
+    "business_name": "Cleancio",
+    "source_business_name": "Cleancio",
+    "tagline": "Professional Cleaning Services in Wicker Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13127895714",
+    "whatsapp": "",
+    "email": "info@cleancio.com",
+    "address": "\n1720 W Division St, Chicago, IL 60622, United States",
+    "city": "Wicker Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/CLEANCIO/data=!4m7!3m6!1s0x880fd2dac42bffff:0x12b8d2ca36043ce1!8m2!3d41.9035461!4d-87.6708657!16s%2Fg%2F11g8v6bc81!19sChIJ__8rxNrSD4gR4TwENsrSuBI?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Wicker Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/cleancio/",
+        "facebook": "https://www.facebook.com/cleancio/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
