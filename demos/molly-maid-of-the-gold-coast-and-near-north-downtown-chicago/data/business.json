@@ -1,0 +1,47 @@
+{
+    "business_name": "Molly Maid Of The Gold Coast And Near North",
+    "source_business_name": "Molly Maid Of The Gold Coast And Near North",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13127393574",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n2045 W Grand Ave Unit 204, Chicago, IL 60612, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Molly+Maid+of+the+Gold+Coast+and+Near+North/data=!4m7!3m6!1s0x880e2d49f3d4d7e3:0x133bbe31a7cf6f56!8m2!3d41.8905746!4d-87.6786747!16s%2Fg%2F11b6q4d2kf!19sChIJ49fU80ktDogRVm_PpzG-OxM?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/mollymaid/",
+        "facebook": "https://www.facebook.com/mollymaidchicagogoldcoast/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
