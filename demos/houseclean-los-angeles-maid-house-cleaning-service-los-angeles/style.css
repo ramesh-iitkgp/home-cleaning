@@ -2060,6 +2060,142 @@ ul, ol {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
+/* ========================================================================== 
+   DATA-DRIVEN IMAGE SAFEGUARDS & RESPONSIVE BRANDING
+   ========================================================================== */
+.brand-identity {
+  min-width: 0;
+  max-width: min(38vw, 360px);
+}
+
+.brand-name-group,
+.brand-name-text {
+  min-width: 0;
+}
+
+.brand-name-text {
+  overflow-wrap: anywhere;
+  font-size: clamp(0.92rem, 1.6vw, 1.25rem);
+}
+
+#nav-logo-container,
+#footer-logo-container {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.brand-logo-img,
+.footer-logo-img {
+  width: auto;
+  height: auto;
+  max-width: min(170px, 28vw);
+  max-height: 44px;
+  object-fit: contain !important;
+  object-position: center;
+}
+
+.hero-image-card {
+  aspect-ratio: 16 / 10;
+}
+
+.hero-image-card img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.service-img-wrapper {
+  aspect-ratio: 4 / 3;
+}
+
+.gallery-grid {
+  grid-auto-flow: dense;
+}
+
+.gallery-item {
+  aspect-ratio: 4 / 3;
+}
+
+.gallery-item:nth-child(5n + 1) {
+  aspect-ratio: 1 / 1;
+}
+
+.gallery-item img,
+.service-img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.image-unavailable {
+  display: none !important;
+}
+
+@media (max-width: 639px) {
+  .navbar-inner {
+    height: auto;
+    min-height: 70px;
+    gap: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .brand-identity {
+    max-width: calc(100% - 54px);
+    gap: 8px;
+  }
+
+  .brand-subtext {
+    display: none;
+  }
+
+  .brand-logo-img {
+    max-width: 112px;
+    max-height: 38px;
+  }
+
+  .brand-fallback-badge {
+    width: 38px;
+    height: 38px;
+  }
+
+  .nav-actions {
+    margin-left: auto;
+  }
+
+  .nav-quote-btn,
+  .nav-phone-btn,
+  .nav-whatsapp-btn {
+    display: none !important;
+  }
+
+  .mobile-nav-drawer {
+    top: 70px;
+  }
+
+  .hero {
+    padding-top: 32px;
+  }
+
+  .hero-title {
+    font-size: clamp(2.05rem, 10vw, 2.75rem);
+  }
+
+  .hero-image-card {
+    aspect-ratio: 4 / 3;
+  }
+
+  .hero-floating-badge {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    margin: -8px 16px 0;
+    max-width: none;
+  }
+
+  .gallery-grid {
+    gap: 12px;
+  }
+}
+
 .whatsapp-tooltip::after {
   content: '';
   position: absolute;
@@ -2090,4 +2226,3 @@ ul, ol {
     display: none;
   }
 }
-
