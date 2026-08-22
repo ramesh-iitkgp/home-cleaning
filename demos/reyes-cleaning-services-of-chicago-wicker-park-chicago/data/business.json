@@ -1,0 +1,47 @@
+{
+    "business_name": "Reyes Cleaning Services Of Chicago",
+    "source_business_name": "Reyes Cleaning Services Of Chicago",
+    "tagline": "Professional Cleaning Services in Wicker Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17083038806",
+    "whatsapp": "",
+    "email": "clean@reyesservicesillinois.com",
+    "address": "\n2647 East Ave, Berwyn, IL 60402, United States",
+    "city": "Wicker Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Reyes+Cleaning+Services+of+Chicago/data=!4m7!3m6!1s0x880e35a650a5c237:0x351cb151588204e9!8m2!3d41.841697!4d-87.7879614!16s%2Fg%2F11h6tmxpwj!19sChIJN8KlUKY1DogR6QSCWFGxHDU?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Wicker Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/reyescleaningchicago/",
+        "facebook": "https://www.facebook.com/reyescleaningchicago/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
