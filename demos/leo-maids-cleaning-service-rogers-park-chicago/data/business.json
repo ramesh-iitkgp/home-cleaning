@@ -1,0 +1,47 @@
+{
+    "business_name": "Leo Maids Cleaning Service",
+    "source_business_name": "Leo Maids Cleaning Service",
+    "tagline": "Professional Cleaning Services in Rogers Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18722942245",
+    "whatsapp": "",
+    "email": "info@leomaids.com",
+    "address": "\n6445 N Claremont Ave, Chicago, IL 60645, United States",
+    "city": "Rogers Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Leo+Maids+Cleaning+Service/data=!4m7!3m6!1s0x8d440311b3bac9a5:0x12095b68dddb7e6f!8m2!3d41.9990519!4d-87.6883708!16s%2Fg%2F11t_pyvp00!19sChIJpcm6sxEDRI0Rb37b3WhbCRI?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Rogers Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
