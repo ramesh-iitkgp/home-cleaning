@@ -1,17 +1,17 @@
 # Agency-Grade Home Cleaning Website Template
 
-A modern, high-converting, personalized website template engineered specifically for automated lead generation and white-label client deployment in the residential and commercial cleaning industry.
+A modern, high-converting, personalized website template engineered specifically for automated lead generation and white-label client deployment in the residential and commercial cleaning industry across **US, UK, New Zealand, Australia, India, and Canada**.
 
-Built with **HTML5, CSS3, and Vanilla JavaScript**, this template is **100% data-driven** and strictly adheres to subdirectory deployment rules (e.g., `https://yourdomain.com/demos/super-cleaners-london/`).
+Built with **HTML5, CSS3, and Vanilla JavaScript**, this template is **100% data-driven**, lightning fast, and strictly adheres to subdirectory deployment rules (e.g., `https://yourdomain.com/demos/super-cleaners-london/`).
 
 ---
 
-## Core Template Files
+## Core Template Structure
 
 ```text
-├── index.html                  # Accessible, semantic HTML markup with dynamic [data-bind] hooks
-├── style.css                   # Modern CSS design system (Deep Slate Navy & Sparkling Ocean Blue)
-├── script.js                   # Universal data engine, before/after slider, gallery lightbox, SEO
+├── index.html                  # Accessible, semantic HTML markup with dynamic placeholders
+├── style.css                   # Modern CSS design system (Deep Slate Navy, Ocean Blue & Fresh Mint)
+├── script.js                   # Universal data engine, interactive calculator, before/after slider
 ├── data/
 │   └── business.json           # SOLE authoritative source of customer-specific business information
 └── README.md                   # Automation documentation and integration guide
@@ -21,30 +21,32 @@ Built with **HTML5, CSS3, and Vanilla JavaScript**, this template is **100% data
 
 ## Key Features & Conversion Architecture
 
-1. **Hyper-Personalized Brand Exposure**:
-   - The business name is positioned prominently throughout the navigation, hero section, "Services from [Business]", "Why Choose [Business]", "Our Work Gallery", and the final CTA.
-   - Supports custom `logo_url` or generates a bespoke vector brand mark automatically.
+1. **Hyper-Personalized Business Identity**:
+   - Company name, tagline, category, full address, direct phone, WhatsApp chat, email, website link, and Google Maps integration.
+   - Supports custom `logo_url` or automatically renders a modern vector brand mark.
 
-2. **Interactive "Before & After" Comparison Slider**:
-   - Touch/mouse drag-enabled split-image comparison slider to showcase cleaning transformations.
-   - Dynamic tab switching between multiple project pairs (Kitchens, Bathrooms, Living Spaces, Floors).
+2. **Multi-Region & Multi-Currency Engine**:
+   - Built-in dynamic support for **United States ($), United Kingdom (£), Australia (A$), New Zealand (NZ$), Canada (C$), and India (₹)**.
+   - Built-in demo switcher with 6 regional business presets to preview live adaptability.
 
-3. **Dynamic Services Grid & Instant Quote Calculator**:
-   - Renders service cards dynamically from `services` array in `business.json`.
-   - Clicking "Request this service" auto-selects the service in the estimate calculator below.
+3. **Interactive "Before & After" Split Slider**:
+   - Touch/mouse drag-enabled split-image comparison slider to showcase cleaning transformations (Kitchen, Bathroom, Living Space, Oven Grime).
 
-4. **Interactive Work Gallery with Lightbox**:
-   - Grid masonry layout with fullscreen lightbox modal, keyboard navigation (`ESC`, arrow keys), and backdrop dismiss.
+4. **Live Instant Quote & Cost Estimator**:
+   - Interactive bedrooms & bathrooms selector, property type chip toggle, cleaning tiers (Regular, Deep, Move-Out), recurring frequency discounts (-15%, -20%), and add-ons (Oven, Fridge, Windows, Carpet).
+   - Generates instant localized pricing and 1-click WhatsApp / Email booking inquiries.
 
-5. **Verified Reviews & Star Rating Social Proof**:
-   - Dynamically renders real Google/Trustpilot reviews with star ratings and author badges.
-   - Gracefully hides rating containers if rating data is omitted without leaving empty gaps or broken layouts.
+5. **Room-by-Room Cleaning Checklist Matrix**:
+   - Tabbed scope breakdown for Kitchens, Bathrooms, Living Areas, and Move-Out Turnover.
 
-6. **Subdirectory & Static Hosting Ready**:
-   - All assets (`./style.css`, `./script.js`, `./data/business.json`) use relative paths to guarantee flawless execution in GitHub Pages, S3, Netlify, Cloudflare Pages, or custom subfolders.
+6. **Interactive Service Area Finder**:
+   - Suburb tag cloud and real-time search input for visitors to confirm local coverage.
 
-7. **Zero-Defect Graceful Degradation**:
-   - If optional fields (logo, Instagram, TikTok, Facebook, email, maps link, reviews, before/after pairs) are omitted, their corresponding UI elements hide automatically without visual glitches.
+7. **Verified Social Proof & Reviews**:
+   - Google & Trustpilot review cards with star ratings, reviewer details, and date badges.
+
+8. **Zero-Defect Graceful Degradation**:
+   - If any optional field (e.g. logo, TikTok, years in business, custom photos) is omitted, its UI element hides automatically without visual defects or layout gaps.
 
 ---
 
@@ -54,19 +56,25 @@ The template accepts both `snake_case` and `camelCase` keys:
 
 ```json
 {
-  "_comment": "SOLE authoritative source of truth for the website.",
+  "_comment": "Authoritative source of truth for the website.",
   "business_name": "Super Cleaners London",
-  "tagline": "Premium Residential & Commercial Cleaning Services in London",
+  "tagline": "Award-Winning Residential, Deep & Move-Out Cleaning Specialists",
   "category": "Residential & Commercial Cleaning",
   "phone": "+44 20 7946 0912",
+  "whatsapp": "+44 20 7946 0912",
   "email": "contact@supercleanerslondon.co.uk",
+  "website_url": "https://supercleanerslondon.co.uk",
   "address": "45 Baker Street, Marylebone, London W1U 8ED",
   "city": "London",
   "state": "Greater London",
   "country": "United Kingdom",
+  "currency_symbol": "£",
+  "currency_code": "GBP",
   "opening_hours": "Mon - Sat: 8:00 AM - 7:00 PM | Sun: 9:00 AM - 4:00 PM",
   "rating": "4.9",
-  "review_count": "148",
+  "review_count": "184",
+  "years_in_business": "12+ Years in Business",
+  "established_year": "2014",
   "google_maps_url": "https://maps.google.com/?q=London+UK",
   "logo_url": "",
   "hero_image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80",
@@ -75,70 +83,54 @@ The template accepts both `snake_case` and `camelCase` keys:
     "Westminster",
     "Kensington & Chelsea",
     "Camden",
-    "Islington",
     "Mayfair",
-    "Battersea",
-    "Fulham"
+    "Battersea"
   ],
   "social": {
     "instagram": "https://instagram.com/supercleanerslondon",
     "facebook": "https://facebook.com/supercleanerslondon",
-    "tiktok": ""
+    "tiktok": "https://tiktok.com/@supercleanerslondon",
+    "linkedin": "https://linkedin.com/company/supercleanerslondon",
+    "youtube": "https://youtube.com/@supercleanerslondon",
+    "twitter": "https://x.com/supercleanersuk",
+    "yelp": "https://yelp.co.uk/biz/supercleaners-london",
+    "pinterest": "https://pinterest.com/supercleanerslondon"
   },
   "before_after_pairs": [
     {
-      "title": "Kitchen Deep Clean & Degreasing",
-      "description": "Thorough extraction of grease, range hood polishing, and tile descaling.",
-      "before": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1000&q=80",
-      "after": "https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?auto=format&fit=crop&w=1000&q=80"
+      "id": "kitchen",
+      "badge": "Kitchen Restoration",
+      "title": "Kitchen Degreasing & Stovetop Restoration",
+      "description": "Removal of heavy grease splatter, burnt stovetop carbon, and messy clutter.",
+      "before": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=1200&q=80",
+      "after": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "before_stats": "Heavy grease, clutter & burnt spills",
+      "after_stats": "100% Degreased & showroom shine"
     }
   ],
   "services": [
     {
       "name": "Regular Home Cleaning",
-      "description": "Tailored routine housekeeping on a weekly or bi-weekly schedule for a consistently spotless home.",
-      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80"
+      "badge": "Popular Housekeeping",
+      "price_from": "£22/hr",
+      "description": "Consistent weekly or bi-weekly housekeeping tailored to keep your living spaces fresh.",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+      "features": [
+        "Dusting & vacuuming all rooms",
+        "Kitchen counters & stovetop scrub",
+        "Complete bathroom sanitization"
+      ]
     }
-  ],
-  "business_images": [
-    "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
-    "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
   ],
   "reviews": [
     {
       "author": "Victoria Sterling",
       "rating": 5,
-      "text": "Super Cleaners London did an exceptional job on our 4-bedroom flat in Marylebone.",
-      "source": "Google Review"
+      "text": "Super Cleaners London did an exceptional job on our flat in Marylebone.",
+      "source": "Google Review",
+      "date": "1 week ago",
+      "service": "End of Tenancy Deep Clean"
     }
   ]
 }
-```
-
----
-
-## Automated Python Deployment Example
-
-```python
-import json
-import shutil
-import os
-
-def deploy_cleaning_lead_website(lead_data: dict, template_root: str, target_dir: str):
-    """
-    Deploys a fully personalized cleaning site demo by copying template files
-    and generating the data/business.json file.
-    """
-    os.makedirs(os.path.join(target_dir, 'data'), exist_ok=True)
-    
-    # 1. Copy core template assets
-    for static_file in ['index.html', 'style.css', 'script.js']:
-        shutil.copy2(os.path.join(template_root, static_file), os.path.join(target_dir, static_file))
-        
-    # 2. Write personalized business.json
-    json_path = os.path.join(target_dir, 'data', 'business.json')
-    with open(json_path, 'w', encoding='utf-8') as f:
-        json.dump(lead_data, f, indent=2, ensure_ascii=False)
-        
-    print(f"Personalized demo created at: {target_dir}")
 ```

@@ -1,5 +1,6 @@
 {
-    "business_name": "House Keep Up Chicago",
+    "business_name": "House Keep Up",
+    "source_business_name": "House Keep Up",
     "tagline": "Professional Cleaning Services in chicago",
     "category": "Home Cleaning",
     "phone": "17087378722",
@@ -8,13 +9,13 @@
     "address": "\n8 S Michigan Ave Suite #1313, Chicago, IL 60603, United States",
     "city": "chicago",
     "state": "",
-    "country": "USA",
+    "country": "usa",
     "opening_hours": "",
-    "rating": "1",
+    "rating": "3",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/House+Keep+Up+Chicago/data=!4m7!3m6!1s0x880fd19cb614b4fd:0x49e44eec5436e515!8m2!3d41.8818933!4d-87.6249046!16s%2Fg%2F11gyjpptsh!19sChIJ_bQUtpzRD4gRFeU2VOxO5Ek?authuser=0&hl=en&rclk=1",
-    "logo_url": "https://housekeepup.com/wp-content/uploads/2018/07/house-keep-up-logo-modified-small.png",
-    "hero_image": "https://www.facebook.com/tr?id=109952659660818&amp;ev=PageView&amp;noscript=1",
+    "google_maps_url": "https://www.google.com/maps/place/House+Keep+Up+Chicago/data=!4m7!3m6!1s0x880fd19cb614b4fd:0x49e44eec5436e515!8m2!3d41.8818933!4d-87.6249046!16s%2Fg%2F11gyjpptsh!19sChIJ_bQUtpzRD4gRFeU2VOxO5Ek?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
     "service_areas": [
         "chicago"
     ],
@@ -41,41 +42,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://www.facebook.com/tr?id=109952659660818&amp;ev=PageView&amp;noscript=1",
-        "https://housekeepup.com/wp-content/uploads/2018/07/house-keep-up-logo-modified-small.png",
-        "https://housekeepup.com/wp-content/uploads/2018/07/394560-128.png",
-        "https://housekeepup.com/wp-content/uploads/2018/07/780042-128.png",
-        "https://housekeepup.com/wp-content/uploads/2018/07/400125-128.png",
-        "https://housekeepup.com/wp-content/uploads/2024/07/google-4.9.png",
-        "https://housekeepup.com/wp-content/uploads/2024/07/neighborhood_fave1.png",
-        "https://housekeepup.com/wp-content/uploads/2024/07/yelp_4.5.png",
-        "https://housekeepup.com/wp-content/uploads/2022/06/home-standard.png",
-        "https://housekeepup.com/wp-content/uploads/2022/06/home-deep.png",
-        "https://housekeepup.com/wp-content/uploads/2022/06/home-move.png",
-        "https://housekeepup.com/wp-content/uploads/2025/11/Standard-Cleaning.webp"
-    ],
-    "reviews": [],
-    "image_display": {
-        "hero": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "gallery": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        },
-        "services": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "before_after": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "logo": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        }
-    }
+    "business_images": [],
+    "reviews": []
 }
