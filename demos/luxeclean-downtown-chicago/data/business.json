@@ -1,0 +1,47 @@
+{
+    "business_name": "Luxeclean",
+    "source_business_name": "Luxeclean",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13123003832",
+    "whatsapp": "",
+    "email": "support@luxecleanchi.com",
+    "address": "\n230 E Ontario St, Chicago, IL 60611, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/LuxeClean/data=!4m7!3m6!1s0x4b592a7221fabe19:0x201756edde2d422!8m2!3d41.8936581!4d-87.6212229!16s%2Fg%2F11w1cbkpdf!19sChIJGb76IXIqWUsRItTi3W51AQI?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/luxecleanchi/",
+        "facebook": "https://www.facebook.com/luxecleanchi/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
