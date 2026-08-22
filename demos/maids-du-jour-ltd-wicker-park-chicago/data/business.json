@@ -1,0 +1,47 @@
+{
+    "business_name": "Maids Du Jour Ltd",
+    "source_business_name": "Maids Du Jour Ltd",
+    "tagline": "Professional Cleaning Services in Wicker Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18728293511",
+    "whatsapp": "",
+    "email": "info@maidsdujour.com",
+    "address": "\n2800 W Chicago Ave, Chicago, IL 60622, United States",
+    "city": "Wicker Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Maids+Du+Jour,+Ltd./data=!4m7!3m6!1s0x880e2d779bc404e5:0xdb8acb791466f779!8m2!3d41.8958028!4d-87.6969007!16s%2Fg%2F11b6g8v1hj!19sChIJ5QTEm3ctDogRefdmFHnLits?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Wicker Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
