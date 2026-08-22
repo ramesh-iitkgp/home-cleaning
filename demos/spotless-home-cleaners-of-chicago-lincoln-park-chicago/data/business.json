@@ -1,0 +1,47 @@
+{
+    "business_name": "Spotless Home Cleaners Of Chicago",
+    "source_business_name": "Spotless Home Cleaners Of Chicago",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18474997075",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Spotless+Home+Cleaners+of+Chicago/data=!4m7!3m6!1s0x880fc915761a3795:0xd1f7c5468154bc32!8m2!3d42.0003688!4d-87.8126196!16s%2Fg%2F11w7k2ll91!19sChIJlTcadhXJD4gRMrxUgUbF99E?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/spotless_home_cleaners/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
