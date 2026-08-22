@@ -1,0 +1,47 @@
+{
+    "business_name": "Mendez High Cleaning",
+    "source_business_name": "Mendez High Cleaning",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "19183137480",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n4728 N Lawndale Ave, Chicago, IL 60625, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Mendez+High+Cleaning/data=!4m7!3m6!1s0x66aae17240405907:0x90ad3cd47b1b18e0!8m2!3d41.967364!4d-87.7209771!16s%2Fg%2F11rsg_xf98!19sChIJB1lAQHLhqmYR4Bgbe9Q8rZA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
