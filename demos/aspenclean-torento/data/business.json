@@ -1,0 +1,46 @@
+{
+    "business_name": "Aspenclean",
+    "tagline": "Professional Cleaning Services in torento",
+    "category": "Home Cleaning",
+    "phone": "14165464593",
+    "whatsapp": "",
+    "email": "contact@aspenclean.com",
+    "address": "\n85 Ellesmere Rd #204, Scarborough, ON M1R 4B8, Canada",
+    "city": "torento",
+    "state": "",
+    "country": "canada",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/AspenClean/data=!4m7!3m6!1s0x89d4d2a03b04b4ab:0x89d374d3ba19af9d!8m2!3d43.7575723!4d-79.3109514!16s%2Fg%2F1q2wgm3b7!19sChIJq7QEO6DS1IkRna8ZutN004k?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "torento"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/aspenclean/",
+        "facebook": "https://www.facebook.com/aspenclean/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
