@@ -1,0 +1,47 @@
+{
+    "business_name": "Pearlie Sue Cleaning",
+    "source_business_name": "Pearlie Sue Cleaning",
+    "tagline": "Professional Cleaning Services in West Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "13126258199",
+    "whatsapp": "",
+    "email": "support@pearliesuecleaning.com",
+    "address": "\n1440 W Taylor St #2664, Chicago, IL 60607, United States",
+    "city": "West Loop Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Pearlie+Sue+Cleaning/data=!4m7!3m6!1s0x880e2d220af893e3:0x4be471c96b87a1a3!8m2!3d41.8694578!4d-87.663321!16s%2Fg%2F11f7bs64p5!19sChIJ45P4CiItDogRo6GHa8lx5Es?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "West Loop Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/pearliesuecleaning/",
+        "facebook": "https://www.facebook.com/pearliesuecleaning/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
