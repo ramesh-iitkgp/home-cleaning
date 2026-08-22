@@ -1,0 +1,47 @@
+{
+    "business_name": "Get It Done",
+    "source_business_name": "Get It Done",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13126260795",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n88 E Wacker Pl #3309, Chicago, IL 60601, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Get+It+Done/data=!4m7!3m6!1s0x880e2d76329b8167:0x9b753458ca503ca0!8m2!3d41.8869919!4d-87.6250007!16s%2Fg%2F11r7xn2t1g!19sChIJZ4GbMnYtDogRoDxQylg0dZs?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
