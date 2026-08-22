@@ -1,0 +1,47 @@
+{
+    "business_name": "Sapphire Home Cleaning",
+    "source_business_name": "Sapphire Home Cleaning",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17087298902",
+    "whatsapp": "",
+    "email": "support@sapphirehomecleaning.com",
+    "address": "",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Sapphire+Home+Cleaning/data=!4m7!3m6!1s0x89bb4861dfdf8d35:0x3619c0e9976fcd5d!8m2!3d41.982671!4d-87.641788!16s%2Fg%2F11vfb1s82m!19sChIJNY3f32FIu4kRXc1vl-nAGTY?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
