@@ -1,0 +1,47 @@
+{
+    "business_name": "Gloclean Chicago Best House Cleaning Service",
+    "source_business_name": "Gloclean Chicago Best House Cleaning Service",
+    "tagline": "Professional Cleaning Services in South Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "16468868135",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n323 E Wacker Dr #123, Chicago, IL 60601, United States",
+    "city": "South Loop Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/GloClean+Chicago+Best+House+Cleaning+Service/data=!4m7!3m6!1s0x880e2dce3b788bd1:0x784f903436060a8b!8m2!3d41.88708!4d-87.6194984!16s%2Fg%2F11glf3nb_z!19sChIJ0Yt4O84tDogRiwoGNjSQT3g?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "South Loop Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
