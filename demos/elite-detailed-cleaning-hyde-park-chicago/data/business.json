@@ -1,0 +1,47 @@
+{
+    "business_name": "Elite Detailed Cleaning",
+    "source_business_name": "Elite Detailed Cleaning",
+    "tagline": "Professional Cleaning Services in Hyde Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18722391113",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "Hyde Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "43",
+    "google_maps_url": "https://www.google.com/maps/place/Elite+Detailed+Cleaning/data=!4m7!3m6!1s0x8b0f311f34cc6249:0x5293b77867e4d98f!8m2!3d41.7791201!4d-87.966015!16s%2Fg%2F11ssd6v1m4!19sChIJSWLMNB8xD4sRj9nkZ3i3k1I?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Hyde Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
