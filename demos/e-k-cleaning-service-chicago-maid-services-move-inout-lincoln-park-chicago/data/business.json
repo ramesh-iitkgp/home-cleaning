@@ -1,0 +1,47 @@
+{
+    "business_name": "E&K Cleaning Service - Chicago Maid Services Move Inout",
+    "source_business_name": "E&K Cleaning Service - Chicago Maid Services Move Inout",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17733878222",
+    "whatsapp": "",
+    "email": "contact@maidschicago.com",
+    "address": "\n7110 W Higgins Ave, Chicago, IL 60656, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/E%26K+Cleaning+Service+-+Chicago+Maid+Services,+Move+in%2Fout/data=!4m7!3m6!1s0x880fca1e1161c459:0x1213872ac8c0c4c!8m2!3d41.9809253!4d-87.8051236!16s%2Fg%2F1tyyxqb9!19sChIJWcRhER7KD4gRTAyMrHI4IQE?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
