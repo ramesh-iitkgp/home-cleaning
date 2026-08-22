@@ -1,0 +1,46 @@
+{
+    "business_name": "Maidup House Cleaning Services",
+    "tagline": "Professional Cleaning Services in los angeles",
+    "category": "Home Cleaning",
+    "phone": "12132216641",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n500 S Sepulveda Blvd, Los Angeles, CA 90049, United States",
+    "city": "los angeles",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/MAIDUP+House+Cleaning+Services/data=!4m7!3m6!1s0x80c2bd720d6af77d:0x274919e78318ef3c!8m2!3d34.0660939!4d-118.4598298!16s%2Fg%2F11n4r6jxzt!19sChIJffdqDXK9woARPO8Yg-cZSSc?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "los angeles"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
