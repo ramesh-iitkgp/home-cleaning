@@ -1,0 +1,47 @@
+{
+    "business_name": "Homeaglow House Cleaning",
+    "source_business_name": "Homeaglow House Cleaning",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "4.9",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Homeaglow+House+Cleaning+-+Chicago/data=!4m7!3m6!1s0xc399cba458c62ab:0xc024598db7c0cf9a!8m2!3d41.8337105!4d-87.731879!16s%2Fg%2F11zhwy8s32!19sChIJq2KMRbqcOQwRms_At41ZJMA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/homeaglow_/",
+        "facebook": "https://www.facebook.com/homeaglowofficial/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
