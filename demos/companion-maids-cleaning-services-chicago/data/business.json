@@ -1,5 +1,6 @@
 {
     "business_name": "Companion Maids Cleaning Services",
+    "source_business_name": "Companion Maids Cleaning Services",
     "tagline": "Professional Cleaning Services in chicago",
     "category": "Home Cleaning",
     "phone": "17733466714",
@@ -8,13 +9,13 @@
     "address": "\n500 N Michigan Ave Unit 600, Chicago, IL 60611, United States",
     "city": "chicago",
     "state": "",
-    "country": "USA",
+    "country": "usa",
     "opening_hours": "",
     "rating": "1",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/Companion+Maids+Cleaning+Services/data=!4m7!3m6!1s0x880e2cac1467e78b:0x644adf71dcd35732!8m2!3d41.8911436!4d-87.6246058!16s%2Fg%2F11c1plv0fs!19sChIJi-dnFKwsDogRMlfT3HHfSmQ?authuser=0&hl=en&rclk=1",
-    "logo_url": "https://companionmaids.com/wp-content/uploads/2017/04/Companion-Maids-1000x220.png",
-    "hero_image": "https://www.facebook.com/tr?id=716802138512815&ev=PageView&noscript=1",
+    "google_maps_url": "https://www.google.com/maps/place/Companion+Maids+Cleaning+Services/data=!4m7!3m6!1s0x880e2cac1467e78b:0x644adf71dcd35732!8m2!3d41.8911436!4d-87.6246058!16s%2Fg%2F11c1plv0fs!19sChIJi-dnFKwsDogRMlfT3HHfSmQ?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
     "service_areas": [
         "chicago"
     ],
@@ -41,41 +42,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://www.facebook.com/tr?id=716802138512815&ev=PageView&noscript=1",
-        "https://companionmaids.com/wp-content/uploads/2024/12/ic_baseline-phone.svg",
-        "https://companionmaids.com/wp-content/uploads/2017/04/Companion-Maids-1000x220.png",
-        "https://companionmaids.com/wp-content/uploads/2024/11/Component-6-1.svg",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-10.png",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-11.png",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-12.png",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-9.jpg",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-21.png",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-20.png",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-8.png",
-        "https://companionmaids.com/wp-content/uploads/2024/11/image-23-2.png"
-    ],
-    "reviews": [],
-    "image_display": {
-        "hero": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "gallery": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        },
-        "services": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "before_after": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "logo": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        }
-    }
+    "business_images": [],
+    "reviews": []
 }
