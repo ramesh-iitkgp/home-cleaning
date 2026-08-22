@@ -1,0 +1,47 @@
+{
+    "business_name": "Accessmaids Inc",
+    "source_business_name": "Accessmaids Inc",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13122624977",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n1016 W Jackson Blvd #37, Chicago, IL 60607, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "2",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Accessmaids+Inc/data=!4m7!3m6!1s0x880e2cddd031dec3:0x96957e02196deaca!8m2!3d41.8780265!4d-87.652725!16s%2Fg%2F1tlwg6w0!19sChIJw94x0N0sDogRyuptGQJ-lZY?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
