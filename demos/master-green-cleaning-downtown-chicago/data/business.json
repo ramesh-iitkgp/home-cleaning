@@ -1,0 +1,47 @@
+{
+    "business_name": "Master Green Cleaning",
+    "source_business_name": "Master Green Cleaning",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13129124263",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n837 N Western Ave, Chicago, IL 60622, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Master+Green+Cleaning/data=!4m7!3m6!1s0x880fd2b2b6ff979b:0xe352e0bcf6c72613!8m2!3d41.8968888!4d-87.6866335!16s%2Fg%2F1q69sdq62!19sChIJm5f_trLSD4gREybH9rzgUuM?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
