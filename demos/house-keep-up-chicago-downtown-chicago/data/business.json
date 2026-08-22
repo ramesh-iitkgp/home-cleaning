@@ -1,0 +1,47 @@
+{
+    "business_name": "House Keep Up Chicago",
+    "source_business_name": "House Keep Up Chicago",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17087378722",
+    "whatsapp": "",
+    "email": "hello@housekeepup.com",
+    "address": "\n8 S Michigan Ave Suite #1313, Chicago, IL 60603, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/House+Keep+Up+Chicago/data=!4m7!3m6!1s0x880fd19cb614b4fd:0x49e44eec5436e515!8m2!3d41.8818933!4d-87.6249046!16s%2Fg%2F11gyjpptsh!19sChIJ_bQUtpzRD4gRFeU2VOxO5Ek?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/housekeepup/",
+        "facebook": "https://www.facebook.com/housekeepup/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
