@@ -1,5 +1,6 @@
 {
     "business_name": "Chicago Clean Home",
+    "source_business_name": "Chicago Clean Home",
     "tagline": "Professional Cleaning Services in chicago",
     "category": "Home Cleaning",
     "phone": "17737699145",
@@ -8,13 +9,13 @@
     "address": "\n3501 N Southport Ave #110, Chicago, IL 60657, United States",
     "city": "chicago",
     "state": "",
-    "country": "USA",
+    "country": "usa",
     "opening_hours": "",
     "rating": "4",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/Chicago+Clean+Home/data=!4m7!3m6!1s0x880fd251fd1fc71d:0x42fa379720b739b3!8m2!3d41.945374!4d-87.663703!16s%2Fg%2F12vs_h1ns!19sChIJHccf_VHSD4gRszm3IJc3-kI?authuser=0&hl=en&rclk=1",
-    "logo_url": "https://static.wixstatic.com/media/1bf077_fb589495d6984a15b738d7e289dbca42~mv2.png/v1/fill/w_247,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CleanHome_logo-Final-2.png",
-    "hero_image": "https://static.wixstatic.com/media/1bf077_fb589495d6984a15b738d7e289dbca42~mv2.png/v1/fill/w_247,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CleanHome_logo-Final-2.png",
+    "google_maps_url": "https://www.google.com/maps/place/Chicago+Clean+Home/data=!4m7!3m6!1s0x880fd251fd1fc71d:0x42fa379720b739b3!8m2!3d41.945374!4d-87.663703!16s%2Fg%2F12vs_h1ns!19sChIJHccf_VHSD4gRszm3IJc3-kI?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
     "service_areas": [
         "chicago"
     ],
@@ -41,40 +42,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://static.wixstatic.com/media/1bf077_fb589495d6984a15b738d7e289dbca42~mv2.png/v1/fill/w_247,h_40,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CleanHome_logo-Final-2.png",
-        "https://static.wixstatic.com/media/5b7e139d046c40c1a1acde7162607721.jpg/v1/fill/w_1280,h_912,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/5b7e139d046c40c1a1acde7162607721.jpg",
-        "https://static.wixstatic.com/media/1bf077_a3355fc721174915b6f121d4d38bd927~mv2.png/v1/fill/w_192,h_178,al_c,q_85,enc_avif,quality_auto/1bf077_a3355fc721174915b6f121d4d38bd927~mv2.png",
-        "https://static.wixstatic.com/media/1bf077_27e90319121744f3b6fd5da948e1d9b0~mv2.jpg/v1/fill/w_640,h_900,al_b,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1bf077_27e90319121744f3b6fd5da948e1d9b0~mv2.jpg",
-        "https://static.wixstatic.com/media/nsplsh_6875576c62314e50363777~mv2_d_7941_5297_s_4_2.jpg/v1/fill/w_1280,h_900,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nsplsh_6875576c62314e50363777~mv2_d_7941_5297_s_4_2.jpg",
-        "https://static.wixstatic.com/media/7116fade898943d6a8eb5d88900cbb3d.jpg/v1/fill/w_292,h_165,fp_0.50_0.50,q_90,enc_avif,quality_auto/7116fade898943d6a8eb5d88900cbb3d.webp",
-        "https://static.wixstatic.com/media/11062b_25d3f1898ece4974865eada4b85331a2~mv2.jpg/v1/fill/w_292,h_165,fp_0.50_0.50,q_90,enc_avif,quality_auto/11062b_25d3f1898ece4974865eada4b85331a2~mv2.webp",
-        "https://static.wixstatic.com/media/1bf077_76ea104a4f8d4e0ea849f16ca595fc7d~mv2.jpg/v1/fill/w_292,h_165,fp_0.50_0.50,q_90,enc_avif,quality_auto/1bf077_76ea104a4f8d4e0ea849f16ca595fc7d~mv2.webp",
-        "https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/0fdef751204647a3bbd7eaa2827ed4f9.png",
-        "https://static.wixstatic.com/media/01c3aff52f2a4dffa526d7a9843d46ea.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/01c3aff52f2a4dffa526d7a9843d46ea.png",
-        "https://static.wixstatic.com/media/1bf077_88fa3d8df6cd494681a94a0baddb1ee2%7Emv2.jpg/v1/fit/w_2500,h_1330,al_c/1bf077_88fa3d8df6cd494681a94a0baddb1ee2%7Emv2.jpg"
-    ],
-    "reviews": [],
-    "image_display": {
-        "hero": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "gallery": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        },
-        "services": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "before_after": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "logo": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        }
-    }
+    "business_images": [],
+    "reviews": []
 }
