@@ -1,0 +1,47 @@
+{
+    "business_name": "U Have It Maid - Chicago Cleaning Services",
+    "source_business_name": "U Have It Maid - Chicago Cleaning Services",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13124602540",
+    "whatsapp": "",
+    "email": "info@uhaveitmaidchicago.com",
+    "address": "\n1500 N Halsted St, Chicago, IL 60642, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/U+HAVE+IT+MAID+-+Chicago+Cleaning+Services/data=!4m7!3m6!1s0x214a940db55ef641:0x6d96ee5a2fb9e74b!8m2!3d41.9087598!4d-87.6485652!16s%2Fg%2F11t8h1qhn_!19sChIJQfZetQ2USiERS-e5L1rulm0?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/uhaveitmaidchi/",
+        "facebook": "https://www.facebook.com/uhaveitmaidchi/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
