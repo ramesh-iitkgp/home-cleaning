@@ -1,0 +1,47 @@
+{
+    "business_name": "Immaculate Cleaners Chicago",
+    "source_business_name": "Immaculate Cleaners Chicago",
+    "tagline": "Professional Cleaning Services in Lakeview Chicago",
+    "category": "Home Cleaning",
+    "phone": "13126000795",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n5050 N Broadway, Chicago, IL 60640, United States",
+    "city": "Lakeview Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Immaculate+Cleaners+Chicago/data=!4m7!3m6!1s0x880fd38f9450e0a7:0x9e5999578a992995!8m2!3d41.974065!4d-87.6602293!16s%2Fg%2F11q1rrsyhm!19sChIJp-BQlI_TD4gRlSmZileZWZ4?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lakeview Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
