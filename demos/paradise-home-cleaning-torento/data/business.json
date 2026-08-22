@@ -1,0 +1,46 @@
+{
+    "business_name": "Paradise Home Cleaning",
+    "tagline": "Professional Cleaning Services in torento",
+    "category": "Home Cleaning",
+    "phone": "16474949281",
+    "whatsapp": "",
+    "email": "info@paradisehomecleaning.ca",
+    "address": "\n2967 Dundas St W, Toronto, ON M6P 1Z2, Canada",
+    "city": "torento",
+    "state": "",
+    "country": "canada",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Paradise+Home+Cleaning/data=!4m7!3m6!1s0x893c360ec6a90f53:0x3eda384b6d805353!8m2!3d43.6652713!4d-79.4680813!16s%2Fg%2F11scnqldzs!19sChIJUw-pxg42PIkRU1OAbUs42j4?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "torento"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/paradisehomecleaning/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
