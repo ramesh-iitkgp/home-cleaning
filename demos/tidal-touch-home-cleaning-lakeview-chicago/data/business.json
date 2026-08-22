@@ -1,0 +1,47 @@
+{
+    "business_name": "Tidal Touch Home Cleaning",
+    "source_business_name": "Tidal Touch Home Cleaning",
+    "tagline": "Professional Cleaning Services in Lakeview Chicago",
+    "category": "Home Cleaning",
+    "phone": "17739004560",
+    "whatsapp": "",
+    "email": "hello@tidaltouchcleaning.com",
+    "address": "\n3065 N Rockwell St #301, Chicago, IL 60618, United States",
+    "city": "Lakeview Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Tidal+Touch+Home+Cleaning/data=!4m7!3m6!1s0x67cce1f408dfd055:0xb1ef1ddc9228e458!8m2!3d41.9378033!4d-87.692457!16s%2Fg%2F11xp82fm5q!19sChIJVdDfCPThzGcRWOQoktwd77E?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lakeview Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/tidaltouchhomecleaning/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
