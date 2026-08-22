@@ -1,0 +1,47 @@
+{
+    "business_name": "Sb Cleaning",
+    "source_business_name": "Sb Cleaning",
+    "tagline": "Professional Cleaning Services in Rogers Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18727725781",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "Rogers Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/SB+Cleaning/data=!4m7!3m6!1s0x2ba5dce20ed0ee67:0x5b5fbb8394dd4c!8m2!3d41.8119986!4d-87.6874016!16s%2Fg%2F11nqrfby_6!19sChIJZ-7QDuLcpSsRTN2Ug7tfWwA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Rogers Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
