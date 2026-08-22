@@ -1,0 +1,47 @@
+{
+    "business_name": "Emma'S Cleaning Chicago",
+    "source_business_name": "Emma'S Cleaning Chicago",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13126007879",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Emma%27s+Cleaning+Chicago/data=!4m7!3m6!1s0x8987d13b2e5ffbfd:0x4c561c1ffa16ea86!8m2!3d41.8337105!4d-87.731879!16s%2Fg%2F11zjmd322q!19sChIJ_ftfLjvRh4kRhuoW-h8cVkw?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/emmascleaningchicago/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
