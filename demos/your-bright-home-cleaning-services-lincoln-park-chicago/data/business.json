@@ -1,0 +1,47 @@
+{
+    "business_name": "Your Bright Home Cleaning Services",
+    "source_business_name": "Your Bright Home Cleaning Services",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13122486114",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n8504 W Catherine Ave, Chicago, IL 60656, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "2",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Your+Bright+Home+Cleaning+Services/data=!4m7!3m6!1s0x880fca1e13c73def:0x54c0c05a731ec700!8m2!3d41.977711!4d-87.83942!16s%2Fg%2F11b6z_x6tr!19sChIJ7z3HEx7KD4gRAMcec1rAwFQ?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/Your-Bright-Home-128337647228196/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
