@@ -12,9 +12,9 @@
     "opening_hours": "",
     "rating": "1",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/Bright+House+Cleaning+Services/data=!4m7!3m6!1s0x671d82beebe52eaf:0xfce05002551ed17e!8m2!3d34.1049005!4d-118.3476086!16s%2Fg%2F11q491v0s2!19sChIJry7l676CHWcRftEeVQJQ4Pw?authuser=0&hl=en&rclk=1",
+    "google_maps_url": "https://www.google.com/maps/place/Bright+House+Cleaning+Services/data=!4m7!3m6!1s0x671d82beebe52eaf:0xfce05002551ed17e!8m2!3d34.1049005!4d-118.3476086!16s%2Fg%2F11q491v0s2!19sChIJry7l676CHWcRftEeVQJQ4Pw?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
     "logo_url": "",
-    "hero_image": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/hKCUgEdxe59J5f8w4m06/media/69feb433054a6c3d9047fe79.png",
+    "hero_image": "",
     "service_areas": [
         "los angeles"
     ],
@@ -41,17 +41,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/hKCUgEdxe59J5f8w4m06/media/69feb433054a6c3d9047fe79.png",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/hKCUgEdxe59J5f8w4m06/media/69feb8fbbc1f77cc351e5aba.png",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/88af6baa-81b9-4a7e-81cc-5c76876763db.webp",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/1e50eed1-0057-47ce-a8fe-65bad23ce0c4.webp",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/4f5abe91-921b-4a90-b143-b8fd747a9701.webp",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/2abfd70b-eb63-42a0-8d43-e99919c81b7d.png",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/14075925-eb79-4605-8ebe-96f78feb52ac.png",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/5e963e7e-2634-4d28-8856-a4100c39d2d2.jpeg",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/9b4023cc-0242-4cfe-b937-df81aa58a810.jpeg",
-        "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/WlIRJ0nEEBbwzEGeBs42/media/f2bb0ea4-03ec-4c3f-9384-ac822e66ffe4.jpeg"
-    ],
+    "business_images": [],
     "reviews": []
 }
