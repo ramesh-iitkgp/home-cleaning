@@ -1,0 +1,47 @@
+{
+    "business_name": "Maidpro Wicker Park",
+    "source_business_name": "Maidpro Wicker Park",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17732450698",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n850 N Damen Ave, Chicago, IL 60622, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/MaidPro+Wicker+Park/data=!4m7!3m6!1s0x880fd2bb3ac7a529:0xdbad8dcee765cf27!8m2!3d41.8974013!4d-87.6772093!16s%2Fg%2F1tvdkd2l!19sChIJKaXHOrvSD4gRJ89l586Nrds?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
