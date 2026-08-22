@@ -1,0 +1,47 @@
+{
+    "business_name": "King Of Maids",
+    "source_business_name": "King Of Maids",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17733288709",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/King+of+Maids/data=!4m7!3m6!1s0x880fc8393e99c183:0x2e7c9d68c429166c!8m2!3d41.8119986!4d-87.6874016!16s%2Fg%2F1jkxysmhl!19sChIJg8GZPjnID4gRbBYpxGidfC4?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
