@@ -1,0 +1,47 @@
+{
+    "business_name": "Wicker Residential Cleaning",
+    "source_business_name": "Wicker Residential Cleaning",
+    "tagline": "Professional Cleaning Services in Wicker Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18722051580",
+    "whatsapp": "",
+    "email": "support@wickercleaningservices.com",
+    "address": "\n1205 N Milwaukee Ave Apt. B, Chicago, IL 60642, United States",
+    "city": "Wicker Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Wicker+Residential+Cleaning/data=!4m7!3m6!1s0x880fd354c9ffcba5:0x78e490f9d94c3e7c!8m2!3d41.903751!4d-87.6665323!16s%2Fg%2F11vh_cnl6h!19sChIJpcv_yVTTD4gRfD5M2fmQ5Hg?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Wicker Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/wickercleaningchi/",
+        "facebook": "https://www.facebook.com/wickercleaningin/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
