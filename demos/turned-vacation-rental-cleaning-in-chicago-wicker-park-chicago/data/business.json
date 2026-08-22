@@ -1,0 +1,47 @@
+{
+    "business_name": "Turned - Vacation Rental Cleaning In Chicago",
+    "source_business_name": "Turned - Vacation Rental Cleaning In Chicago",
+    "tagline": "Professional Cleaning Services in Wicker Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18722982744",
+    "whatsapp": "",
+    "email": "info@tryturned.com",
+    "address": "\n329 W 18th St 904 A, Chicago, IL 60616, United States",
+    "city": "Wicker Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Turned+-+Vacation+Rental+Cleaning+in+Chicago/data=!4m7!3m6!1s0xac2ec7d812ed6a7:0xc3085388b2da37c1!8m2!3d41.8573366!4d-87.636004!16s%2Fg%2F11txndrqt2!19sChIJp9YugX3swgoRwTfasohTCMM?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Wicker Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
