@@ -1,0 +1,46 @@
+{
+    "business_name": "Los Angeles Cleaning Company",
+    "tagline": "Professional Cleaning Services in los angeles",
+    "category": "Home Cleaning",
+    "phone": "18006751842",
+    "whatsapp": "",
+    "email": "admin@lacleanco.com",
+    "address": "\n2220 Ave of the Stars, Los Angeles, CA 90067, United States",
+    "city": "los angeles",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Los+Angeles+Cleaning+Company/data=!4m7!3m6!1s0x80c2bfeb5d897f33:0x292545d291f8925b!8m2!3d34.0520326!4d-118.4087528!16s%2Fg%2F11tfyf_dvk!19sChIJM3-JXeu_woARW5L4kdJFJSk?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "los angeles"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
