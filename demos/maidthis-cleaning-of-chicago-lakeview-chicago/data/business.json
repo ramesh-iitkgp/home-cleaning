@@ -1,0 +1,47 @@
+{
+    "business_name": "Maidthis Cleaning Of Chicago",
+    "source_business_name": "Maidthis Cleaning Of Chicago",
+    "tagline": "Professional Cleaning Services in Lakeview Chicago",
+    "category": "Home Cleaning",
+    "phone": "13126977121",
+    "whatsapp": "",
+    "email": "chicago@maidthis.com",
+    "address": "\n4144 N Sheridan Rd, Chicago, IL 60613, United States",
+    "city": "Lakeview Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/MaidThis+Cleaning+of+Chicago/data=!4m7!3m6!1s0xed519e52a339e8d:0xe45ea1c503abd4f3!8m2!3d41.9578778!4d-87.6547958!16s%2Fg%2F11x6h0rv6s!19sChIJjZ4zKuUZ1Q4R89SrA8WhXuQ?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lakeview Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/maidthis_chicago/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
