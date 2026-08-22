@@ -1,0 +1,46 @@
+{
+    "business_name": "Hellamaid Cleaning Services Toronto",
+    "tagline": "Professional Cleaning Services in torento",
+    "category": "Home Cleaning",
+    "phone": "16474996243",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n242 Brooke Ave, Toronto, ON M5M 0B5, Canada",
+    "city": "torento",
+    "state": "",
+    "country": "canada",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Hellamaid+Cleaning+Services+Toronto/data=!4m7!3m6!1s0x882b3362a2e9ee83:0xd62acef8cdd21f84!8m2!3d43.7332484!4d-79.4199291!16s%2Fg%2F11tt1llml5!19sChIJg-7pomIzK4gRhB_SzfjOKtY?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "torento"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/hellamaid/",
+        "facebook": "https://www.facebook.com/hellamaid/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
