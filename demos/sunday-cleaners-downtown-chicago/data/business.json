@@ -1,0 +1,47 @@
+{
+    "business_name": "Sunday Cleaners",
+    "source_business_name": "Sunday Cleaners",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "12245058992",
+    "whatsapp": "",
+    "email": "jack@sundaycleaner.com",
+    "address": "\n840 W Blackhawk St, Chicago, IL 60642, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Sunday+Cleaners/data=!4m7!3m6!1s0x880fd370d1776d55:0xff90063b42e9a8cb!8m2!3d41.9086829!4d-87.6496988!16s%2Fg%2F11ww51jszc!19sChIJVW130XDTD4gRy6jpQjsGkP8?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
