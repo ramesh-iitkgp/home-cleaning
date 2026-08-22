@@ -1,0 +1,47 @@
+{
+    "business_name": "Sweep Home Chicago",
+    "source_business_name": "Sweep Home Chicago",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13124929337",
+    "whatsapp": "",
+    "email": "brandon@sweephome.com",
+    "address": "\n935 W Chestnut St Ste LL12, Chicago, IL 60642, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Sweep+Home+Chicago/data=!4m7!3m6!1s0x880fd32c609daef3:0x869b137c27294fd3!8m2!3d41.8981903!4d-87.6515202!16s%2Fg%2F1hc6xw27b!19sChIJ866dYCzTD4gR008pJ3wTm4Y?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/SweepHomeChicago/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
