@@ -1,0 +1,47 @@
+{
+    "business_name": "Aloft Cleaning Service",
+    "source_business_name": "Aloft Cleaning Service",
+    "tagline": "Professional Cleaning Services in Lakeview Chicago",
+    "category": "Home Cleaning",
+    "phone": "17739660063",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n739 W Roscoe St, Chicago, IL 60657, United States",
+    "city": "Lakeview Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Aloft+Cleaning+Service/data=!4m7!3m6!1s0x880fd35eb66e9f6f:0xd41dffcad026ee42!8m2!3d41.9435248!4d-87.6489908!16s%2Fg%2F11m_dj2v6y!19sChIJb59utl7TD4gRQu4m0Mr_HdQ?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lakeview Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/aloftcleaningservice/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
