@@ -1,0 +1,47 @@
+{
+    "business_name": "A'S Restaurant Cleaning Services Chicago",
+    "source_business_name": "A'S Restaurant Cleaning Services Chicago",
+    "tagline": "Professional Cleaning Services in Wicker Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13129407081",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n2141 W North Ave 2nd Floor #214, Chicago, IL 60647, United States",
+    "city": "Wicker Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/A%27S+Restaurant+Cleaning+Services+Chicago/data=!4m7!3m6!1s0x880fd30fce567db7:0x91114965b79ad5e8!8m2!3d41.9102346!4d-87.6814967!16s%2Fg%2F11h27zndp0!19sChIJt31Wzg_TD4gR6NWat2VJEZE?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Wicker Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
