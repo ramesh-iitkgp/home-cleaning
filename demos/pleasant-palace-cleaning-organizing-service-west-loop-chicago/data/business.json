@@ -1,0 +1,47 @@
+{
+    "business_name": "Pleasant Palace Cleaning & Organizing Service",
+    "source_business_name": "Pleasant Palace Cleaning & Organizing Service",
+    "tagline": "Professional Cleaning Services in West Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "17735670921",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n1440 W Taylor St #834, Chicago, IL 60607, United States",
+    "city": "West Loop Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "37",
+    "google_maps_url": "https://www.google.com/maps/place/Pleasant+Palace+Cleaning+%26+Organizing+Service/data=!4m7!3m6!1s0x880e29f999c0b411:0x80facca08085caef!8m2!3d41.8684953!4d-87.6319379!16s%2Fg%2F11qlkn4kzp!19sChIJEbTAmfkpDogR78qFgKDM-oA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "West Loop Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
