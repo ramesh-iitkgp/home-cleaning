@@ -1,0 +1,47 @@
+{
+    "business_name": "Companion Maids Cleaning Services",
+    "source_business_name": "Companion Maids Cleaning Services",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17733466714",
+    "whatsapp": "",
+    "email": "staff@companionmaids.com",
+    "address": "\n500 N Michigan Ave Unit 600, Chicago, IL 60611, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Companion+Maids+Cleaning+Services/data=!4m7!3m6!1s0x880e2cac1467e78b:0x644adf71dcd35732!8m2!3d41.8911436!4d-87.6246058!16s%2Fg%2F11c1plv0fs!19sChIJi-dnFKwsDogRMlfT3HHfSmQ?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/companion_maids/",
+        "facebook": "https://www.facebook.com/companionmaids/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
