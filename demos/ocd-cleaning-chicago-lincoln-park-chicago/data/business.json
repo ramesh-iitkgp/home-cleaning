@@ -1,0 +1,47 @@
+{
+    "business_name": "Ocd Cleaning Chicago",
+    "source_business_name": "Ocd Cleaning Chicago",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13124281896",
+    "whatsapp": "",
+    "email": "info@ocdcleaningchicago.com",
+    "address": "\n3748 N Ashland Ave Unit 1N, Chicago, IL 60613, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/OCD+Cleaning+Chicago/data=!4m7!3m6!1s0x880e2d0829770e93:0x5bb93c5bfa09735b!8m2!3d41.9502798!4d-87.6691873!16s%2Fg%2F11bws8cfbh!19sChIJkw53KQgtDogRW3MJ-ls8uVs?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/ocdcleaningchicago18/",
+        "facebook": "https://www.facebook.com/OCDcleaningchicago/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
