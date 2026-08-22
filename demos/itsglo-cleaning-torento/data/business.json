@@ -1,0 +1,46 @@
+{
+    "business_name": "Itsglo Cleaning",
+    "tagline": "Professional Cleaning Services in torento",
+    "category": "Home Cleaning",
+    "phone": "16477244456",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n55 Gerrard St W, Toronto, ON M5G 0B9, Canada",
+    "city": "torento",
+    "state": "",
+    "country": "canada",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/itsGLO+Cleaning/data=!4m7!3m6!1s0xadcf9e09a4ade65f:0x71f1d436ea12e363!8m2!3d43.6585074!4d-79.3838749!16s%2Fg%2F11l2zpklhj!19sChIJX-atpAmez60RY-MS6jbU8XE?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "torento"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/itsglocleaning/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
