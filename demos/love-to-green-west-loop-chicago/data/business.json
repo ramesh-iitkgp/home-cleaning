@@ -1,0 +1,47 @@
+{
+    "business_name": "Love To Green",
+    "source_business_name": "Love To Green",
+    "tagline": "Professional Cleaning Services in West Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "16305977144",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n1519 W Warren Blvd, Chicago, IL 60607, United States",
+    "city": "West Loop Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Love+to+green/data=!4m7!3m6!1s0xadad1e35cec981a5:0xaa6dd2feb291e70a!8m2!3d41.8821278!4d-87.6661248!16s%2Fg%2F11wn_th7vt!19sChIJpYHJzjUera0RCueRsv7Sbao?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "West Loop Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
