@@ -1,0 +1,47 @@
+{
+    "business_name": "Tooclean Cleaning Services",
+    "source_business_name": "Tooclean Cleaning Services",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17739175557",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n4456 N Kedzie Ave, Chicago, IL 60625, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/TooClean+Cleaning+services/data=!4m7!3m6!1s0x2abe06c67e86c021:0xf0833925cb4fcba2!8m2!3d41.962865!4d-87.708635!16s%2Fg%2F11kj10hgz9!19sChIJIcCGfsYGvioRostPyyU5g_A?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/tooclean.chicago/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
