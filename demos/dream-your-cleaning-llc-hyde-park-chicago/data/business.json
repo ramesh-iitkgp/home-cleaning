@@ -1,0 +1,47 @@
+{
+    "business_name": "Dream Your Cleaning Llc",
+    "source_business_name": "Dream Your Cleaning Llc",
+    "tagline": "Professional Cleaning Services in Hyde Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "12192697255",
+    "whatsapp": "",
+    "email": "",
+    "address": "\nChicago, IL 60637, United States",
+    "city": "Hyde Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "8",
+    "google_maps_url": "https://www.google.com/maps/place/Dream+Your+Cleaning+LLC/data=!4m7!3m6!1s0x880e28c0a7ffd0fd:0x5b74b5851bf815c4!8m2!3d41.7806186!4d-87.6038265!16s%2Fg%2F11hbg9_dt9!19sChIJ_dD_p8AoDogRxBX4G4W1dFs?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Hyde Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/dreamyourcleaning/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
