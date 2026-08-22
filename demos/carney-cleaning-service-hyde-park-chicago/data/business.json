@@ -1,0 +1,47 @@
+{
+    "business_name": "Carney Cleaning Service",
+    "source_business_name": "Carney Cleaning Service",
+    "tagline": "Professional Cleaning Services in Hyde Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13126365423",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n5330 S Harper Ave Unit 105, Chicago, IL 60615, United States",
+    "city": "Hyde Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "4",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Carney+Cleaning+Service/data=!4m7!3m6!1s0x880e296d8c0f7ec9:0xf34d83a4aed6cd3a!8m2!3d41.798577!4d-87.589346!16s%2Fg%2F11b8c5gqhb!19sChIJyX4PjG0pDogROs3WrqSDTfM?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Hyde Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
