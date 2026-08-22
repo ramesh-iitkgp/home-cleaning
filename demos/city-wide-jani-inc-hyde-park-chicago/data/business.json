@@ -1,0 +1,47 @@
+{
+    "business_name": "City Wide Jani Inc",
+    "source_business_name": "City Wide Jani Inc",
+    "tagline": "Professional Cleaning Services in Hyde Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17736437000",
+    "whatsapp": "",
+    "email": "info@citywidejani.com",
+    "address": "\n5228 S Blackstone Ave Ste 34-LLA, Chicago, IL 60615, United States",
+    "city": "Hyde Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/City+Wide+Jani,+Inc./data=!4m7!3m6!1s0x880e296dd909987b:0xcdf6fb09716acab3!8m2!3d41.8003288!4d-87.5902408!16s%2Fg%2F1tcwrqqt!19sChIJe5gJ2W0pDogRs8pqcQn79s0?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Hyde Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/citywidejani_chicago/",
+        "facebook": "https://www.facebook.com/CityWideJani/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
