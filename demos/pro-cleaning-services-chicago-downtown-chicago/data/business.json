@@ -1,0 +1,47 @@
+{
+    "business_name": "Pro Cleaning Services Chicago",
+    "source_business_name": "Pro Cleaning Services Chicago",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17739007125",
+    "whatsapp": "",
+    "email": "support@procleaningchicago.com",
+    "address": "\n1834 W 46th St, Chicago, IL 60609, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Pro+Cleaning+Services+Chicago/data=!4m7!3m6!1s0xe3206613adb9da3:0x8684db635abbb45a!8m2!3d41.8105062!4d-87.6713685!16s%2Fg%2F11rxlchmtx!19sChIJo53bOmEGMg4RWrS7WmPbhIY?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/procleaningserviceschicago/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
