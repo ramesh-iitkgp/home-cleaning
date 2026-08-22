@@ -1,0 +1,46 @@
+{
+    "business_name": "A&R Home Cleaning",
+    "tagline": "Professional Cleaning Services in torento",
+    "category": "Home Cleaning",
+    "phone": "12898138120",
+    "whatsapp": "",
+    "email": "info@arhomecleaning.com",
+    "address": "\n638 Glengrove Ave W Basement, North York, ON M6B 2J1, Canada",
+    "city": "torento",
+    "state": "",
+    "country": "canada",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/A%26R+Home+Cleaning/data=!4m7!3m6!1s0x671501565f12e9e9:0x4a608f32d0c3a8c3!8m2!3d43.7119285!4d-79.4401337!16s%2Fg%2F11sfb4jfkc!19sChIJ6ekSX1YBFWcRw6jD0DKPYEo?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "torento"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
