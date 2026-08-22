@@ -1,5 +1,6 @@
 {
     "business_name": "Val'S Services Cleaning",
+    "source_business_name": "Val'S Services Cleaning",
     "tagline": "Professional Cleaning Services in chicago",
     "category": "Home Cleaning",
     "phone": "13127419691",
@@ -8,13 +9,13 @@
     "address": "\n420 W Huron St L119, Chicago, IL 60654, United States",
     "city": "chicago",
     "state": "",
-    "country": "USA",
+    "country": "usa",
     "opening_hours": "",
-    "rating": "4",
+    "rating": "3",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/Val%27s+Services+Cleaning/data=!4m7!3m6!1s0x880e2cad61ecd683:0xd50aa6d2e89f4700!8m2!3d41.8949311!4d-87.6386596!16s%2Fg%2F11f2y06hd3!19sChIJg9bsYa0sDogRAEef6NKmCtU?authuser=0&hl=en&rclk=1",
-    "logo_url": "https://valsservices.com/wp-content/uploads/2024/04/Vals-Services-Cleaning-Home-Cleaning-Service.png",
-    "hero_image": "https://valsservices.com/wp-content/uploads/2024/04/Vals-Services-Cleaning-Home-Cleaning-Service.png",
+    "google_maps_url": "https://www.google.com/maps/place/Val%27s+Services+Cleaning/data=!4m7!3m6!1s0x880e2cad61ecd683:0xd50aa6d2e89f4700!8m2!3d41.8949311!4d-87.6386596!16s%2Fg%2F11f2y06hd3!19sChIJg9bsYa0sDogRAEef6NKmCtU?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
     "service_areas": [
         "chicago"
     ],
@@ -41,41 +42,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://valsservices.com/wp-content/uploads/2024/04/Vals-Services-Cleaning-Home-Cleaning-Service.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/hero-scaled.jpg",
-        "https://valsservices.com/wp-content/uploads/2026/06/BBB-Logo.png-1-1.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/CHCP.png-1-1.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/Smiling-cleaning-lady-wearing-blue-gloves-and-a-pink-apron-with-the-Va-1.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/Group-1000004299.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/Mask-group1.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/Mask-group2.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/Mask-group3.png",
-        "https://valsservices.com/wp-content/uploads/2026/06/9e1f5334206cebdddf8cb25e7871933875b6e695.jpg",
-        "https://valsservices.com/wp-content/uploads/2026/06/62cd81b6be48db5f1d727f2a07040c83f00442e7.jpg",
-        "https://valsservices.com/wp-content/uploads/2026/06/f09a7fbff146be280cb44bafb4c780e77d710d3c.jpg"
-    ],
-    "reviews": [],
-    "image_display": {
-        "hero": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "gallery": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        },
-        "services": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "before_after": {
-            "object_fit": "cover",
-            "object_position": "center center"
-        },
-        "logo": {
-            "object_fit": "contain",
-            "object_position": "center center"
-        }
-    }
+    "business_images": [],
+    "reviews": []
 }
