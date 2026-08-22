@@ -1,0 +1,47 @@
+{
+    "business_name": "Clean Rite Cleaning Services Of Chicago Corp",
+    "source_business_name": "Clean Rite Cleaning Services Of Chicago Corp",
+    "tagline": "Professional Cleaning Services in Rogers Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13125454753",
+    "whatsapp": "",
+    "email": "info@www.cleanrite.biz",
+    "address": "\n1255 W Norwood St, Chicago, IL 60660, United States",
+    "city": "Rogers Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Clean+Rite+Cleaning+Services+of+Chicago,+Corp./data=!4m7!3m6!1s0x6544a3fda66466ff:0x47d127ef2db5f71c!8m2!3d41.9915235!4d-87.6625986!16s%2Fg%2F11vrt08vx1!19sChIJ_2Zkpv2jRGURHPe1Le8n0Uc?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Rogers Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
