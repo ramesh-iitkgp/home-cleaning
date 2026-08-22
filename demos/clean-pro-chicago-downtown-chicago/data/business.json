@@ -1,0 +1,47 @@
+{
+    "business_name": "Clean Pro Chicago",
+    "source_business_name": "Clean Pro Chicago",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "12246478490",
+    "whatsapp": "",
+    "email": "info@cleanprochicago.com",
+    "address": "\n332 S Michigan Ave #121, Chicago, IL 60604, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "2",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Clean+Pro+Chicago/data=!4m7!3m6!1s0x880e2dec30d3a6b5:0xb4d21655755a2bdf!8m2!3d41.8773052!4d-87.6246203!16s%2Fg%2F11z51x8w49!19sChIJtabTMOwtDogR3ytadVUW0rQ?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
