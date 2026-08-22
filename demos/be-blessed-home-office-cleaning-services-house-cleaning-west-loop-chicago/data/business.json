@@ -1,0 +1,47 @@
+{
+    "business_name": "Be Blessed Home & Office Cleaning Services - House Cleaning",
+    "source_business_name": "Be Blessed Home & Office Cleaning Services - House Cleaning",
+    "tagline": "Professional Cleaning Services in West Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "13123754724",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "city": "West Loop Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "29",
+    "google_maps_url": "https://www.google.com/maps/place/Be+Blessed+Home+%26+Office+Cleaning+Services+-+House+Cleaning/data=!4m7!3m6!1s0x288b4020af86b98f:0x31740e6bd0335cf3!8m2!3d41.858009!4d-87.731879!16s%2Fg%2F11lcnm4pw3!19sChIJj7mGryBAiygR81wz0GsOdDE?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "West Loop Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
