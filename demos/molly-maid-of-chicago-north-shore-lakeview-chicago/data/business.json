@@ -1,0 +1,47 @@
+{
+    "business_name": "Molly Maid Of Chicago North Shore",
+    "source_business_name": "Molly Maid Of Chicago North Shore",
+    "tagline": "Professional Cleaning Services in Lakeview Chicago",
+    "category": "Home Cleaning",
+    "phone": "18479737343",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n3843 Oakton St, Skokie, IL 60076, United States",
+    "city": "Lakeview Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Molly+Maid+of+Chicago+North+Shore/data=!4m7!3m6!1s0x880fcf94b11685ab:0xc84fc18a0aff695d!8m2!3d42.0260489!4d-87.7251156!16s%2Fg%2F11kbb1qlln!19sChIJq4UWsZTPD4gRXWn_CorBT8g?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lakeview Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/mollymaid/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
