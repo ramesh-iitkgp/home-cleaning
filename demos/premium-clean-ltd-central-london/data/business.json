@@ -1,0 +1,50 @@
+{
+    "business_name": "Premium Clean Ltd",
+    "source_business_name": "Premium Clean Ltd",
+    "tagline": "Professional Cleaning Services in Central London",
+    "category": "Home Cleaning",
+    "phone": "447774518219",
+    "whatsapp": "",
+    "email": "office@premiumclean.co.uk",
+    "website_url": "https://premiumclean.co.uk/",
+    "address": "\n10 Filmer Rd, London SW6 7BW, United Kingdom",
+    "city": "Central London",
+    "state": "",
+    "country": "UK",
+    "currency_symbol": "£",
+    "currency_code": "GBP",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Premium+Clean+LTD/data=!4m7!3m6!1s0x47d8a78843af9135:0x8cc2184683829033!8m2!3d51.479889!4d-0.207637!16s%2Fg%2F11tdm228n5!19sChIJNZGvQ4in2EcRM5CCg0YYwow?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Central London"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/premiumcleanltd/",
+        "facebook": "https://www.facebook.com/PremiumCleanLondon/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

@@ -6,10 +6,13 @@
     "phone": "17735958124",
     "whatsapp": "",
     "email": "",
+    "website_url": "https://nooksandcrannies-chicago.com/",
     "address": "\n320 E 21st St Unit 208, Chicago, IL 60616, United States",
     "city": "Downtown Chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
     "opening_hours": "",
     "rating": "1",
     "review_count": "",
@@ -21,7 +24,7 @@
     ],
     "social": {
         "instagram": "https://www.instagram.com/nooksandcrannies-chicago/",
-        "facebook": "",
+        "facebook": "https://www.facebook.com/http:/",
         "tiktok": ""
     },
     "before_after_pairs": [],

@@ -1,0 +1,50 @@
+{
+    "business_name": "Gocleanusa",
+    "source_business_name": "Gocleanusa",
+    "tagline": "Professional Cleaning Services in Logan Square Chicago",
+    "category": "Home Cleaning",
+    "phone": "19173852100",
+    "whatsapp": "",
+    "email": "contact@gocleanusa.com",
+    "website_url": "https://gocleanusa.com/",
+    "address": "\n4011 N Lowell Ave, Chicago, IL 60641, United States",
+    "city": "Logan Square Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "29",
+    "google_maps_url": "https://www.google.com/maps/place/GoCleanUSA/data=!4m7!3m6!1s0x880fcdd4ee6aa62d:0x3b54fee526163d9b!8m2!3d41.9539474!4d-87.7363952!16s%2Fg%2F11yxk6zzsd!19sChIJLaZq7tTND4gRmz0WJuX-VDs?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Logan Square Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/goclean.chicago/",
+        "facebook": "https://www.facebook.com/people/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

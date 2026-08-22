@@ -1,0 +1,50 @@
+{
+    "business_name": "Sparkle Cleaning Services",
+    "source_business_name": "Sparkle Cleaning Services",
+    "tagline": "Professional Cleaning Services in Logan Square Chicago",
+    "category": "Home Cleaning",
+    "phone": "13124026478",
+    "whatsapp": "",
+    "email": "info@sparklecleaningchicago.com",
+    "website_url": "https://www.sparklecleaningchicago.com/",
+    "address": "\n2717 N Ridgeway Ave, Chicago, IL 60647, United States",
+    "city": "Logan Square Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "4",
+    "review_count": "16",
+    "google_maps_url": "https://www.google.com/maps/place/Sparkle!+Cleaning+Services/data=!4m7!3m6!1s0x2672de9332982637:0x4d249ed4121104a0!8m2!3d41.9305983!4d-87.7205631!16s%2Fg%2F11tmmcndf0!19sChIJNyaYMpPeciYRoAQREtSeJE0?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Logan Square Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/sparklecleaningchicago/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

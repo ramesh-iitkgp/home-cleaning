@@ -1,0 +1,50 @@
+{
+    "business_name": "The Cleaner Zone",
+    "source_business_name": "The Cleaner Zone",
+    "tagline": "Professional Cleaning Services in South Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "16306387833",
+    "whatsapp": "",
+    "email": "contact@thecleanerzone.com",
+    "website_url": "https://www.thecleanerzone.com/",
+    "address": "\n1325 S Wabash Ave Ste 304 A, Chicago, IL 60605, United States",
+    "city": "South Loop Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "4",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/The+Cleaner+Zone/data=!4m7!3m6!1s0x6fa3471c4d27787f:0xfc9e23a07429e378!8m2!3d41.8651669!4d-87.6251941!16s%2Fg%2F11p191xl69!19sChIJf3gnTRxHo28ReOMpdKAjnvw?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "South Loop Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

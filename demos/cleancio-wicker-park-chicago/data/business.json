@@ -6,12 +6,15 @@
     "phone": "13127895714",
     "whatsapp": "",
     "email": "info@cleancio.com",
+    "website_url": "https://cleancio.com/",
     "address": "\n1720 W Division St, Chicago, IL 60622, United States",
     "city": "Wicker Park Chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
     "opening_hours": "",
-    "rating": "5",
+    "rating": "1",
     "review_count": "",
     "google_maps_url": "https://www.google.com/maps/place/CLEANCIO/data=!4m7!3m6!1s0x880fd2dac42bffff:0x12b8d2ca36043ce1!8m2!3d41.9035461!4d-87.6708657!16s%2Fg%2F11g8v6bc81!19sChIJ__8rxNrSD4gR4TwENsrSuBI?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
     "logo_url": "",
@@ -20,7 +23,7 @@
         "Wicker Park Chicago"
     ],
     "social": {
-        "instagram": "https://www.instagram.com/cleancio/",
+        "instagram": "https://www.instagram.com/reel/",
         "facebook": "https://www.facebook.com/cleancio/",
         "tiktok": ""
     },

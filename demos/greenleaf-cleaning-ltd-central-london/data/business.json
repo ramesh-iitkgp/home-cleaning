@@ -1,0 +1,91 @@
+{
+    "business_name": "Greenleaf Cleaning Ltd",
+    "source_business_name": "Greenleaf Cleaning Ltd",
+    "tagline": "Professional Cleaning Services in Central London",
+    "category": "Home Cleaning",
+    "phone": "448000326248",
+    "whatsapp": "",
+    "email": "info@greenleaf-cleaning.co.uk",
+    "website_url": "https://www.greenleaf-cleaning.co.uk/",
+    "address": "\n120 Cockfosters Rd, Barnet EN4 0DZ, United Kingdom",
+    "city": "Central London",
+    "state": "",
+    "country": "UK",
+    "currency_symbol": "£",
+    "currency_code": "GBP",
+    "opening_hours": "",
+    "rating": "2",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Greenleaf+Cleaning+Ltd./data=!4m7!3m6!1s0x48761aca2705ec5d:0xcc17c65f36f6cb1e!8m2!3d51.651937!4d-0.149916!16s%2Fg%2F1q5ccfbpf!19sChIJXewFJ8oadkgRHsv2Nl_GF8w?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Central London"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/pg/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [
+        {
+            "id": "kitchen",
+            "badge": "Kitchen Restoration",
+            "title": "Kitchen Degreasing & Stovetop Restoration",
+            "description": "Removal of heavy grease splatter, burnt stovetop carbon, stained backsplash tile, and messy clutter.",
+            "before": "./assets/kitchen_before.jpg",
+            "after": "./assets/kitchen_after.jpg",
+            "before_stats": "Heavy grease, clutter & burnt spills",
+            "after_stats": "100% Degreased & showroom shine"
+        },
+        {
+            "id": "bathroom",
+            "badge": "Bathroom Descaling",
+            "title": "Bathroom Limescale & Tile Grout Descaling",
+            "description": "Deep chemical-free acid descaling of stubborn limescale, soap scum, dull chrome fixtures, and discolored grout.",
+            "before": "./assets/bathroom_before.jpg",
+            "after": "./assets/bathroom_after.jpg",
+            "before_stats": "Stubborn limescale, scum & dull tiles",
+            "after_stats": "Mirror polished & deep sanitized"
+        },
+        {
+            "id": "living",
+            "badge": "Floor & Room Polish",
+            "title": "Living Space Declutter & Hardwood Polish",
+            "description": "Complete dust extraction, hardwood floor rejuvenation, carpet vacuuming, streak removal, and tidy organization.",
+            "before": "./assets/living_before.jpg",
+            "after": "./assets/living_after.jpg",
+            "before_stats": "Dust, scuffs & unorganized furniture",
+            "after_stats": "Pristine, gleaming & fresh atmosphere"
+        },
+        {
+            "id": "appliance",
+            "badge": "Oven & Appliance Grime",
+            "title": "Oven & Appliance Carbon Grime Extraction",
+            "description": "Intensive degreasing and polishing of baked-on food residue, oven door glass, and racks to showroom condition.",
+            "before": "./assets/oven_before.jpg",
+            "after": "./assets/oven_after.jpg",
+            "before_stats": "Baked carbon & oily grease layers",
+            "after_stats": "Streak-free crystal clear glass"
+        }
+    ],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

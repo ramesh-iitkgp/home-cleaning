@@ -1,0 +1,50 @@
+{
+    "business_name": "Mfc",
+    "source_business_name": "Mfc",
+    "tagline": "Professional Cleaning Services in West Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "13124559947",
+    "whatsapp": "",
+    "email": "service@maidforchicago.com",
+    "website_url": "https://www.maidforchicago.com/",
+    "address": "\n730 W Lake St #172, Chicago, IL 60661, United States",
+    "city": "West Loop Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/MFC/data=!4m7!3m6!1s0x880fd312cdebca77:0x2a5b4ac5ab91c068!8m2!3d41.8859726!4d-87.6468937!16s%2Fg%2F11qpt95n2g!19sChIJd8rrzRLTD4gRaMCRq8VKWyo?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "West Loop Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/maidforchicago/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

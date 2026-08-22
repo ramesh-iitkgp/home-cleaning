@@ -6,10 +6,13 @@
     "phone": "13126977121",
     "whatsapp": "",
     "email": "chicago@maidthis.com",
+    "website_url": "https://maidthis.com/chicago/",
     "address": "\n4144 N Sheridan Rd, Chicago, IL 60613, United States",
     "city": "Lakeview Chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
     "opening_hours": "",
     "rating": "1",
     "review_count": "",
@@ -21,7 +24,7 @@
     ],
     "social": {
         "instagram": "https://www.instagram.com/maidthis_chicago/",
-        "facebook": "",
+        "facebook": "https://www.facebook.com/people/",
         "tiktok": ""
     },
     "before_after_pairs": [],

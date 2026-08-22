@@ -1,0 +1,50 @@
+{
+    "business_name": "Freshwaveus Llc",
+    "source_business_name": "Freshwaveus Llc",
+    "tagline": "Professional Cleaning Services in Wicker Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "19297781144",
+    "whatsapp": "",
+    "email": "",
+    "website_url": "https://freshwaveus.com/",
+    "address": "\n2158 W Chicago Ave Apt 3R, Chicago, IL 60622, United States",
+    "city": "Wicker Park Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/FreshWaveUS+LLC/data=!4m7!3m6!1s0x29fd085565878dd1:0x4cd16eb617c3bf86!8m2!3d41.8960839!4d-87.6818075!16s%2Fg%2F11mrrj26vh!19sChIJ0Y2HZVUI_SkRhr_DF7Zu0Uw?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Wicker Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/freshwaveus/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

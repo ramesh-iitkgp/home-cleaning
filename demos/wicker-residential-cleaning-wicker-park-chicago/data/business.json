@@ -6,10 +6,13 @@
     "phone": "18722051580",
     "whatsapp": "",
     "email": "support@wickercleaningservices.com",
+    "website_url": "https://www.wickercleaningservices.com/",
     "address": "\n1205 N Milwaukee Ave Apt. B, Chicago, IL 60642, United States",
     "city": "Wicker Park Chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
     "opening_hours": "",
     "rating": "3",
     "review_count": "",
@@ -21,7 +24,7 @@
     ],
     "social": {
         "instagram": "https://www.instagram.com/wickercleaningchi/",
-        "facebook": "https://www.facebook.com/wickercleaningin/",
+        "facebook": "https://www.facebook.com/cleaningalabam/",
         "tiktok": ""
     },
     "before_after_pairs": [],

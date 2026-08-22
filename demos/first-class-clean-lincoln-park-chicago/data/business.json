@@ -1,0 +1,50 @@
+{
+    "business_name": "First Class Clean",
+    "source_business_name": "First Class Clean",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18722744241",
+    "whatsapp": "",
+    "email": "support@first-class-clean.com",
+    "website_url": "https://first-class-clean.com/",
+    "address": "",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/First+Class+Clean/data=!4m7!3m6!1s0x689ab6c1c0d133a7:0x9bbe09343e74562c!8m2!3d41.8337105!4d-87.731879!16s%2Fg%2F11j_31qwbj!19sChIJpzPRwMG2mmgRLFZ0PjQJvps?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/chicagosfirstclassclean/",
+        "facebook": "https://www.facebook.com/people/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

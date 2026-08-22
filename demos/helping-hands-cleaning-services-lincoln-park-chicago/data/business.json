@@ -1,0 +1,50 @@
+{
+    "business_name": "Helping Hands Cleaning Services",
+    "source_business_name": "Helping Hands Cleaning Services",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "16305301324",
+    "whatsapp": "",
+    "email": "info@helpinghandsmaidservices.com",
+    "website_url": "https://helpinghandscleaningservices.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+    "address": "\n675 St Charles Rd, Elmhurst, IL 60126, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Helping+Hands+Cleaning+Services/data=!4m7!3m6!1s0x880e4ccb8c9b30f3:0xa92e54363777ed37!8m2!3d41.890369!4d-87.966927!16s%2Fg%2F12642ty0p!19sChIJ8zCbjMtMDogRN-13NzZULqk?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/helpinghandscleans/",
+        "facebook": "https://www.facebook.com/HelpingHandsCleaningServicesChicagoland/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}

@@ -5,11 +5,14 @@
     "category": "Home Cleaning",
     "phone": "13123129765",
     "whatsapp": "",
-    "email": "",
+    "email": "abbotsford.bc@maidpro.com",
+    "website_url": "https://www.maidpro.com/chicago-downtown?utm_source=gmb&utm_medium=organic",
     "address": "\n2251 S Michigan Ave #110, Chicago, IL 60616, United States",
     "city": "Downtown Chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
     "opening_hours": "",
     "rating": "1",
     "review_count": "",
@@ -20,8 +23,8 @@
         "Downtown Chicago"
     ],
     "social": {
-        "instagram": "",
-        "facebook": "",
+        "instagram": "https://www.instagram.com/maidproofficial/",
+        "facebook": "https://www.facebook.com/MaidProOfficial/",
         "tiktok": ""
     },
     "before_after_pairs": [],

@@ -5,11 +5,14 @@
     "category": "Home Cleaning",
     "phone": "17732450698",
     "whatsapp": "",
-    "email": "",
+    "email": "abbotsford.bc@maidpro.com",
+    "website_url": "https://maidpro.com/wicker-park?utm_source=gmb&utm_medium=organic",
     "address": "\n850 N Damen Ave, Chicago, IL 60622, United States",
     "city": "Lincoln Park Chicago",
     "state": "",
-    "country": "usa",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
     "opening_hours": "",
     "rating": "3",
     "review_count": "",
@@ -20,8 +23,8 @@
         "Lincoln Park Chicago"
     ],
     "social": {
-        "instagram": "",
-        "facebook": "",
+        "instagram": "https://www.instagram.com/maidproofficial/",
+        "facebook": "https://www.facebook.com/MaidProOfficial/",
         "tiktok": ""
     },
     "before_after_pairs": [],

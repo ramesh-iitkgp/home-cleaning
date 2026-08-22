@@ -1,0 +1,50 @@
+{
+    "business_name": "Two Maids",
+    "source_business_name": "Two Maids",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13125984730",
+    "whatsapp": "",
+    "email": "",
+    "website_url": "https://www.twomaidscleaning.com/chicago-loop/",
+    "address": "\n445 W Erie St #1B, Chicago, IL 60654, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Two+Maids/data=!4m7!3m6!1s0x880e2d53666d6121:0xb3de55d44aadc5c8!8m2!3d41.8935782!4d-87.6405577!16s%2Fg%2F11msf4m2j7!19sChIJIWFtZlMtDogRyMWtStRV3rM?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/profile.php/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
