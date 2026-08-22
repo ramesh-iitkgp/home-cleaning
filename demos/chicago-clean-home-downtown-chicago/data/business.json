@@ -1,0 +1,47 @@
+{
+    "business_name": "Chicago Clean Home",
+    "source_business_name": "Chicago Clean Home",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17737699145",
+    "whatsapp": "",
+    "email": "office@chicagocleanhome.com",
+    "address": "\n3501 N Southport Ave #110, Chicago, IL 60657, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "4",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Chicago+Clean+Home/data=!4m7!3m6!1s0x880fd251fd1fc71d:0x42fa379720b739b3!8m2!3d41.945374!4d-87.663703!16s%2Fg%2F12vs_h1ns!19sChIJHccf_VHSD4gRszm3IJc3-kI?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/chicagocleanhome/",
+        "facebook": "https://www.facebook.com/chicagocleanhome/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
