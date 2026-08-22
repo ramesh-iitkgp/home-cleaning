@@ -1,0 +1,47 @@
+{
+    "business_name": "Park West Cleaning",
+    "source_business_name": "Park West Cleaning",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "12244420936",
+    "whatsapp": "",
+    "email": "brandon@sweephome.com",
+    "address": "\n4809 N Ravenswood Ave Ste 120, Chicago, IL 60640, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Park+West+Cleaning/data=!4m7!3m6!1s0x880fd32c747b7b57:0x1175f41d8fafd64f!8m2!3d41.9694456!4d-87.673668!16s%2Fg%2F11m9qvqcqn!19sChIJV3t7dCzTD4gRT9avjx30dRE?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
