@@ -1,0 +1,47 @@
+{
+    "business_name": "Luxury Cleaning Chicago",
+    "source_business_name": "Luxury Cleaning Chicago",
+    "tagline": "Professional Cleaning Services in Logan Square Chicago",
+    "category": "Home Cleaning",
+    "phone": "",
+    "whatsapp": "",
+    "email": "sales@luxurycleaningchicago.com",
+    "address": "\n2340 N California Ave Apt 622, Chicago, IL 60647, United States",
+    "city": "Logan Square Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "4.9",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Luxury+Cleaning+Chicago/data=!4m7!3m6!1s0x880fcd770d3be6b3:0x1dbb72054a8d9f28!8m2!3d41.9242271!4d-87.6982277!16s%2Fg%2F11vk79zw4y!19sChIJs-Y7DXfND4gRKJ-NSgVyux0?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Logan Square Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
