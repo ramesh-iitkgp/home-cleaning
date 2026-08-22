@@ -1,0 +1,47 @@
+{
+    "business_name": "Expert House Cleaning Service Chicago",
+    "source_business_name": "Expert House Cleaning Service Chicago",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "14647333203",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n5010 S State St, Chicago, IL 60609, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Expert+House+Cleaning+Service+Chicago/data=!4m7!3m6!1s0x880e2f2c7a4513c7:0xa0f243abbe9fa063!8m2!3d41.803587!4d-87.626509!16s%2Fg%2F11zgw29d38!19sChIJxxNFeiwvDogRY6CfvqtD8qA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
