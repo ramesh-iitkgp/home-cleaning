@@ -1,0 +1,47 @@
+{
+    "business_name": "Myers Clean",
+    "source_business_name": "Myers Clean",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17732837505",
+    "whatsapp": "",
+    "email": "info@myersclean.com",
+    "address": "\n4946 W Irving Park Rd, Chicago, IL 60641, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Myers+Clean/data=!4m7!3m6!1s0x880fcdcb9309fb8d:0xacd3402c76ff7004!8m2!3d41.9535702!4d-87.7514967!16s%2Fg%2F12jsftm0j!19sChIJjfsJk8vND4gRBHD_dixA06w?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/myers_clean/",
+        "facebook": "https://www.facebook.com/myersclean/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
