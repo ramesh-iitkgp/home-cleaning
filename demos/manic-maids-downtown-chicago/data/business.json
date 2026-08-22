@@ -1,0 +1,47 @@
+{
+    "business_name": "Manic Maids",
+    "source_business_name": "Manic Maids",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17733427424",
+    "whatsapp": "",
+    "email": "info@manicmaids.com",
+    "address": "\n3036 W Palmer Square, Chicago, IL 60647, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Manic+Maids/data=!4m7!3m6!1s0x880fcd641f445c33:0xdb73b32486b33edb!8m2!3d41.921779!4d-87.7037118!16s%2Fg%2F1tm8fl3y!19sChIJM1xEH2TND4gR2z6zhiSzc9s?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/manicmaidsinc/",
+        "facebook": "https://www.facebook.com/manicmaidsinc/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
