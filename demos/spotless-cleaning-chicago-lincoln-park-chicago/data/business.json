@@ -1,0 +1,47 @@
+{
+    "business_name": "Spotless Cleaning Chicago",
+    "source_business_name": "Spotless Cleaning Chicago",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "13124881113",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n2844 W 59th St, Chicago, IL 60629, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Spotless+Cleaning+Chicago/data=!4m7!3m6!1s0x880e2f300abcf04d:0xfc9813bb5b1d198f!8m2!3d41.7866066!4d-87.6953827!16s%2Fg%2F11fk3cfhpt!19sChIJTfC8CjAvDogRjxkdW7sTmPw?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/spotlesscleaningchicago1/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
