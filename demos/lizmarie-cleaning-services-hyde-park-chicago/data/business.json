@@ -1,0 +1,47 @@
+{
+    "business_name": "Lizmarie Cleaning Services",
+    "source_business_name": "Lizmarie Cleaning Services",
+    "tagline": "Professional Cleaning Services in Hyde Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17737982008",
+    "whatsapp": "",
+    "email": "support@lizmariecleaningservices.com",
+    "address": "",
+    "city": "Hyde Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "2",
+    "review_count": "189",
+    "google_maps_url": "https://www.google.com/maps/place/LizMarie+Cleaning+Services/data=!4m7!3m6!1s0x880e313ab291e723:0x41d40f087f0b160e!8m2!3d41.8918826!4d-87.9223664!16s%2Fg%2F11jfrn1x21!19sChIJI-eRsjoxDogRDhYLfwgP1EE?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Hyde Park Chicago"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/lizmariecleaningservices/",
+        "facebook": "https://www.facebook.com/LizMarieCS/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
