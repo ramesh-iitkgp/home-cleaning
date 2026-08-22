@@ -1,0 +1,47 @@
+{
+    "business_name": "Jl House Cleaning Services",
+    "source_business_name": "Jl House Cleaning Services",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13129406864",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n900 S Clark St #201, Chicago, IL 60605, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/JL+House+Cleaning+Services/data=!4m7!3m6!1s0x880e2c912a634189:0x262939c10f464400!8m2!3d41.8703169!4d-87.6310287!16s%2Fg%2F11dfx8q960!19sChIJiUFjKpEsDogRAERGD8E5KSY?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
