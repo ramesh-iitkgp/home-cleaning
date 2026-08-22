@@ -1,0 +1,47 @@
+{
+    "business_name": "The Clean Junkie",
+    "source_business_name": "The Clean Junkie",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "13124166686",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n2620 W Washington Blvd, Chicago, IL 60612, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/The+Clean+Junkie/data=!4m7!3m6!1s0x880e2d6c02a72f99:0xbeb4d0fb9261dfd2!8m2!3d41.8833246!4d-87.6920641!16s%2Fg%2F11f64f3s_t!19sChIJmS-nAmwtDogR0t9hkvvQtL4?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
