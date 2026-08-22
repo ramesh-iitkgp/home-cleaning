@@ -1,0 +1,47 @@
+{
+    "business_name": "Hana Cleaning Service",
+    "source_business_name": "Hana Cleaning Service",
+    "tagline": "Professional Cleaning Services in Rogers Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17087350731",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n1847 W Touhy Ave, Chicago, IL 60626, United States",
+    "city": "Rogers Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Hana+Cleaning+Service/data=!4m7!3m6!1s0x48bca100f608017d:0xd23074bc7efbec19!8m2!3d42.0123209!4d-87.6778034!16s%2Fg%2F11nb63m_ny!19sChIJfQEI9gChvEgRGez7frx0MNI?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Rogers Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
