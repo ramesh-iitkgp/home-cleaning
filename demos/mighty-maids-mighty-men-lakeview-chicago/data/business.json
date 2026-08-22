@@ -1,0 +1,47 @@
+{
+    "business_name": "Mighty Maids Mighty Men",
+    "source_business_name": "Mighty Maids Mighty Men",
+    "tagline": "Professional Cleaning Services in Lakeview Chicago",
+    "category": "Home Cleaning",
+    "phone": "17734727711",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n3056 N Racine Ave, Chicago, IL 60657, United States",
+    "city": "Lakeview Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Mighty+Maids+Mighty+Men/data=!4m7!3m6!1s0x880fd3aa0d16819f:0xcc79f9b0405d7b0f!8m2!3d41.9379051!4d-87.6592313!16s%2Fg%2F1tdcbdlb!19sChIJn4EWDarTD4gRD3tdQLD5ecw?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lakeview Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
