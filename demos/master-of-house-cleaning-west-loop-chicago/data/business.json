@@ -1,0 +1,47 @@
+{
+    "business_name": "Master Of House Cleaning",
+    "source_business_name": "Master Of House Cleaning",
+    "tagline": "Professional Cleaning Services in West Loop Chicago",
+    "category": "Home Cleaning",
+    "phone": "17737394638",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n1016 W Jackson Blvd Ste 3 floor 2, Chicago, IL 60607, United States",
+    "city": "West Loop Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Master+of+house+cleaning/data=!4m7!3m6!1s0x880e2d161fbdba65:0x9e45851b00a2e8ad!8m2!3d41.8780331!4d-87.6527651!16s%2Fg%2F11j31zqlyk!19sChIJZbq9HxYtDogRreiiABuFRZ4?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "West Loop Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
