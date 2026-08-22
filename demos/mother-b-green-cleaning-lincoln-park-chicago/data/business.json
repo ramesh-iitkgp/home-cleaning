@@ -1,0 +1,47 @@
+{
+    "business_name": "Mother B Green Cleaning",
+    "source_business_name": "Mother B Green Cleaning",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "17732450696",
+    "whatsapp": "",
+    "email": "admin@motherbgreen.com",
+    "address": "\nN Wolcott Ave, Chicago, IL 60626, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Mother+B+Green+Cleaning/data=!4m7!3m6!1s0x880fd1c9ce7c6889:0x4c78152ccaf66568!8m2!3d42.0050144!4d-87.6807597!16s%2Fg%2F11nnwfxr3z!19sChIJiWh8zsnRD4gRaGX2yiwVeEw?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/MotherBGreen/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
