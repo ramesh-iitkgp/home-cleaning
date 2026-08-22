@@ -142,6 +142,56 @@
     return galleryFallbacks[index % galleryFallbacks.length] || GENERIC_ASSETS.serviceDefaults.general;
   }
 
+  // Logos, icons and profile images are never eligible for photographic placements.
+  function imageKey(url) {
+    try {
+      const parsed = new URL(url, window.location.href);
+      return `${parsed.origin}${parsed.pathname}`.toLowerCase();
+    } catch (_) {
+      return String(url || '').trim().toLowerCase();
+    }
+  }
+
+  function isLikelyPhotoUrl(url, logoUrl = '') {
+    if (typeof url !== 'string' || !url.trim()) return false;
+    if (imageKey(url) === imageKey(logoUrl)) return false;
+    return !/(logo|favicon|icon|avatar|profile|transparent|\.svg(?:$|[?#]))/i.test(url);
+  }
+
+  function uniquePhotoUrls(urls, logoUrl = '') {
+    const seen = new Set();
+    return (Array.isArray(urls) ? urls : []).filter(url => {
+      if (!isLikelyPhotoUrl(url, logoUrl)) return false;
+      const key = imageKey(url);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
+  function setImageWithFallback(img, candidates, fallback, onExhausted, minimumSize) {
+    const queue = [...new Set(candidates.filter(Boolean))];
+    let index = 0;
+    const next = () => {
+      if (index < queue.length) {
+        img.src = queue[index++];
+      } else if (fallback && imageKey(img.src) !== imageKey(fallback)) {
+        img.src = fallback;
+      } else {
+        img.removeAttribute('src');
+        img.closest('.gallery-item, .service-card, .hero-visual-box')?.classList.add('image-unavailable');
+        if (typeof onExhausted === 'function') onExhausted();
+      }
+    };
+    img.onerror = next;
+    img.onload = () => {
+      if (minimumSize && (img.naturalWidth < minimumSize.width || img.naturalHeight < minimumSize.height)) {
+        next();
+      }
+    };
+    next();
+  }
+
   /**
    * Safe data accessor supporting both snake_case and camelCase
    */
@@ -170,9 +220,9 @@
         facebook: raw.facebookUrl || '',
         tiktok: raw.tiktokUrl || ''
       },
-      beforeAfterPairs: Array.isArray(raw.before_after_pairs) && raw.before_after_pairs.length > 0
-        ? raw.before_after_pairs 
-        : (Array.isArray(raw.beforeAfterPairs) && raw.beforeAfterPairs.length > 0 ? raw.beforeAfterPairs : GENERIC_ASSETS.beforeAfterPairs),
+      beforeAfterPairs: Array.isArray(raw.before_after_pairs)
+        ? raw.before_after_pairs
+        : (Array.isArray(raw.beforeAfterPairs) ? raw.beforeAfterPairs : []),
       services: Array.isArray(raw.services) ? raw.services : [],
       businessImages: Array.isArray(raw.business_images) && raw.business_images.length > 0
         ? raw.business_images 
@@ -263,9 +313,19 @@
     document.title = pageTitle;
 
     const metaDesc = document.querySelector('meta[name="description"]');
+    const description = `${data.tagline}. Trusted ${data.category.toLowerCase()} in ${data.city || 'your area'}. Get a free quote today.`;
     if (metaDesc) {
-      metaDesc.setAttribute('content', `${data.tagline}. Trusted home and commercial cleaning in ${data.city || 'your area'}. Get a free quote today.`);
+      metaDesc.setAttribute('content', description);
     }
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', pageTitle);
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', description);
+    let ogImage = document.querySelector('meta[property="og:image"]');
+    if (!ogImage) {
+      ogImage = document.createElement('meta');
+      ogImage.setAttribute('property', 'og:image');
+      document.head.appendChild(ogImage);
+    }
+    ogImage.setAttribute('content', isLikelyPhotoUrl(data.heroImage, data.logoUrl) ? data.heroImage : (uniquePhotoUrls(data.businessImages, data.logoUrl)[0] || GENERIC_ASSETS.hero));
 
     // Dynamic Schema.org JSON-LD LocalBusiness / CleaningService
     let schemaScript = document.getElementById('schema-json-ld');
@@ -426,16 +486,16 @@
       }
     }
 
-    // Hero Main Image: Customer photo or generic default
+    // Hero image priority: valid customer hero, then customer gallery, then category fallback.
     const heroImg = document.getElementById('hero-main-img');
     if (heroImg) {
-      const heroSrc = (data.heroImage && data.heroImage !== '') ? data.heroImage : GENERIC_ASSETS.hero;
-      heroImg.src = heroSrc;
       heroImg.alt = `${data.name} Professional Cleaning`;
-      heroImg.onerror = function () {
-        this.onerror = null;
-        this.src = GENERIC_ASSETS.hero;
-      };
+      const customerPhotos = uniquePhotoUrls(data.businessImages, data.logoUrl);
+      const candidates = [
+        ...(isLikelyPhotoUrl(data.heroImage, data.logoUrl) ? [data.heroImage] : []),
+        ...customerPhotos
+      ];
+      setImageWithFallback(heroImg, candidates, GENERIC_ASSETS.hero, null, { width: 480, height: 320 });
     }
   }
 
@@ -475,7 +535,7 @@
 
   /**
    * 5. Before & After Cleaning Section
-   * Requirement: All 4 sections have fixed, specific meaningful pictures (dirty before vs perfect after).
+   * Render only genuine customer-provided before/after pairs; never fabricate work.
    */
   function renderBeforeAfterSection(data) {
     const baSection = document.getElementById('before-after-section');
@@ -485,9 +545,14 @@
     const baBeforeWrapper = document.getElementById('ba-before-wrapper');
     const baHandle = document.getElementById('ba-handle');
 
-    // Always use the 4 fixed specific transformations
-    const pairs = FIXED_TRANSFORMATIONS;
+    const pairs = (data.beforeAfterPairs || []).filter(pair =>
+      isLikelyPhotoUrl(pair?.before, data.logoUrl) && isLikelyPhotoUrl(pair?.after, data.logoUrl)
+    );
 
+    if (!pairs.length) {
+      if (baSection) baSection.classList.add('data-hidden');
+      return;
+    }
     if (baSection) baSection.classList.remove('data-hidden');
     currentBeforeAfterIndex = 0;
 
@@ -580,6 +645,7 @@
 
   function updateBeforeAfterDisplay(pair, idx) {
     if (!pair) return;
+    const baSection = document.getElementById('before-after-section');
     const baBeforeImg = document.getElementById('ba-before-img');
     const baAfterImg = document.getElementById('ba-after-img');
     const baTitle = document.getElementById('ba-item-title');
@@ -587,24 +653,16 @@
     const baBeforeStats = document.getElementById('ba-before-stats');
     const baAfterStats = document.getElementById('ba-after-stats');
 
-    const fallbackPair = FIXED_TRANSFORMATIONS[idx % FIXED_TRANSFORMATIONS.length] || FIXED_TRANSFORMATIONS[0];
-
     if (baBeforeImg) {
-      baBeforeImg.src = pair.before || fallbackPair.before;
       baBeforeImg.alt = `Dirty messy uncleaned state of ${pair.title}`;
-      baBeforeImg.onerror = function() { 
-        this.onerror = null;
-        this.src = fallbackPair.before; 
-      };
+      baBeforeImg.src = pair.before;
+      baBeforeImg.onerror = () => baSection?.classList.add('data-hidden');
     }
 
     if (baAfterImg) {
-      baAfterImg.src = pair.after || fallbackPair.after;
       baAfterImg.alt = `Spotless gleaming pristine state of ${pair.title}`;
-      baAfterImg.onerror = function() { 
-        this.onerror = null;
-        this.src = fallbackPair.after; 
-      };
+      baAfterImg.src = pair.after;
+      baAfterImg.onerror = () => baSection?.classList.add('data-hidden');
     }
 
     if (baTitle) baTitle.textContent = pair.title || 'Cleaning Transformation';
@@ -644,7 +702,9 @@
     container.innerHTML = data.services.map((service, index) => {
       // If customer has a photo, use it; otherwise get category-matching generic fallback
       const defaultImg = getServiceFallbackImage(service.name, index);
-      const imgSrc = (service.image && service.image.trim() !== '') ? service.image : defaultImg;
+      const customerPhotos = uniquePhotoUrls(data.businessImages, data.logoUrl);
+      const serviceImage = isLikelyPhotoUrl(service.image, data.logoUrl) ? service.image : '';
+      const imgSrc = serviceImage || customerPhotos[index % customerPhotos.length] || defaultImg;
 
       return `
         <div class="service-card" id="service-card-${index}">
@@ -653,7 +713,7 @@
                  alt="${service.name}" 
                  class="service-img" 
                  loading="lazy" 
-                 onerror="this.onerror=null; this.src='${defaultImg}';" />
+                 data-fallback="${defaultImg}" />
           </div>
           <div class="service-card-body">
             <h3 class="service-title">${service.name}</h3>
@@ -669,6 +729,11 @@
         </div>
       `;
     }).join('');
+
+    container.querySelectorAll('.service-img').forEach((img, index) => {
+      const servicePhotos = uniquePhotoUrls(data.businessImages, data.logoUrl);
+      setImageWithFallback(img, [img.src, ...servicePhotos.filter(url => imageKey(url) !== imageKey(img.src))], img.dataset.fallback || getServiceFallbackImage('', index));
+    });
 
     // Populate Quote Form Service Select
     const quoteServiceSelect = document.getElementById('quote-service-select');
@@ -700,10 +765,9 @@
 
     if (!container) return;
 
-    // Use customer's businessImages if provided; otherwise fill with curated generic default cleaning photos
-    const images = (data.businessImages && data.businessImages.length > 0)
-      ? data.businessImages
-      : GENERIC_ASSETS.gallery;
+    // Prefer the customer's usable photos. Generic imagery appears only when none exist.
+    const customerImages = uniquePhotoUrls(data.businessImages, data.logoUrl);
+    const images = customerImages.length ? customerImages.slice(0, 12) : GENERIC_ASSETS.gallery;
 
     galleryImageUrls = images;
 
@@ -714,7 +778,7 @@
           <img src="${imgUrl}" 
                alt="Spotless cleaning results by ${data.name}" 
                loading="lazy" 
-               onerror="this.onerror=null; this.src='${fallbackUrl}';" />
+               data-fallback="${fallbackUrl}" />
           <div class="gallery-overlay">
             <span style="font-weight: 700; font-size: 0.85rem;">${data.name} Spotless Quality</span>
             <div class="gallery-zoom-icon">
@@ -729,6 +793,15 @@
         </div>
       `;
     }).join('');
+
+    container.querySelectorAll('.gallery-item img').forEach((img, idx) => {
+      const alternatives = images.filter(url => imageKey(url) !== imageKey(img.src));
+      setImageWithFallback(img, [img.src, ...alternatives], img.dataset.fallback, () => {
+        const item = img.closest('.gallery-item');
+        item?.remove();
+        galleryImageUrls = [...container.querySelectorAll('.gallery-item img')].map(node => node.currentSrc || node.src).filter(Boolean);
+      });
+    });
   }
 
   /**
@@ -759,7 +832,7 @@
           <p class="review-text">"${rev.text}"</p>
           <div class="review-author-row">
             <span class="review-author-name">${rev.author || 'Verified Client'}</span>
-            <span class="review-badge">${rev.source || 'Google Review'}</span>
+            <span class="review-badge">${rev.source || 'Review'}${rev.date ? ` · ${rev.date}` : ''}</span>
           </div>
         </div>
       `).join('');

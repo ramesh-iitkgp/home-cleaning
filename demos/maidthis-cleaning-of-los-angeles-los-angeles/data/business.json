@@ -10,11 +10,11 @@
     "state": "",
     "country": "usa",
     "opening_hours": "",
-    "rating": "5",
+    "rating": "3",
     "review_count": "",
-    "google_maps_url": "https://www.google.com/maps/place/MaidThis+Cleaning+of+Los+Angeles/data=!4m7!3m6!1s0x80c2bb9aff041b5b:0xa54ccbff01685ca2!8m2!3d34.0931967!4d-118.3830489!16s%2Fg%2F1pp2tzkym!19sChIJWxsE_5q7woARolxoAf_LTKU?authuser=0&hl=en&rclk=1",
+    "google_maps_url": "https://www.google.com/maps/place/MaidThis+Cleaning+of+Los+Angeles/data=!4m7!3m6!1s0x80c2bb9aff041b5b:0xa54ccbff01685ca2!8m2!3d34.0931967!4d-118.3830489!16s%2Fg%2F1pp2tzkym!19sChIJWxsE_5q7woARolxoAf_LTKU?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
     "logo_url": "",
-    "hero_image": "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2025/02/logo-la.svg",
+    "hero_image": "",
     "service_areas": [
         "los angeles"
     ],
@@ -41,19 +41,6 @@
             "image": ""
         }
     ],
-    "business_images": [
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2025/02/logo-la.svg",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/crown.webp",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/09/phone-call.webp",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/Arrow-green.svg",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/v904-nunny-017-g-copy-7.webp",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/Bitmap-Copy.webp",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/badge-1.svg",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/5-stars.svg",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/mt-thumbtack-pro-badge-1.webp",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/unnamed-3.webp",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/coe-badge-2021-256x200-1.webp",
-        "https://pub-584dff2764f0462d9e97cd526db977fa.r2.dev/wp-content/uploads/sites/1/2024/08/CFR_Lavender-Tagline_side_11-2_tm.webp"
-    ],
+    "business_images": [],
     "reviews": []
 }
