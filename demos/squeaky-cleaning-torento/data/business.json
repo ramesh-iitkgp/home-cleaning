@@ -1,0 +1,46 @@
+{
+    "business_name": "Squeaky Cleaning",
+    "tagline": "Professional Cleaning Services in torento",
+    "category": "Home Cleaning",
+    "phone": "16479057284",
+    "whatsapp": "",
+    "email": "info@squeakycleaning.ca",
+    "address": "\n300 Front St W, Toronto, ON M5V 0E9, Canada",
+    "city": "torento",
+    "state": "",
+    "country": "canada",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Squeaky+Cleaning/data=!4m7!3m6!1s0x882b35d77b081f79:0x25d64bf27e2e32d2!8m2!3d43.6441277!4d-79.3894058!16s%2Fg%2F11h4mrkmp2!19sChIJeR8Ie9c1K4gR0jIufvJL1iU?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "torento"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/getsqueaky/",
+        "facebook": "https://www.facebook.com/squeakycleaningco/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
