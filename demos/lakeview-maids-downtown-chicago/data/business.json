@@ -1,0 +1,47 @@
+{
+    "business_name": "Lakeview Maids",
+    "source_business_name": "Lakeview Maids",
+    "tagline": "Professional Cleaning Services in Downtown Chicago",
+    "category": "Home Cleaning",
+    "phone": "17736888760",
+    "whatsapp": "",
+    "email": "info@lakeviewmaids.com",
+    "address": "\n3752 N Southport Ave, Chicago, IL 60613, United States",
+    "city": "Downtown Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Lakeview+Maids/data=!4m7!3m6!1s0x880fd24ecabfb631:0x9765bbb2829c65b1!8m2!3d41.9504326!4d-87.6643646!16s%2Fg%2F11c0w0mc12!19sChIJMba_yk7SD4gRsWWcgrK7ZZc?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Downtown Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
