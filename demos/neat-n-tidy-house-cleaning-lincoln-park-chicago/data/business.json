@@ -1,0 +1,47 @@
+{
+    "business_name": "Neat N Tidy House Cleaning",
+    "source_business_name": "Neat N Tidy House Cleaning",
+    "tagline": "Professional Cleaning Services in Lincoln Park Chicago",
+    "category": "Home Cleaning",
+    "phone": "18723242688",
+    "whatsapp": "",
+    "email": "",
+    "address": "\n456 W Frontage Rd Num 137, Northfield, IL 60093, United States",
+    "city": "Lincoln Park Chicago",
+    "state": "",
+    "country": "usa",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Neat+N+Tidy+House+Cleaning/data=!4m7!3m6!1s0x880fc579d02756ed:0x3fbcbd3d71fcdd13!8m2!3d42.1038728!4d-87.7700019!16s%2Fg%2F11x8zyhwyq!19sChIJ7VYn0HnFD4gRE938cT29vD8?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Lincoln Park Chicago"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
