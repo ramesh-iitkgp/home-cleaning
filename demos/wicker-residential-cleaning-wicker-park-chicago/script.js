@@ -1550,3 +1550,68 @@
     init();
   }
 })();
+
+
+// Option A: Tabbed App Interface Navigation
+function setupHcTabs() {
+  const tabs = document.querySelectorAll('.hc-tab');
+  const mobTabs = document.querySelectorAll('.mobile-app-tab');
+  const sections = ['overview', 'services', 'calculator', 'before-after', 'checklist', 'reviews', 'quote'];
+
+  function setActive(targetId) {
+    tabs.forEach(t => {
+      if (t.getAttribute('data-tab') === targetId) {
+        t.classList.add('active');
+        try { t.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }); } catch(_) {}
+      } else {
+        t.classList.remove('active');
+      }
+    });
+    mobTabs.forEach(t => {
+      if (t.getAttribute('data-tab') === targetId) {
+        t.classList.add('active');
+      } else if (t.getAttribute('data-tab')) {
+        t.classList.remove('active');
+      }
+    });
+  }
+
+  [...tabs, ...mobTabs].forEach(link => {
+    link.addEventListener('click', (e) => {
+      const targetId = link.getAttribute('data-tab');
+      if (targetId) {
+        const el = document.getElementById(targetId);
+        if (el) {
+          e.preventDefault();
+          const offset = window.innerWidth < 768 ? 120 : 135;
+          const bodyRect = document.body.getBoundingClientRect().top;
+          const elRect = el.getBoundingClientRect().top;
+          const pos = elRect - bodyRect - offset;
+          window.scrollTo({ top: pos, behavior: 'smooth' });
+          setActive(targetId);
+        }
+      }
+    });
+  });
+
+  if ('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          if (id && sections.includes(id)) {
+            setActive(id);
+          }
+        }
+      });
+    }, { rootMargin: '-15% 0px -65% 0px' });
+
+    sections.forEach(id => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+  }
+}
+document.addEventListener('DOMContentLoaded', () => {
+  setTimeout(setupHcTabs, 200);
+});
