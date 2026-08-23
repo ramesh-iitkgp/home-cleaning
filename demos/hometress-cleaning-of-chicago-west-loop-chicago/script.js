@@ -334,12 +334,8 @@
     }
 
     // WhatsApp CTA
-    const waUrl = getWhatsAppUrl(data);
-    const mobWaBtn = document.getElementById('mobile-wa-bottom-btn');
-    if (mobWaBtn) {
-      mobWaBtn.href = waUrl || '#quote';
-    }
     const navWhatsAppBtn = document.getElementById('nav-whatsapp-btn');
+    const waUrl = getWhatsAppUrl(data);
     if (navWhatsAppBtn) {
       if (waUrl) {
         navWhatsAppBtn.classList.remove('data-hidden');
@@ -1552,115 +1548,5 @@
     document.addEventListener('DOMContentLoaded', init);
   } else {
     init();
-  }
-})();
-
-
-
-
-
-
-
-// Option A: Tabbed App Interface Navigation (Bulletproof Event Delegation & Native Scroll)
-(function initAppTabNavigation() {
-  const sections = ['overview', 'services', 'calculator', 'checklist', 'before-after', 'reviews', 'quote'];
-
-  function setActiveTab(targetId) {
-    // Top Tabs Bar
-    document.querySelectorAll('.hc-tab').forEach(t => {
-      const tabTarget = t.getAttribute('data-tab') || (t.getAttribute('href') || '').replace('#', '');
-      if (tabTarget === targetId) {
-        t.classList.add('active');
-        try {
-          const container = document.getElementById('section-tabs-bar');
-          if (container) {
-            const tabLeft = t.offsetLeft;
-            const tabWidth = t.offsetWidth;
-            const cWidth = container.offsetWidth;
-            container.scrollTo({
-              left: tabLeft - (cWidth / 2) + (tabWidth / 2),
-              behavior: 'smooth'
-            });
-          }
-        } catch (_) {}
-      } else {
-        t.classList.remove('active');
-      }
-    });
-
-    // Bottom Mobile App Bar
-    document.querySelectorAll('.mobile-app-tab').forEach(t => {
-      const tabTarget = t.getAttribute('data-tab') || (t.getAttribute('href') || '').replace('#', '');
-      if (tabTarget === targetId) {
-        t.classList.add('active');
-      } else if (tabTarget && tabTarget !== 'whatsapp') {
-        t.classList.remove('active');
-      }
-    });
-  }
-
-  // Global document click event delegation (Capture phase to intercept before any default browser anchor jumps)
-  document.addEventListener('click', (e) => {
-    const link = e.target.closest('a[href^="#"], [data-tab]');
-    if (!link) return;
-
-    const href = link.getAttribute('href') || '';
-    const dataTab = link.getAttribute('data-tab') || '';
-    let targetId = dataTab || (href.startsWith('#') ? href.replace('#', '') : '');
-
-    if (!targetId || targetId === '#' || targetId === 'whatsapp') {
-      return;
-    }
-
-    // 1. Overview / Home -> Smooth Scroll to absolute top
-    if (targetId === 'overview' || targetId === 'hero') {
-      e.preventDefault();
-      e.stopPropagation();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      setActiveTab('overview');
-      try { history.replaceState(null, '', '#overview'); } catch(_) {}
-      return;
-    }
-
-    // 2. Specific Section Target
-    const el = document.getElementById(targetId);
-    if (el) {
-      // If section is hidden, don't trap
-      if (el.classList.contains('data-hidden') || el.style.display === 'none') {
-        return;
-      }
-      e.preventDefault();
-      e.stopPropagation();
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      setActiveTab(targetId);
-      try { history.replaceState(null, '', '#' + targetId); } catch(_) {}
-    }
-  }, true);
-
-  // ScrollSpy via IntersectionObserver
-  if ('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const id = entry.target.getAttribute('id');
-          if (id && sections.includes(id)) {
-            setActiveTab(id);
-          }
-        }
-      });
-    }, { rootMargin: '-10% 0px -65% 0px' });
-
-    function observeSections() {
-      sections.forEach(id => {
-        const el = document.getElementById(id);
-        if (el) observer.observe(el);
-      });
-    }
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', observeSections);
-    } else {
-      observeSections();
-    }
   }
 })();
