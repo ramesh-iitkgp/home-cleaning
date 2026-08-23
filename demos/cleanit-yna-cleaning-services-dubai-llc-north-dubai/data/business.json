@@ -1,0 +1,91 @@
+{
+    "business_name": "Cleanit Yna Cleaning Services Dubai Llc",
+    "source_business_name": "Cleanit Yna Cleaning Services Dubai Llc",
+    "tagline": "Professional Cleaning Services in North Dubai",
+    "category": "Home Cleaning",
+    "phone": "971509857868",
+    "whatsapp": "",
+    "email": "",
+    "website_url": "https://www.cleanit.ae/",
+    "address": "\nThe Binary by OMNIYAT, Omniyat - 16th floor, ‎ - Office No 88 Marasi Dr - Business Bay - Dubai - United Arab Emirates",
+    "city": "North Dubai",
+    "state": "",
+    "country": "UAE",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Cleanit+YNA+Cleaning+Services+Dubai+LLC/data=!4m7!3m6!1s0x3e5f5cc1c6ae0ded:0x8084ecfb3d72c5a0!8m2!3d25.184753!4d55.2818046!16s%2Fg%2F11f3n2bmtk!19sChIJ7Q2uxsFcXz4RoMVyPfvshIA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "North Dubai"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "https://www.facebook.com/cleanit.ae/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [
+        {
+            "id": "kitchen",
+            "badge": "Kitchen Restoration",
+            "title": "Kitchen Degreasing & Stovetop Restoration",
+            "description": "Removal of heavy grease splatter, burnt stovetop carbon, stained backsplash tile, and messy clutter.",
+            "before": "./assets/kitchen_before.jpg",
+            "after": "./assets/kitchen_after.jpg",
+            "before_stats": "Heavy grease, clutter & burnt spills",
+            "after_stats": "100% Degreased & showroom shine"
+        },
+        {
+            "id": "bathroom",
+            "badge": "Bathroom Descaling",
+            "title": "Bathroom Limescale & Tile Grout Descaling",
+            "description": "Deep chemical-free acid descaling of stubborn limescale, soap scum, dull chrome fixtures, and discolored grout.",
+            "before": "./assets/bathroom_before.jpg",
+            "after": "./assets/bathroom_after.jpg",
+            "before_stats": "Stubborn limescale, scum & dull tiles",
+            "after_stats": "Mirror polished & deep sanitized"
+        },
+        {
+            "id": "living",
+            "badge": "Floor & Room Polish",
+            "title": "Living Space Declutter & Hardwood Polish",
+            "description": "Complete dust extraction, hardwood floor rejuvenation, carpet vacuuming, streak removal, and tidy organization.",
+            "before": "./assets/living_before.jpg",
+            "after": "./assets/living_after.jpg",
+            "before_stats": "Dust, scuffs & unorganized furniture",
+            "after_stats": "Pristine, gleaming & fresh atmosphere"
+        },
+        {
+            "id": "appliance",
+            "badge": "Oven & Appliance Grime",
+            "title": "Oven & Appliance Carbon Grime Extraction",
+            "description": "Intensive degreasing and polishing of baked-on food residue, oven door glass, and racks to showroom condition.",
+            "before": "./assets/oven_before.jpg",
+            "after": "./assets/oven_after.jpg",
+            "before_stats": "Baked carbon & oily grease layers",
+            "after_stats": "Streak-free crystal clear glass"
+        }
+    ],
+    "services": [
+        {
+            "name": "Regular Home Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Deep Cleaning",
+            "description": "",
+            "image": ""
+        },
+        {
+            "name": "Move-In / Move-Out Cleaning",
+            "description": "",
+            "image": ""
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
