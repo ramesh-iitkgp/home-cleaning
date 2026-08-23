@@ -1559,25 +1559,28 @@
 
 
 
-// Option A: Tabbed App Interface Navigation (Robust scrollIntoView)
-function setupHcTabs() {
-  const tabs = document.querySelectorAll('.hc-tab');
-  const mobTabs = document.querySelectorAll('.mobile-app-tab');
-  const allNavLinks = document.querySelectorAll('a[href^="#"], [data-tab]');
-  const sections = ['overview', 'services', 'calculator', 'before-after', 'checklist', 'reviews', 'quote'];
 
-  function setActive(targetId) {
-    tabs.forEach(t => {
+
+// Option A: Tabbed App Interface Navigation (Bulletproof Event Delegation & Native Scroll)
+(function initAppTabNavigation() {
+  const sections = ['overview', 'services', 'calculator', 'checklist', 'before-after', 'reviews', 'quote'];
+
+  function setActiveTab(targetId) {
+    // Top Tabs Bar
+    document.querySelectorAll('.hc-tab').forEach(t => {
       const tabTarget = t.getAttribute('data-tab') || (t.getAttribute('href') || '').replace('#', '');
       if (tabTarget === targetId) {
         t.classList.add('active');
-        try { t.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }); } catch(_) {}
+        try {
+          t.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        } catch (_) {}
       } else {
         t.classList.remove('active');
       }
     });
 
-    mobTabs.forEach(t => {
+    // Bottom Mobile App Bar
+    document.querySelectorAll('.mobile-app-tab').forEach(t => {
       const tabTarget = t.getAttribute('data-tab') || (t.getAttribute('href') || '').replace('#', '');
       if (tabTarget === targetId) {
         t.classList.add('active');
@@ -1587,48 +1590,68 @@ function setupHcTabs() {
     });
   }
 
-  allNavLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      const href = link.getAttribute('href') || '';
-      const dataTab = link.getAttribute('data-tab') || '';
-      const targetId = dataTab || (href.startsWith('#') ? href.replace('#', '') : '');
+  // Global document click event delegation (Capture phase to intercept before any default browser anchor jumps)
+  document.addEventListener('click', (e) => {
+    const link = e.target.closest('a[href^="#"], [data-tab]');
+    if (!link) return;
 
-      if (targetId && targetId !== '#' && targetId !== 'whatsapp') {
-        const el = document.getElementById(targetId);
-        if (el) {
-          e.preventDefault();
-          e.stopPropagation();
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          setActive(targetId);
-          try { history.replaceState(null, '', '#' + targetId); } catch(_) {}
-        }
+    const href = link.getAttribute('href') || '';
+    const dataTab = link.getAttribute('data-tab') || '';
+    let targetId = dataTab || (href.startsWith('#') ? href.replace('#', '') : '');
+
+    if (!targetId || targetId === '#' || targetId === 'whatsapp') {
+      return;
+    }
+
+    // 1. Overview / Home -> Smooth Scroll to absolute top
+    if (targetId === 'overview' || targetId === 'hero') {
+      e.preventDefault();
+      e.stopPropagation();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      setActiveTab('overview');
+      try { history.replaceState(null, '', '#overview'); } catch(_) {}
+      return;
+    }
+
+    // 2. Specific Section Target
+    const el = document.getElementById(targetId);
+    if (el) {
+      // If section is hidden, don't trap
+      if (el.classList.contains('data-hidden') || el.style.display === 'none') {
+        return;
       }
-    });
-  });
+      e.preventDefault();
+      e.stopPropagation();
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setActiveTab(targetId);
+      try { history.replaceState(null, '', '#' + targetId); } catch(_) {}
+    }
+  }, true);
 
+  // ScrollSpy via IntersectionObserver
   if ('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           const id = entry.target.getAttribute('id');
           if (id && sections.includes(id)) {
-            setActive(id);
+            setActiveTab(id);
           }
         }
       });
     }, { rootMargin: '-10% 0px -65% 0px' });
 
-    sections.forEach(id => {
-      const el = document.getElementById(id);
-      if (el) observer.observe(el);
-    });
-  }
-}
+    function observeSections() {
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) observer.observe(el);
+      });
+    }
 
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => {
-    setTimeout(setupHcTabs, 100);
-  });
-} else {
-  setTimeout(setupHcTabs, 100);
-}
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', observeSections);
+    } else {
+      observeSections();
+    }
+  }
+})();

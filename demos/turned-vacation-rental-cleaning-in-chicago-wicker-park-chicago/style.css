@@ -2840,33 +2840,44 @@ ul, ol {
 
 
 
+
+
 /* ==========================================================================
-   OPTION A: TABBED APP INTERFACE STYLES & MOBILE OVERRIDES
+   OPTION A: TABBED APP INTERFACE & MOBILE RESPONSIVENESS
    ========================================================================== */
 
-/* Section scroll margins */
-#overview, #services, #calculator, #before-after, #checklist, #reviews, #quote, #why-us, #gallery, #service-areas {
-  scroll-margin-top: 130px;
-}
-@media (max-width: 768px) {
-  #overview, #services, #calculator, #before-after, #checklist, #reviews, #quote, #why-us, #gallery, #service-areas {
-    scroll-margin-top: 115px;
-  }
+/* Universal smooth scroll & scroll margins for all sections */
+html {
+  scroll-behavior: smooth !important;
 }
 
-/* Hide mobile phone in top navbar */
+#overview, #hero, #services, #calculator, #before-after, #checklist, #reviews, #quote, #why-us, #gallery, #service-areas {
+  scroll-margin-top: 130px !important;
+}
+
 @media (max-width: 768px) {
-  .nav-phone-pill {
+  #overview, #hero, #services, #calculator, #before-after, #checklist, #reviews, #quote, #why-us, #gallery, #service-areas {
+    scroll-margin-top: 110px !important;
+  }
+  /* Hide top announcement bar on mobile to give room for sticky navbar and tab bar */
+  .top-bar {
     display: none !important;
   }
-  .floating-whatsapp-fab.desktop-only {
+  /* Navbar height on mobile */
+  .navbar-inner {
+    height: 58px !important;
+  }
+  /* Hide desktop phone pill, hamburger, and old floating fab on mobile */
+  .nav-phone-pill, .hamburger-btn, .floating-whatsapp-fab, .mobile-sticky-bar {
     display: none !important;
   }
-  .mobile-sticky-bar {
-    display: none !important;
+  /* Section tabs bar top position on mobile */
+  .section-tabs-bar {
+    top: 58px !important;
   }
-  .hamburger-btn {
-    display: none !important;
+  /* Add bottom padding to body so fixed bottom nav never overlaps footer */
+  body {
+    padding-bottom: 70px !important;
   }
 }
 
@@ -2879,7 +2890,7 @@ ul, ol {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(226, 232, 240, 0.85);
-  padding: 8px 0;
+  padding: 6px 0;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -2895,24 +2906,25 @@ ul, ol {
   align-items: center;
   gap: 4px;
   padding: 6px 14px;
-  border-radius: var(--radius-pill);
+  border-radius: var(--radius-pill, 9999px);
   font-size: 0.82rem;
   font-weight: 600;
-  color: var(--color-text-muted);
-  background: var(--color-bg-subtle);
+  color: #64748b;
+  background: #f1f5f9;
   border: 1px solid transparent;
   text-decoration: none;
-  transition: all var(--transition-fast);
+  transition: all 0.2s ease;
   white-space: nowrap;
   cursor: pointer;
+  user-select: none;
 }
 .hc-tab:hover {
-  color: var(--color-brand);
-  background: var(--color-brand-subtle);
+  color: #0284c7;
+  background: #e0f2fe;
 }
 .hc-tab.active {
   color: #ffffff !important;
-  background: var(--color-brand) !important;
+  background: #0284c7 !important;
   box-shadow: 0 2px 10px rgba(2, 132, 199, 0.35);
 }
 
@@ -2933,7 +2945,7 @@ ul, ol {
   padding: 6px 4px 8px;
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.08);
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .mobile-app-bottom-nav {
     display: none !important;
   }
@@ -2942,21 +2954,29 @@ ul, ol {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
+  gap: 2px;
   font-size: 0.68rem;
   font-weight: 600;
-  color: var(--color-text-muted);
+  color: #64748b;
   text-decoration: none;
   padding: 4px 8px;
   border-radius: 8px;
-  transition: all var(--transition-fast);
+  transition: all 0.2s ease;
   cursor: pointer;
+  user-select: none;
+}
+.mobile-app-tab svg {
+  stroke: currentColor;
 }
 .mobile-app-tab:hover,
 .mobile-app-tab.active {
-  color: var(--color-brand) !important;
+  color: #0284c7 !important;
 }
 .mobile-app-tab-wa {
   color: #059669 !important;
   font-weight: 700;
+}
+.mobile-app-tab-wa svg {
+  fill: none;
+  stroke: #059669;
 }
