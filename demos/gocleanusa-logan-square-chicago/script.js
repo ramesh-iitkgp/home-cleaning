@@ -1572,7 +1572,16 @@
       if (tabTarget === targetId) {
         t.classList.add('active');
         try {
-          t.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+          const container = document.getElementById('section-tabs-bar');
+          if (container) {
+            const tabLeft = t.offsetLeft;
+            const tabWidth = t.offsetWidth;
+            const cWidth = container.offsetWidth;
+            container.scrollTo({
+              left: tabLeft - (cWidth / 2) + (tabWidth / 2),
+              behavior: 'smooth'
+            });
+          }
         } catch (_) {}
       } else {
         t.classList.remove('active');
