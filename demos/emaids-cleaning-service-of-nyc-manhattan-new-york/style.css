@@ -2804,3 +2804,58 @@ ul, ol {
 .floating-whatsapp-fab:hover .whatsapp-tooltip {
   opacity: 1;
 }
+
+
+/* --- Compact Mobile Header Action Icons --- */
+@media (max-width: 768px) {
+  .navbar-inner {
+    height: 60px !important;
+    gap: 8px !important;
+  }
+  .brand-identity {
+    min-width: 0 !important;
+    max-width: calc(100vw - 160px) !important;
+    flex-shrink: 1 !important;
+  }
+  .brand-name-text {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    display: block !important;
+    font-size: 0.95rem !important;
+  }
+  .nav-actions {
+    gap: 6px !important;
+    flex-shrink: 0 !important;
+  }
+  .nav-phone-pill {
+    padding: 0 !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #f1f5f9 !important;
+  }
+  .nav-phone-label {
+    display: none !important;
+  }
+  .nav-quote-btn {
+    padding: 0 !important;
+    width: 36px !important;
+    height: 36px !important;
+    border-radius: 50% !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  .nav-quote-label {
+    display: none !important;
+  }
+  .hamburger-btn {
+    width: 36px !important;
+    height: 36px !important;
+    padding: 8px !important;
+  }
+}
