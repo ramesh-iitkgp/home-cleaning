@@ -70,12 +70,6 @@
   padding: 0;
 }
 
-html, body {
-  overflow-x: hidden;
-  max-width: 100vw;
-  width: 100%;
-}
-
 html {
   font-family: var(--font-family);
   font-size: 16px;
@@ -376,14 +370,6 @@ ul, ol {
   align-items: center;
   gap: 10px;
   text-decoration: none;
-  min-width: 0;
-  max-width: 60vw;
-}
-
-@media (min-width: 768px) {
-  .brand-identity {
-    max-width: none;
-  }
 }
 
 .brand-fallback-badge {
@@ -406,22 +392,11 @@ ul, ol {
 }
 
 .brand-name-text {
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 800;
   color: var(--color-primary);
   line-height: 1.1;
   letter-spacing: -0.02em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 100%;
-  display: block;
-}
-
-@media (min-width: 768px) {
-  .brand-name-text {
-    font-size: 1.15rem;
-  }
 }
 
 .nav-links {
