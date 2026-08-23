@@ -334,6 +334,10 @@
     }
 
     // WhatsApp CTA
+    const mobWaBtn = document.getElementById('mobile-wa-bottom-btn');
+    if (mobWaBtn) {
+      mobWaBtn.href = waUrl;
+    }
     const navWhatsAppBtn = document.getElementById('nav-whatsapp-btn');
     const waUrl = getWhatsAppUrl(data);
     if (navWhatsAppBtn) {
@@ -1553,7 +1557,9 @@
 
 
 
-// Option A: Tabbed App Interface Navigation
+
+
+// Option A: Tabbed App Interface Navigation (Robust scrollIntoView)
 function setupHcTabs() {
   const tabs = document.querySelectorAll('.hc-tab');
   const mobTabs = document.querySelectorAll('.mobile-app-tab');
@@ -1570,6 +1576,7 @@ function setupHcTabs() {
         t.classList.remove('active');
       }
     });
+
     mobTabs.forEach(t => {
       const tabTarget = t.getAttribute('data-tab') || (t.getAttribute('href') || '').replace('#', '');
       if (tabTarget === targetId) {
@@ -1617,6 +1624,11 @@ function setupHcTabs() {
     });
   }
 }
-document.addEventListener('DOMContentLoaded', () => {
+
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => {
+    setTimeout(setupHcTabs, 100);
+  });
+} else {
   setTimeout(setupHcTabs, 100);
-});
+}
