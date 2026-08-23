@@ -1226,6 +1226,103 @@
   }
 
   /**
+   * Universal Generic Services Generator
+   * Generates standard generic services across all countries with localized pricing
+   */
+  function getGenericServices(curr) {
+    let prices = {
+      '£': { reg: '£22/hr', deep: '£180', move: '£220', carpet: '£65', reno: '£250', comm: '£25/hr' },
+      '$': { reg: '$45/hr', deep: '$220', move: '$280', carpet: '$85', reno: '$320', comm: '$35/hr' },
+      'A$': { reg: 'A$42/hr', deep: 'A$240', move: 'A$320', carpet: 'A$95', reno: 'A$360', comm: 'A$38/hr' },
+      'NZ$': { reg: 'NZ$40/hr', deep: 'NZ$230', move: 'NZ$310', carpet: 'NZ$90', reno: 'NZ$350', comm: 'NZ$36/hr' },
+      'C$': { reg: 'C$42/hr', deep: 'C$220', move: 'C$290', carpet: 'C$85', reno: 'C$330', comm: 'C$35/hr' },
+      '₹': { reg: '₹499/hr', deep: '₹3,499', move: '₹4,999', carpet: '₹1,499', reno: '₹5,499', comm: '₹350/hr' }
+    };
+    const p = prices[curr] || prices['£'];
+
+    return [
+      {
+        name: "Regular Home Cleaning",
+        badge: "Popular Housekeeping",
+        price_from: p.reg,
+        description: "Consistent weekly or bi-weekly housekeeping tailored to keep your living spaces continuously immaculate and fresh.",
+        image: "./assets/service_regular.jpg",
+        features: [
+          "Dusting & vacuuming all rooms",
+          "Kitchen counters, sink & stovetop scrub",
+          "Complete bathroom sanitization",
+          "Bed making & linen changing"
+        ]
+      },
+      {
+        name: "Intensive Deep Cleaning",
+        badge: "Top Detail Scrub",
+        price_from: p.deep,
+        description: "Top-to-bottom comprehensive deep scrub reaching behind appliances, skirting boards, grout lines, and heavy buildup.",
+        image: "./assets/service_deep.jpg",
+        features: [
+          "Inside oven, microwave & range hood degreasing",
+          "Deep tile & grout limescale descaling",
+          "Baseboards, doors & window frame wiping",
+          "Under & behind reachable furniture"
+        ]
+      },
+      {
+        name: "End of Tenancy / Move-Out Cleaning",
+        badge: "100% Deposit Guarantee",
+        price_from: p.move,
+        description: "Inspection-ready handover deep clean strictly compliant with estate agent and landlord inventory checklists.",
+        image: "./assets/service_move_out.jpg",
+        features: [
+          "48-hour free re-clean guarantee",
+          "Deep cupboard & wardrobe interior wash",
+          "Appliance internal degreasing included",
+          "Official invoice for estate agent handover"
+        ]
+      },
+      {
+        name: "Carpet & Upholstery Steam Cleaning",
+        badge: "Stain & Allergen Removal",
+        price_from: p.carpet,
+        description: "High-temperature hot water extraction extracting deep ground-in dirt, pet dander, stubborn stains, and bacteria.",
+        image: "./assets/service_carpet.jpg",
+        features: [
+          "Deep hot-water steam injection",
+          "Pet odor & stain neutralizing enzyme",
+          "Quick drying time (2-4 hours)",
+          "Safe for delicate fibers & wool rugs"
+        ]
+      },
+      {
+        name: "Post-Renovation & Builders Cleaning",
+        badge: "Fine Dust Elimination",
+        price_from: p.reno,
+        description: "Specialized multi-stage fine dust extraction, paint splatter removal, and polishing following construction works.",
+        image: "./assets/living_after.jpg",
+        features: [
+          "HEPA filtration fine dust extraction",
+          "Paint, silicone & adhesive residue removal",
+          "Window glass & track detailed polishing",
+          "Ready for immediate furnishing"
+        ]
+      },
+      {
+        name: "Commercial & Office Cleaning",
+        badge: "Discreet & Professional",
+        price_from: p.comm,
+        description: "Discreet, reliable janitorial maintenance creating clean, hygienic, and productive workplace environments.",
+        image: "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=800&q=80",
+        features: [
+          "Workstation & phone sanitization",
+          "Kitchenette, breakroom & washroom restock",
+          "After-hours or weekend keyholder service",
+          "Eco-friendly commercial supplies"
+        ]
+      }
+    ];
+  }
+
+  /**
    * ==========================================================================
    * 6 MULTI-REGION REALISTIC DEMO PRESETS (US, UK, AUS, NZ, Canada, India)
    * ==========================================================================
@@ -1233,8 +1330,8 @@
   const DEMO_PRESETS = {
     'us_chicago': {
       "business_name": "Apex Deep Clean Pro",
-      "tagline": "Chicagoland's Premier Eco-Friendly House & Condo Cleaners",
-      "category": "Residential & Deep Cleaning",
+      "tagline": "Chicagoland's Premier House, Deep & Move-Out Cleaning Specialists",
+      "category": "Residential & Commercial Cleaning",
       "phone": "+1 (312) 555-0198",
       "whatsapp": "+1 (312) 555-0198",
       "email": "service@apexdeepclean.com",
@@ -1259,19 +1356,15 @@
         "tiktok": "https://tiktok.com/@apexdeepclean",
         "yelp": "https://yelp.com/biz/apex-deep-clean"
       },
-      "services": [
-        { "name": "Eco Housekeeping", "badge": "Pet-Safe Products", "price_from": "$45/hr", "description": "Routine maid service with all-natural, non-toxic plant detergents.", "image": "./assets/service_regular.jpg", "features": ["HEPA vacuuming", "Non-toxic organic sprays", "Disinfected countertops", "Trash disposal"] },
-        { "name": "Condo Move-Out Turnover", "badge": "Deposit Guarantee", "price_from": "$240", "description": "Top-to-bottom turnover cleaning for downtown high-rises and apartments.", "image": "./assets/service_move_out.jpg", "features": ["Inside fridge & oven", "Tile descaling", "Baseboard wipedown", "Management sign-off"] },
-        { "name": "Deep Sanitization Scrub", "badge": "Top Detail", "price_from": "$190", "description": "Intensive scrubbing reaching behind furniture, baseboards, and heavy buildup.", "image": "./assets/service_deep.jpg", "features": ["Grout chemical scrub", "Cabinet doors washed", "Ceiling fans & vents", "High-touch surfaces"] }
-      ],
+      "services": getGenericServices('$'),
       "reviews": [
-        { "author": "Marcus Brody", "rating": 5, "text": "Apex Deep Clean Pro did our Lincoln Park condo. Spotless, polite, and completely pet-friendly. 10/10!", "source": "Google Review", "date": "4 days ago" }
+        { "author": "Marcus Brody", "rating": 5, "text": "Apex Deep Clean Pro did our Lincoln Park home. Spotless, polite, and completely pet-friendly. 10/10!", "source": "Google Review", "date": "4 days ago" }
       ]
     },
     'aus_sydney': {
       "business_name": "Bondi Pristine Cleaning Co",
       "tagline": "Sydney's Trusted Residential & End of Lease Cleaning Experts",
-      "category": "Bond Cleaning & Housekeeping",
+      "category": "Residential & Commercial Cleaning",
       "phone": "+61 480 012 345",
       "whatsapp": "+61 480 012 345",
       "email": "hello@bondipristine.com.au",
@@ -1294,18 +1387,15 @@
         "instagram": "https://instagram.com/bondipristine",
         "facebook": "https://facebook.com/bondipristine"
       },
-      "services": [
-        { "name": "End of Lease Bond Clean", "badge": "100% Bond Return", "price_from": "A$280", "description": "REA-checklist compliant bond cleaning guaranteed to pass property management inspection.", "image": "./assets/service_move_out.jpg", "features": ["72-hr free re-clean", "Oven & rangehood degrease", "Window tracks cleaned", "Receipt provided"] },
-        { "name": "Regular Home Cleaning", "badge": "Weekly / Fortnightly", "price_from": "A$42/hr", "description": "Reliable domestic housekeeping keeping Sydney homes fresh and tidy.", "image": "./assets/service_regular.jpg", "features": ["Kitchen & bath sanitise", "Bed linen changing", "Hard floor mopping", "Custom instructions"] }
-      ],
+      "services": getGenericServices('A$'),
       "reviews": [
-        { "author": "Liam Hemsworth", "rating": 5, "text": "Got 100% of our bond back on our Paddington terrace. The real estate agent was amazed at the oven and bathrooms.", "source": "Google Review", "date": "1 week ago" }
+        { "author": "Liam Hemsworth", "rating": 5, "text": "Got 100% of our bond back on our terrace. The team was amazed at the oven and bathrooms.", "source": "Google Review", "date": "1 week ago" }
       ]
     },
     'nz_auckland': {
       "business_name": "Kiwi Sparkle Home Services",
-      "tagline": "Eco-Conscious Domestic & Move-Out Cleaners in Auckland",
-      "category": "Residential & Deep Cleaning",
+      "tagline": "Auckland's Trusted Domestic, Deep & Move-Out Cleaning Specialists",
+      "category": "Residential & Commercial Cleaning",
       "phone": "+64 9 555 8920",
       "whatsapp": "+64 9 555 8920",
       "email": "team@kiwisparkle.co.nz",
@@ -1328,17 +1418,15 @@
         "instagram": "https://instagram.com/kiwisparkle",
         "facebook": "https://facebook.com/kiwisparkle"
       },
-      "services": [
-        { "name": "Standard Kiwi House Clean", "badge": "Popular", "price_from": "NZ$40/hr", "description": "Complete room-by-room housekeeping with eco-friendly solutions.", "image": "./assets/service_regular.jpg", "features": ["Eco-detergents", "Dusting & vacuuming", "Bathroom descaling", "Kitchen degreasing"] }
-      ],
+      "services": getGenericServices('NZ$'),
       "reviews": [
         { "author": "Chloe Marshall", "rating": 5, "text": "Punctual, friendly and the house smelled amazing. Kiwi Sparkle is easily the best cleaning team in Auckland.", "source": "Google Review", "date": "2 weeks ago" }
       ]
     },
     'ca_toronto': {
       "business_name": "Maple Leaf Spotless Homes",
-      "tagline": "Top-Tier Residential & Deep Cleaning in the Greater Toronto Area",
-      "category": "Residential & Turnover Cleaning",
+      "tagline": "Top-Tier Residential, Deep & Move-Out Cleaning in the GTA",
+      "category": "Residential & Commercial Cleaning",
       "phone": "+1 (416) 555-7832",
       "whatsapp": "+1 (416) 555-7832",
       "email": "support@mapleleafspotless.ca",
@@ -1361,17 +1449,15 @@
         "instagram": "https://instagram.com/mapleleafspotless",
         "facebook": "https://facebook.com/mapleleafspotless"
       },
-      "services": [
-        { "name": "GTA Home Deep Scrub", "badge": "Top Seller", "price_from": "C$210", "description": "Thorough sanitization reaching deep into corners, baseboards, and appliances.", "image": "./assets/service_deep.jpg", "features": ["Appliance exterior", "Grout cleaning", "Disinfected fixtures", "Detailed dusting"] }
-      ],
+      "services": getGenericServices('C$'),
       "reviews": [
         { "author": "Sophie Tremblay", "rating": 5, "text": "They transformed our Yorkville townhouse before family arrived. Efficient, immaculate, and professional.", "source": "Google Review", "date": "1 month ago" }
       ]
     },
     'in_mumbai': {
       "business_name": "UrbanShine Deep Cleaners",
-      "tagline": "Mumbai's #1 Professional Home & Kitchen Deep Sanitization Service",
-      "category": "Home & Kitchen Deep Cleaning",
+      "tagline": "Mumbai's Premier Residential, Deep & Move-Out Cleaning Specialists",
+      "category": "Residential & Commercial Cleaning",
       "phone": "+91 98200 54321",
       "whatsapp": "+91 98200 54321",
       "email": "book@urbanshineindia.com",
@@ -1395,10 +1481,7 @@
         "facebook": "https://facebook.com/urbanshinemumbai",
         "youtube": "https://youtube.com/@urbanshineindia"
       },
-      "services": [
-        { "name": "Full Home Deep Cleaning", "badge": "Best Seller", "price_from": "₹3,499", "description": "Complete mechanized deep cleaning including kitchen oil degreasing, bathroom descaling & floor buffing.", "image": "./assets/service_deep.jpg", "features": ["Single disc machine floor scrubbing", "Kitchen chimney & tiles degreasing", "Bathroom hard water stain removal", "Balcony wash"] },
-        { "name": "Modular Kitchen & Chimney Scrub", "badge": "High Demand", "price_from": "₹1,899", "description": "Tough grease removal from chimney filters, stove burners, tiles, and inside cabinets.", "image": "./assets/kitchen_after.jpg", "features": ["Heavy degreasing chemicals", "Inside cabinet wipedown", "Chimney mesh cleaning", "Sink pipe sanitization"] }
-      ],
+      "services": getGenericServices('₹'),
       "reviews": [
         { "author": "Rahul Sharma", "rating": 5, "text": "UrbanShine cleaned our 3BHK flat in Bandra before Diwali. The kitchen grease and bathroom tiles look brand new. Excellent crew!", "source": "Google Review", "date": "1 week ago" }
       ]
