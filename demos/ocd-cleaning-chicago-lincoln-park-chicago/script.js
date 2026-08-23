@@ -334,12 +334,12 @@
     }
 
     // WhatsApp CTA
+    const waUrl = getWhatsAppUrl(data);
     const mobWaBtn = document.getElementById('mobile-wa-bottom-btn');
     if (mobWaBtn) {
-      mobWaBtn.href = waUrl;
+      mobWaBtn.href = waUrl || '#quote';
     }
     const navWhatsAppBtn = document.getElementById('nav-whatsapp-btn');
-    const waUrl = getWhatsAppUrl(data);
     if (navWhatsAppBtn) {
       if (waUrl) {
         navWhatsAppBtn.classList.remove('data-hidden');

@@ -1238,5 +1238,17 @@
       </a>
     </nav>
     
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Photo Lightbox">
+      <button class="lightbox-close-btn" id="lightbox-close-btn" aria-label="Close photo">&times;</button>
+      <button class="lightbox-nav-btn lightbox-prev" id="lightbox-prev-btn" onclick="window.navigateLightbox(-1)" aria-label="Previous photo">&lsaquo;</button>
+      <button class="lightbox-nav-btn lightbox-next" id="lightbox-next-btn" onclick="window.navigateLightbox(1)" aria-label="Next photo">&rsaquo;</button>
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Enlarged photo" />
+        <p id="lightbox-caption" class="lightbox-caption"></p>
+      </div>
+    </div>
+
 </body>
 </html>
