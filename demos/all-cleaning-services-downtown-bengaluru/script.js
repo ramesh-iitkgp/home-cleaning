@@ -1552,15 +1552,18 @@
 })();
 
 
+
 // Option A: Tabbed App Interface Navigation
 function setupHcTabs() {
   const tabs = document.querySelectorAll('.hc-tab');
   const mobTabs = document.querySelectorAll('.mobile-app-tab');
+  const allNavLinks = document.querySelectorAll('a[href^="#"], [data-tab]');
   const sections = ['overview', 'services', 'calculator', 'before-after', 'checklist', 'reviews', 'quote'];
 
   function setActive(targetId) {
     tabs.forEach(t => {
-      if (t.getAttribute('data-tab') === targetId) {
+      const tabTarget = t.getAttribute('data-tab') || (t.getAttribute('href') || '').replace('#', '');
+      if (tabTarget === targetId) {
         t.classList.add('active');
         try { t.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }); } catch(_) {}
       } else {
@@ -1568,27 +1571,29 @@ function setupHcTabs() {
       }
     });
     mobTabs.forEach(t => {
-      if (t.getAttribute('data-tab') === targetId) {
+      const tabTarget = t.getAttribute('data-tab') || (t.getAttribute('href') || '').replace('#', '');
+      if (tabTarget === targetId) {
         t.classList.add('active');
-      } else if (t.getAttribute('data-tab')) {
+      } else if (tabTarget && tabTarget !== 'whatsapp') {
         t.classList.remove('active');
       }
     });
   }
 
-  [...tabs, ...mobTabs].forEach(link => {
+  allNavLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-      const targetId = link.getAttribute('data-tab');
-      if (targetId) {
+      const href = link.getAttribute('href') || '';
+      const dataTab = link.getAttribute('data-tab') || '';
+      const targetId = dataTab || (href.startsWith('#') ? href.replace('#', '') : '');
+
+      if (targetId && targetId !== '#' && targetId !== 'whatsapp') {
         const el = document.getElementById(targetId);
         if (el) {
           e.preventDefault();
-          const offset = window.innerWidth < 768 ? 120 : 135;
-          const bodyRect = document.body.getBoundingClientRect().top;
-          const elRect = el.getBoundingClientRect().top;
-          const pos = elRect - bodyRect - offset;
-          window.scrollTo({ top: pos, behavior: 'smooth' });
+          e.stopPropagation();
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
           setActive(targetId);
+          try { history.replaceState(null, '', '#' + targetId); } catch(_) {}
         }
       }
     });
@@ -1604,7 +1609,7 @@ function setupHcTabs() {
           }
         }
       });
-    }, { rootMargin: '-15% 0px -65% 0px' });
+    }, { rootMargin: '-10% 0px -65% 0px' });
 
     sections.forEach(id => {
       const el = document.getElementById(id);
@@ -1613,5 +1618,5 @@ function setupHcTabs() {
   }
 }
 document.addEventListener('DOMContentLoaded', () => {
-  setTimeout(setupHcTabs, 200);
+  setTimeout(setupHcTabs, 100);
 });

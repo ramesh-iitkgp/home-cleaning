@@ -456,6 +456,13 @@ ul, ol {
   gap: 12px;
 }
 
+
+@media (max-width: 768px) {
+  .nav-phone-pill {
+    display: none !important;
+  }
+}
+
 .nav-phone-pill {
   display: inline-flex;
   align-items: center;
@@ -2915,4 +2922,14 @@ ul, ol {
 .mobile-app-tab-wa {
   color: #059669 !important;
   font-weight: 700;
+}
+
+
+#overview, #services, #calculator, #before-after, #checklist, #reviews, #quote, #service-areas, #gallery {
+  scroll-margin-top: 130px;
+}
+@media (max-width: 768px) {
+  #overview, #services, #calculator, #before-after, #checklist, #reviews, #quote, #service-areas, #gallery {
+    scroll-margin-top: 110px;
+  }
 }
