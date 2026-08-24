@@ -1,30 +1,30 @@
 {
-    "business_name": "Frog Property Solutions Property Maintenance & House Washing",
-    "source_business_name": "Frog Property Solutions Property Maintenance & House Washing",
+    "business_name": "Queenbee Cleaning Services",
+    "source_business_name": "Queenbee Cleaning Services",
     "tagline": "Award-Winning Residential, Deep & Move-Out Cleaning Specialists",
     "category": "Residential & Commercial Cleaning",
-    "phone": "64275130414",
+    "phone": "64223198707",
     "whatsapp": "",
-    "email": "simon@frogpropertysolutions.co.nz",
-    "website_url": "https://frogpropertysolutions.co.nz/",
-    "address": "\n16 Oruamo Place, Beach Haven, Auckland 0626, New Zealand",
-    "city": "North Auckland",
+    "email": "contact@queenbeeclean.co.nz",
+    "website_url": "https://queenbeeclean.co.nz/",
+    "address": "",
+    "city": "East Auckland",
     "state": "",
     "country": "New Zealand",
     "currency_symbol": "NZ$",
     "currency_code": "NZD",
     "opening_hours": "",
-    "rating": "5",
-    "review_count": "156",
-    "google_maps_url": "https://www.google.com/maps/place/Frog+Property+Solutions+%7C+Property+Maintenance+%26+House+Washing+Auckland/data=!4m7!3m6!1s0x6d0d37810d28c305:0x548bf4f2d6291d66!8m2!3d-36.7957101!4d174.6829896!16s%2Fg%2F12cp37hcw!19sChIJBcMoDYE3DW0RZh0p1vL0i1Q?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
+    "rating": "4.8",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/QueenBee+Cleaning+Services/data=!4m7!3m6!1s0x6897302b400e9d57:0xf04d5054f95d7dad!8m2!3d-36.8328344!4d174.7265725!16s%2Fg%2F11tfk2srgw!19sChIJV50OQCswl2gRrX1d-VRQTfA?authuser=0&hl=en&g_ep=EgoyMDI2MDgxOS4wIJJjKgBIAVAD&rclk=1",
     "logo_url": "",
     "hero_image": "",
     "service_areas": [
-        "North Auckland"
+        "East Auckland"
     ],
     "social": {
-        "instagram": "",
-        "facebook": "https://www.facebook.com/frogpropertysolutions/",
+        "instagram": "https://www.instagram.com/queenbee.cleaningservices/",
+        "facebook": "https://www.facebook.com/queenbeecleannz/",
         "tiktok": ""
     },
     "before_after_pairs": [
