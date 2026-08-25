@@ -1,212 +1,95 @@
 {
-  "_comment": "Authoritative source of truth for the cleaning company website. Automation scripts can dynamically overwrite this file.",
-  "business_name": "Super Cleaners London",
-  "tagline": "Award-Winning Residential, Deep & Move-Out Cleaning Specialists",
-  "category": "Residential & Commercial Cleaning",
-  "phone": "+44 20 7946 0912",
-  "whatsapp": "+44 20 7946 0912",
-  "email": "contact@supercleanerslondon.co.uk",
-  "website_url": "https://supercleanerslondon.co.uk",
-  "address": "45 Baker Street, Marylebone, London W1U 8ED",
-  "city": "London",
-  "state": "Greater London",
-  "country": "United Kingdom",
-  "currency_symbol": "£",
-  "currency_code": "GBP",
-  "opening_hours": "Mon - Sat: 8:00 AM - 7:00 PM | Sun: 9:00 AM - 4:00 PM",
-  "rating": "4.9",
-  "review_count": "184",
-  "years_in_business": "12+ Years in Business",
-  "established_year": "2014",
-  "google_maps_url": "https://maps.google.com/?q=45+Baker+Street+Marylebone+London+W1U+8ED",
-  "logo_url": "",
-  "hero_image": "./assets/hero_cleaner.jpg",
-  "service_areas": [
-    "Marylebone",
-    "Westminster",
-    "Kensington & Chelsea",
-    "Camden",
-    "Islington",
-    "Mayfair",
-    "Battersea",
-    "Fulham",
-    "Notting Hill",
-    "Hampstead",
-    "Clapham",
-    "Canary Wharf"
-  ],
-  "social": {
-    "instagram": "https://instagram.com/supercleanerslondon",
-    "facebook": "https://facebook.com/supercleanerslondon",
-    "tiktok": "https://tiktok.com/@supercleanerslondon",
-    "linkedin": "https://linkedin.com/company/supercleanerslondon",
-    "youtube": "https://youtube.com/@supercleanerslondon",
-    "twitter": "https://x.com/supercleanersuk",
-    "yelp": "https://yelp.co.uk/biz/supercleaners-london",
-    "pinterest": "https://pinterest.com/supercleanerslondon"
+  "business_name": "Sparkle & Shine Cleaning Co.",
+  "canonical_name": "Sparkle & Shine Cleaning",
+  "tagline": "Precision Residential & Commercial Cleaning in Dallas",
+  "category": "Cleaning Service",
+  "industry": "cleaning",
+  "city": "Dallas",
+  "state": "TX",
+  "country": "United States",
+  "currency_symbol": "$",
+  "currency_code": "USD",
+  "phone": "+1 (214) 782-9912",
+  "whatsapp": "+12147829912",
+  "email": "hello@sparkleshinecleaning.com",
+  "address": "3810 Oak Lawn Ave, Dallas, TX 75219",
+  "opening_hours": "Mon - Sat: 8:00 AM - 7:00 PM | Instant Quotes & Booking",
+  "hero_image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=85",
+  "rating": 4.9,
+  "review_count": 216,
+  "stats": {
+    "feature_1_title": "Eco-Safe Products",
+    "feature_1_desc": "Pet & Child Friendly",
+    "feature_2_title": "Vetted Cleaners",
+    "feature_2_desc": "Background Checked",
+    "feature_3_title": "100% Satisfaction",
+    "feature_3_desc": "Quality Guaranteed",
+    "feature_4_title": "Flexible Plans",
+    "feature_4_desc": "Recurring or One-Time"
   },
-  "before_after_pairs": [
-    {
-      "id": "kitchen",
-      "badge": "Kitchen Restoration",
-      "title": "Kitchen Degreasing & Stovetop Restoration",
-      "description": "Removal of heavy grease splatter, burnt stovetop carbon, stained backsplash tile, and messy clutter.",
-      "before": "./assets/kitchen_before.jpg",
-      "after": "./assets/kitchen_after.jpg",
-      "before_stats": "Heavy grease, clutter & burnt spills",
-      "after_stats": "100% Degreased & showroom shine"
-    },
-    {
-      "id": "bathroom",
-      "badge": "Bathroom Descaling",
-      "title": "Bathroom Limescale & Tile Grout Descaling",
-      "description": "Deep chemical-free acid descaling of stubborn limescale, soap scum, dull chrome fixtures, and discolored grout.",
-      "before": "./assets/bathroom_before.jpg",
-      "after": "./assets/bathroom_after.jpg",
-      "before_stats": "Stubborn limescale, scum & dull tiles",
-      "after_stats": "Mirror polished & deep sanitized"
-    },
-    {
-      "id": "living",
-      "badge": "Floor & Room Polish",
-      "title": "Living Space Declutter & Hardwood Polish",
-      "description": "Complete dust extraction, hardwood floor rejuvenation, carpet vacuuming, streak removal, and tidy organization.",
-      "before": "./assets/living_before.jpg",
-      "after": "./assets/living_after.jpg",
-      "before_stats": "Dust, scuffs & unorganized furniture",
-      "after_stats": "Pristine, gleaming & fresh atmosphere"
-    },
-    {
-      "id": "appliance",
-      "badge": "Oven & Appliance Grime",
-      "title": "Oven & Appliance Carbon Grime Extraction",
-      "description": "Intensive degreasing and polishing of baked-on food residue, oven door glass, and racks to showroom condition.",
-      "before": "./assets/oven_before.jpg",
-      "after": "./assets/oven_after.jpg",
-      "before_stats": "Baked carbon & oily grease layers",
-      "after_stats": "Streak-free crystal clear glass"
-    }
-  ],
   "services": [
     {
-      "name": "Regular Home Cleaning",
-      "badge": "Popular Housekeeping",
-      "price_from": "£22/hr",
-      "description": "Consistent weekly or bi-weekly housekeeping tailored to keep your living spaces continuously immaculate and fresh.",
-      "image": "./assets/service_regular.jpg",
-      "features": [
-        "Dusting & vacuuming all rooms",
-        "Kitchen counters, sink & stovetop scrub",
-        "Complete bathroom sanitization",
-        "Bed making & linen changing"
-      ]
+      "name": "Deep Home & Apartment Cleaning",
+      "description": "Thorough top-to-bottom scrub of kitchens, bathrooms, baseboards, interior windows, and living spaces.",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+      "badge": "Most Popular"
     },
     {
-      "name": "Intensive Deep Cleaning",
-      "badge": "Top Detail Scrub",
-      "price_from": "£180",
-      "description": "Top-to-bottom comprehensive deep scrub reaching behind appliances, skirting boards, grout lines, and heavy buildup.",
-      "image": "./assets/service_deep.jpg",
-      "features": [
-        "Inside oven, microwave & range hood degreasing",
-        "Deep tile & grout limescale descaling",
-        "Baseboards, doors & window frame wiping",
-        "Under & behind reachable furniture"
-      ]
+      "name": "Recurring Maid & Housekeeping",
+      "description": "Weekly, bi-weekly, or monthly scheduled maintenance cleaning to keep your home consistently fresh.",
+      "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+      "badge": "Best Value"
     },
     {
-      "name": "End of Tenancy / Move-Out Cleaning",
-      "badge": "100% Deposit Guarantee",
-      "price_from": "£220",
-      "description": "Inspection-ready handover deep clean strictly compliant with estate agent and landlord inventory checklists.",
-      "image": "./assets/service_move_out.jpg",
-      "features": [
-        "48-hour free re-clean guarantee",
-        "Deep cupboard & wardrobe interior wash",
-        "Appliance internal degreasing included",
-        "Official invoice for estate agent handover"
-      ]
+      "name": "Move-In & Move-Out Deep Clean",
+      "description": "Detailed turnover cleaning for tenants, homeowners, and realtors ensuring deposit-ready inspection results.",
+      "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+      "badge": "Turnover"
     },
     {
-      "name": "Carpet & Upholstery Steam Cleaning",
-      "badge": "Stain & Allergen Removal",
-      "price_from": "£65",
-      "description": "High-temperature hot water extraction extracting deep ground-in dirt, pet dander, stubborn stains, and bacteria.",
-      "image": "./assets/service_carpet.jpg",
-      "features": [
-        "Deep hot-water steam injection",
-        "Pet odor & stain neutralizing enzyme",
-        "Quick drying time (2-4 hours)",
-        "Safe for delicate fibers & wool rugs"
-      ]
-    },
-    {
-      "name": "Post-Renovation & Builders Cleaning",
-      "badge": "Fine Dust Elimination",
-      "price_from": "£250",
-      "description": "Specialized multi-stage fine dust extraction, paint splatter removal, and polishing following construction works.",
-      "image": "./assets/living_after.jpg",
-      "features": [
-        "HEPA filtration fine dust extraction",
-        "Paint, silicone & adhesive residue removal",
-        "Window glass & track detailed polishing",
-        "Ready for immediate furnishing"
-      ]
+      "name": "Post-Construction & Remodel Clean",
+      "description": "Dust extraction, fine surface wiping, and debris elimination following renovation or new builds.",
+      "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+      "badge": "Heavy Duty"
     },
     {
       "name": "Commercial & Office Cleaning",
-      "badge": "Discreet & Professional",
-      "price_from": "£25/hr",
-      "description": "Discreet, reliable janitorial maintenance creating clean, hygienic, and productive workplace environments.",
-      "image": "https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=800&q=80",
-      "features": [
-        "Workstation & phone sanitization",
-        "Kitchenette, breakroom & washroom restock",
-        "After-hours or weekend keyholder service",
-        "Eco-friendly commercial supplies"
-      ]
+      "description": "Custom sanitization programs, workstation wipedowns, and restroom maintenance for offices and studios.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+      "badge": "Commercial"
+    },
+    {
+      "name": "Carpet, Upholstery & Steam Sanitization",
+      "description": "Deep fiber steam extraction to eliminate stubborn stains, pet odors, and allergen buildup.",
+      "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+      "badge": "Specialty"
     }
-  ],
-  "business_images": [
-    "./assets/hero_cleaner.jpg",
-    "./assets/kitchen_after.jpg",
-    "./assets/bathroom_after.jpg",
-    "./assets/living_after.jpg",
-    "./assets/service_deep.jpg",
-    "./assets/service_carpet.jpg"
   ],
   "reviews": [
     {
-      "author": "Victoria Sterling",
+      "author": "Sarah Jenkins",
+      "role": "Bi-Weekly Housekeeping",
       "rating": 5,
-      "text": "Super Cleaners London did an exceptional job on our 4-bedroom flat in Marylebone. The kitchen stovetop and master bathroom look brand new. Punctual, meticulous, and friendly team.",
-      "source": "Google Review",
-      "date": "1 week ago",
-      "service": "End of Tenancy Deep Clean"
+      "text": "The team was punctual, thorough, and left our kitchen and bathrooms sparkling like brand new. Booking is effortless!",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"
     },
     {
-      "author": "James Harrington",
+      "author": "David Miller",
+      "role": "Move-Out Deep Clean",
       "rating": 5,
-      "text": "We booked their intensive deep clean before listing our apartment with our estate agent. The attention to detail around window sills, skirting boards, and the oven was absolutely flawless. Deposit returned in full!",
-      "source": "Google Review",
-      "date": "3 weeks ago",
-      "service": "Move-Out Deep Cleaning"
+      "text": "Hired them for a move-out clean on our apartment in Dallas. Got our full deposit back without a single issue. Highly recommended!",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
     },
     {
-      "author": "Dr. Eleanor Vance",
+      "author": "Elena Rostova",
+      "role": "Office Sanitization",
       "rating": 5,
-      "text": "Reliable, trustworthy, and consistently thorough. Having Super Cleaners London manage our bi-weekly house cleaning has been the best home investment this year. Highly recommend their regular housekeeping!",
-      "source": "Google Review",
-      "date": "1 month ago",
-      "service": "Bi-Weekly Housekeeping"
-    },
-    {
-      "author": "David Alistair",
-      "rating": 5,
-      "text": "Booked carpet steam cleaning and living room polish after home renovations. The hot-water steam extraction lifted stains that two other cleaners couldn't remove. 10/10 service.",
-      "source": "Trustpilot",
-      "date": "2 months ago",
-      "service": "Carpet & Steam Cleaning"
+      "text": "Reliable, professional, and trustworthy cleaners for our creative studio space. Consistent quality every single week.",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=150&q=80"
     }
+  ],
+  "service_areas": [
+    "Dallas",
+    "Surrounding Communities"
   ]
 }
