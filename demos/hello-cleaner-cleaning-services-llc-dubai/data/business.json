@@ -1,0 +1,71 @@
+{
+    "business_name": "Hello Cleaner Cleaning Services Llc",
+    "source_business_name": "Hello Cleaner Cleaning Services Llc",
+    "tagline": "Precision Residential & Commercial Cleaning in Dallas",
+    "category": "Cleaning Service",
+    "phone": "97143490868",
+    "whatsapp": "",
+    "email": "",
+    "website_url": "https://www.hellocleaner.ae/",
+    "address": "\n1233 The One Tower - Sheikh Zayed Rd - Barsha Heights - Dubai - United Arab Emirates",
+    "city": "Dubai",
+    "state": "",
+    "country": "UAE",
+    "currency_symbol": "AED ",
+    "currency_code": "AED",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Hello+Cleaner+Cleaning+Services+LLC/data=!4m7!3m6!1s0x3e5f6b574bf3727b:0x52c7b827c217fb4e!8m2!3d25.1012052!4d55.1740398!16s%2Fg%2F11q9qw42w5!19sChIJe3LzS1drXz4RTvsXwie4x1I?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMS4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Dubai"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/hellocleanerae/",
+        "facebook": "https://www.facebook.com/Hellocleanerae/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Deep Home & Apartment Cleaning",
+            "description": "Thorough top-to-bottom scrub of kitchens, bathrooms, baseboards, interior windows, and living spaces.",
+            "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+            "badge": "Most Popular"
+        },
+        {
+            "name": "Recurring Maid & Housekeeping",
+            "description": "Weekly, bi-weekly, or monthly scheduled maintenance cleaning to keep your home consistently fresh.",
+            "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+            "badge": "Best Value"
+        },
+        {
+            "name": "Move-In & Move-Out Deep Clean",
+            "description": "Detailed turnover cleaning for tenants, homeowners, and realtors ensuring deposit-ready inspection results.",
+            "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+            "badge": "Turnover"
+        },
+        {
+            "name": "Post-Construction & Remodel Clean",
+            "description": "Dust extraction, fine surface wiping, and debris elimination following renovation or new builds.",
+            "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+            "badge": "Heavy Duty"
+        },
+        {
+            "name": "Commercial & Office Cleaning",
+            "description": "Custom sanitization programs, workstation wipedowns, and restroom maintenance for offices and studios.",
+            "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+            "badge": "Commercial"
+        },
+        {
+            "name": "Carpet, Upholstery & Steam Sanitization",
+            "description": "Deep fiber steam extraction to eliminate stubborn stains, pet odors, and allergen buildup.",
+            "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+            "badge": "Specialty"
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
