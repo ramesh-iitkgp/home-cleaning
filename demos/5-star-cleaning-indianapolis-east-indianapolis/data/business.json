@@ -1,0 +1,71 @@
+{
+    "business_name": "5 Star Cleaning Indianapolis",
+    "source_business_name": "5 Star Cleaning Indianapolis",
+    "tagline": "Precision Residential & Commercial Cleaning in Dallas",
+    "category": "Cleaning Service",
+    "phone": "13177229884",
+    "whatsapp": "",
+    "email": "",
+    "website_url": "https://5starcleaningindianapolis.com/",
+    "address": "\n6338 Whitehaven Rd, Indianapolis, IN 46254, United States",
+    "city": "East Indianapolis",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "5",
+    "review_count": "5",
+    "google_maps_url": "https://www.google.com/maps/place/5+star+cleaning+indianapolis/data=!4m7!3m6!1s0x886ca908a6f66329:0x6e1d987783982cc!8m2!3d39.8387314!4d-86.2718347!16s%2Fg%2F11nr4974l8!19sChIJKWP2pgipbIgRzII5eIfZ4QY?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMi4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "East Indianapolis"
+    ],
+    "social": {
+        "instagram": "",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Deep Home & Apartment Cleaning",
+            "description": "Thorough top-to-bottom scrub of kitchens, bathrooms, baseboards, interior windows, and living spaces.",
+            "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+            "badge": "Most Popular"
+        },
+        {
+            "name": "Recurring Maid & Housekeeping",
+            "description": "Weekly, bi-weekly, or monthly scheduled maintenance cleaning to keep your home consistently fresh.",
+            "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+            "badge": "Best Value"
+        },
+        {
+            "name": "Move-In & Move-Out Deep Clean",
+            "description": "Detailed turnover cleaning for tenants, homeowners, and realtors ensuring deposit-ready inspection results.",
+            "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+            "badge": "Turnover"
+        },
+        {
+            "name": "Post-Construction & Remodel Clean",
+            "description": "Dust extraction, fine surface wiping, and debris elimination following renovation or new builds.",
+            "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+            "badge": "Heavy Duty"
+        },
+        {
+            "name": "Commercial & Office Cleaning",
+            "description": "Custom sanitization programs, workstation wipedowns, and restroom maintenance for offices and studios.",
+            "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+            "badge": "Commercial"
+        },
+        {
+            "name": "Carpet, Upholstery & Steam Sanitization",
+            "description": "Deep fiber steam extraction to eliminate stubborn stains, pet odors, and allergen buildup.",
+            "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+            "badge": "Specialty"
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
