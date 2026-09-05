@@ -1,0 +1,71 @@
+{
+    "business_name": "Molly Maid Of Greater",
+    "source_business_name": "Molly Maid Of Greater",
+    "tagline": "Precision Residential & Commercial Cleaning in Dallas",
+    "category": "Cleaning Service",
+    "phone": "18132350316",
+    "whatsapp": "",
+    "email": "",
+    "website_url": "https://www.mollymaid.com/locations/greater-tampa/?cid=LSTL_MLY000192&utm_source=gmb&utm_campaign=local&utm_medium=organic",
+    "address": "\n13304 Telecom Dr, Tampa, FL 33637, United States",
+    "city": "Tampa",
+    "state": "",
+    "country": "USA",
+    "currency_symbol": "$",
+    "currency_code": "USD",
+    "opening_hours": "",
+    "rating": "2",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Molly+Maid+of+Greater+Tampa/data=!4m7!3m6!1s0x88c2ceeeeb9045ad:0x48bd2d7360755314!8m2!3d28.068209!4d-82.375178!16s%2Fg%2F11c1q8c9dk!19sChIJrUWQ6-7OwogRFFN1YHMtvUg?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMi4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Tampa"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/mollymaidgreatertampa/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Deep Home & Apartment Cleaning",
+            "description": "Thorough top-to-bottom scrub of kitchens, bathrooms, baseboards, interior windows, and living spaces.",
+            "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+            "badge": "Most Popular"
+        },
+        {
+            "name": "Recurring Maid & Housekeeping",
+            "description": "Weekly, bi-weekly, or monthly scheduled maintenance cleaning to keep your home consistently fresh.",
+            "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+            "badge": "Best Value"
+        },
+        {
+            "name": "Move-In & Move-Out Deep Clean",
+            "description": "Detailed turnover cleaning for tenants, homeowners, and realtors ensuring deposit-ready inspection results.",
+            "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+            "badge": "Turnover"
+        },
+        {
+            "name": "Post-Construction & Remodel Clean",
+            "description": "Dust extraction, fine surface wiping, and debris elimination following renovation or new builds.",
+            "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+            "badge": "Heavy Duty"
+        },
+        {
+            "name": "Commercial & Office Cleaning",
+            "description": "Custom sanitization programs, workstation wipedowns, and restroom maintenance for offices and studios.",
+            "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+            "badge": "Commercial"
+        },
+        {
+            "name": "Carpet, Upholstery & Steam Sanitization",
+            "description": "Deep fiber steam extraction to eliminate stubborn stains, pet odors, and allergen buildup.",
+            "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+            "badge": "Specialty"
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
