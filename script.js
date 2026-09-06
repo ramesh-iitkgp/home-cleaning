@@ -64,6 +64,17 @@ function renderBusinessDataClean(data) {
   // City Elements
   document.querySelectorAll(".dynamic-city").forEach((el) => (el.textContent = city));
 
+  // Mobile Bottom WhatsApp Link
+  const mobWa = document.getElementById("mobile-wa-bottom-btn");
+  if (mobWa) {
+    if (cleanPhone && cleanPhone.length >= 7) {
+      const waMsg = "Hi " + bName + "! 👋 I would like to get a quote for home cleaning services in " + city + ".";
+      mobWa.href = "https://wa.me/" + cleanPhone + "?text=" + encodeURIComponent(waMsg);
+    } else {
+      mobWa.href = "#quote-clean";
+    }
+  }
+
   // Phone Binding
   if (phone && cleanPhone.length >= 7) {
     document.querySelectorAll(".dynamic-phone-text").forEach((el) => (el.textContent = phone));
@@ -299,3 +310,43 @@ function initBeforeAfterSlider() {
     });
   });
 }
+
+
+// Mobile Bottom Nav Active Tab Handler
+document.addEventListener("DOMContentLoaded", () => {
+  const mobileTabs = document.querySelectorAll(".mobile-app-tab[data-tab]");
+  if (mobileTabs.length) {
+    mobileTabs.forEach(tab => {
+      tab.addEventListener("click", function(e) {
+        const href = this.getAttribute("href");
+        if (href && href.startsWith("#")) {
+          e.preventDefault();
+          const target = document.querySelector(href);
+          if (target) {
+            target.scrollIntoView({ behavior: "smooth" });
+            mobileTabs.forEach(t => t.classList.remove("active"));
+            this.classList.add("active");
+          }
+        }
+      });
+    });
+
+    const navSections = ["overview", "services", "calculator", "reviews"];
+    window.addEventListener("scroll", () => {
+      const scrollPos = window.scrollY + 200;
+      for (let i = navSections.length - 1; i >= 0; i--) {
+        const sec = document.getElementById(navSections[i]);
+        if (sec && sec.offsetTop <= scrollPos) {
+          mobileTabs.forEach(t => {
+            if (t.getAttribute("data-tab") === navSections[i]) {
+              t.classList.add("active");
+            } else {
+              t.classList.remove("active");
+            }
+          });
+          break;
+        }
+      }
+    }, { passive: true });
+  }
+});
