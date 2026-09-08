@@ -1,0 +1,71 @@
+{
+    "business_name": "Hayakum Domestic Workers Services",
+    "source_business_name": "Hayakum Domestic Workers Services",
+    "tagline": "Precision Residential & Commercial Cleaning in Dallas",
+    "category": "Cleaning Service",
+    "phone": "97167671929",
+    "whatsapp": "",
+    "email": "",
+    "website_url": "",
+    "address": "\nAl Rashidiya 1 - Ajman - United Arab Emirates",
+    "city": "Ajman",
+    "state": "",
+    "country": "UAE",
+    "currency_symbol": "AED ",
+    "currency_code": "AED",
+    "opening_hours": "",
+    "rating": "1",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Hayakum+Domestic+Workers+Services+%D9%85%D8%B1%D9%83%D8%B2+%D8%AD%D9%8A%D8%A7%D9%83%D9%88%D9%85+%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA+%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D9%84%D8%A9+%D8%A7%D9%84%D9%85%D8%B3%D8%A7%D8%B9%D8%AF%D8%A9%E2%80%AD/data=!4m7!3m6!1s0x3e5f5900584494b1:0xeeefdba66adc60d1!8m2!3d25.3907755!4d55.4656259!16s%2Fg%2F11xkzcnr3n!19sChIJsZREWABZXz4R0WDcaqbb7-4?authuser=0&hl=en&g_ep=EgoyMDI2MDkwMi4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Ajman"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/hayku22/",
+        "facebook": "",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Deep Home & Apartment Cleaning",
+            "description": "Thorough top-to-bottom scrub of kitchens, bathrooms, baseboards, interior windows, and living spaces.",
+            "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+            "badge": "Most Popular"
+        },
+        {
+            "name": "Recurring Maid & Housekeeping",
+            "description": "Weekly, bi-weekly, or monthly scheduled maintenance cleaning to keep your home consistently fresh.",
+            "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+            "badge": "Best Value"
+        },
+        {
+            "name": "Move-In & Move-Out Deep Clean",
+            "description": "Detailed turnover cleaning for tenants, homeowners, and realtors ensuring deposit-ready inspection results.",
+            "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+            "badge": "Turnover"
+        },
+        {
+            "name": "Post-Construction & Remodel Clean",
+            "description": "Dust extraction, fine surface wiping, and debris elimination following renovation or new builds.",
+            "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+            "badge": "Heavy Duty"
+        },
+        {
+            "name": "Commercial & Office Cleaning",
+            "description": "Custom sanitization programs, workstation wipedowns, and restroom maintenance for offices and studios.",
+            "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+            "badge": "Commercial"
+        },
+        {
+            "name": "Carpet, Upholstery & Steam Sanitization",
+            "description": "Deep fiber steam extraction to eliminate stubborn stains, pet odors, and allergen buildup.",
+            "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+            "badge": "Specialty"
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
