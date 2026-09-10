@@ -1,0 +1,71 @@
+{
+    "business_name": "Eunike Living",
+    "source_business_name": "Eunike Living",
+    "tagline": "Precision Residential & Commercial Cleaning in Dallas",
+    "category": "Cleaning Service",
+    "phone": "6597457148",
+    "whatsapp": "6597457148",
+    "email": "enquiry@eunikeliving.com",
+    "website_url": "https://www.eunikeliving.com/",
+    "address": "\n3012 Bedok Industrial Park E, Blk 3012, Singapore 489978",
+    "city": "Marina Bay",
+    "state": "",
+    "country": "Singapore",
+    "currency_symbol": "S$",
+    "currency_code": "SGD",
+    "opening_hours": "",
+    "rating": "3",
+    "review_count": "",
+    "google_maps_url": "https://www.google.com/maps/place/Eunike+Living+-+Cleaning+Services+Singapore/data=!4m7!3m6!1s0x31da183af477eae1:0x357381064e4d7968!8m2!3d1.3366919!4d103.9498397!16s%2Fg%2F1ptx9jlm2!19sChIJ4ep39DoY2jERaHlNTgaBczU?authuser=0&hl=en&g_ep=EgoyMDI2MDkwOC4wIJJjKgBIAVAD&rclk=1",
+    "logo_url": "",
+    "hero_image": "",
+    "service_areas": [
+        "Marina Bay"
+    ],
+    "social": {
+        "instagram": "https://www.instagram.com/eunikeliving/",
+        "facebook": "https://www.facebook.com/eunikeliving.official/",
+        "tiktok": ""
+    },
+    "before_after_pairs": [],
+    "services": [
+        {
+            "name": "Deep Home & Apartment Cleaning",
+            "description": "Thorough top-to-bottom scrub of kitchens, bathrooms, baseboards, interior windows, and living spaces.",
+            "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=800&q=80",
+            "badge": "Most Popular"
+        },
+        {
+            "name": "Recurring Maid & Housekeeping",
+            "description": "Weekly, bi-weekly, or monthly scheduled maintenance cleaning to keep your home consistently fresh.",
+            "image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+            "badge": "Best Value"
+        },
+        {
+            "name": "Move-In & Move-Out Deep Clean",
+            "description": "Detailed turnover cleaning for tenants, homeowners, and realtors ensuring deposit-ready inspection results.",
+            "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80",
+            "badge": "Turnover"
+        },
+        {
+            "name": "Post-Construction & Remodel Clean",
+            "description": "Dust extraction, fine surface wiping, and debris elimination following renovation or new builds.",
+            "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80",
+            "badge": "Heavy Duty"
+        },
+        {
+            "name": "Commercial & Office Cleaning",
+            "description": "Custom sanitization programs, workstation wipedowns, and restroom maintenance for offices and studios.",
+            "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
+            "badge": "Commercial"
+        },
+        {
+            "name": "Carpet, Upholstery & Steam Sanitization",
+            "description": "Deep fiber steam extraction to eliminate stubborn stains, pet odors, and allergen buildup.",
+            "image": "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800&q=80",
+            "badge": "Specialty"
+        }
+    ],
+    "business_images": [],
+    "reviews": []
+}
