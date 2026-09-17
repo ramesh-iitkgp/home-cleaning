@@ -1,13 +1,26 @@
-// WebKartX Home Cleaning (PristinePro) Dynamic Engine
 document.addEventListener("DOMContentLoaded", async () => {
+  let data = {};
   try {
     const res = await fetch("data/business.json");
-    if (!res.ok) throw new Error("Could not load business.json");
-    const data = await res.json();
-    renderBusinessDataClean(data);
+    if (res.ok) {
+      data = await res.json();
+    }
   } catch (err) {
     console.warn("Using default Cleaning data:", err);
   }
+
+  const urlParams = new URLSearchParams(window.location.search);
+  if (urlParams.get("name") || urlParams.get("business_name")) {
+    data.business_name = urlParams.get("name") || urlParams.get("business_name");
+  }
+  if (urlParams.get("city")) {
+    data.city = urlParams.get("city");
+  }
+  if (urlParams.get("phone")) {
+    data.phone = urlParams.get("phone");
+  }
+
+  renderBusinessDataClean(data);
 
   // Initialize Interactive Estimate Calculator
   initCleaningCalculator();
@@ -51,14 +64,17 @@ function renderBusinessDataClean(data) {
   // Tagline & Hero Description
   const taglineEl = document.getElementById("hero-title-clean");
   if (taglineEl) {
-    taglineEl.textContent = data.tagline
-      ? data.tagline
-      : `Precision Residential & Commercial Cleaning in ${city.toUpperCase()}`;
+    if (data.tagline) {
+      const cleanTagline = data.tagline.replace(new RegExp(`\\s+in\\s+${city}.*$`, 'i'), '').trim();
+      taglineEl.innerHTML = `<span class="hero-title-prefix">Professional Cleaning with</span> <span class="hero-brand-name brand-name-text">${bName}</span> <span class="hero-title-sub">${cleanTagline} in <span class="dynamic-city">${city}</span></span>`;
+    } else {
+      taglineEl.innerHTML = `<span class="hero-title-prefix">Immaculate Spaces with</span> <span class="hero-brand-name brand-name-text">${bName}</span> <span class="hero-title-sub">Professional Housekeeping &amp; Sanitization in <span class="dynamic-city">${city}</span></span>`;
+    }
   }
 
   const heroDescEl = document.getElementById("hero-desc-clean");
   if (heroDescEl) {
-    heroDescEl.textContent = `Professional deep cleaning, recurring housekeeping, and sanitized turnover cleaning for homes and offices across ${city} and surrounding communities.`;
+    heroDescEl.innerHTML = `Experience spotless residential and commercial environments with personalized housekeeping, certified sanitization, and turnover care curated by <strong style="color: var(--clean-emerald);">${bName}</strong> across ${city}.`;
   }
 
   // City Elements
